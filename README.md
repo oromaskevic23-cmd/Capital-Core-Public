@@ -15,7 +15,7 @@ Capital Core is the proposed real-estate and financial direction of IMPERIAL Cor
 
 **Founder and Architect:** Alexander Romaskevich · **Signature:** RomaskevicH
 
-Related projects: [IMPERIAL Core](https://github.com/oromaskevic23-cmd/Capital--Core-Public) · [Nano Core Agents](https://github.com/oromaskevic23-cmd/Nano-Core-Agents-Public) · [CRYPTO IMPERIAL Ecosystem](https://github.com/oromaskevic23-cmd/CRYPTO-IMPERIAL-Ecosystem-Public).
+Related projects: [IMPERIAL Core](https://github.com/oromaskevic23-cmd/Capital-Core-Public) · [Nano Core Agents](https://github.com/oromaskevic23-cmd/Nano-Core-Agents-Public) · [CRYPTO IMPERIAL Ecosystem](https://github.com/oromaskevic23-cmd/CRYPTO-IMPERIAL-Ecosystem-Public).
 
 ## IMPERIAL Core ecosystem context
 
@@ -50,7 +50,7 @@ Both URLs are hosted on GitHub Pages, with 10 indexable language versions, sitem
 
 | Project | Public status | Evidence scope |
 |---|---|---|
-| [IMPERIAL Core](https://github.com/oromaskevic23-cmd/Capital--Core-Public) | **SPECIFIED** | Parent AI-native engineering ecosystem. Public architecture and governance documentation. |
+| [IMPERIAL Core](https://github.com/oromaskevic23-cmd/Capital-Core-Public) | **SPECIFIED** | Parent AI-native engineering ecosystem. Public architecture and governance documentation. |
 | [VELION ⚡️](https://github.com/oromaskevic23-cmd/VELION-LLM-Public) | **TESTED** | Proposal gateway reference in open PR #1; mocked endpoints. Default branch is documentation. |
 | [HANTER](https://github.com/oromaskevic23-cmd/HANTER-Public) | **SPECIFIED** | Public AI Command Center architecture. Private Mission Desk PR and CI cannot be independently verified here. |
 | [CONSTRUCTOR AI](https://github.com/oromaskevic23-cmd/CONSTRUCTOR-AI) | **TESTED** | Task Manager and planning/quarantine reference. Main has runnable code; the cited 68-test result is open PR #1. |
@@ -79,7 +79,7 @@ Federated Multi-Orchestrator Architecture; multiple organizational structures an
 
 ## Documentation continuity
 
-[Historical public architecture notes](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/6f52f3b0371b618529fe5bc3c857700ffc6802d1/README.md) remain in immutable Git history. The current identity contract supersedes older role wording. Historical designs are specifications, not proof of deployed capabilities. Existing rights and licenses are unchanged.
+[Historical public architecture notes](https://github.com/oromaskevic23-cmd/Capital-Core-Public/blob/main/README.md) remain in immutable Git history. The current identity contract supersedes older role wording. Historical designs are specifications, not proof of deployed capabilities. Existing rights and licenses are unchanged.
 
 [Authorship and provenance](NOTICE.md) · [Canonical visual identity](https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/brand/BRAND.md)
 
