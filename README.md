@@ -19,7 +19,7 @@ Related projects: [IMPERIAL Core](https://github.com/oromaskevic23-cmd/Capital--
 
 ## IMPERIAL Core ecosystem context
 
-<p align="center"><a href="https://oromaskevic23-cmd.github.io/Capital--Core-Public/reference/"><img src="assets/imperial-core-emblem.webp" alt="IMPERIAL Core — crowned globe emblem" width="240"></a></p>
+<p align="center"><a href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"><img src="assets/imperial-core-emblem.webp" alt="IMPERIAL Core — crowned globe emblem" width="240"></a></p>
 
 **Engineering with Evidence.**
 
@@ -32,7 +32,7 @@ Founder • Owner • CEO of IMPERIAL Core
 ## Official public websites · Alexander Romaskevich / RomaskevicH
 
 - **[Founder identity — Alexander Romaskevich](https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/)** — multilingual personal website (language variants remain on the website).
-- **[IMPERIAL Core — ecosystem website](https://oromaskevic23-cmd.github.io/Capital--Core-Public/)** — multilingual company/project presentation, architecture and verifiable engineering context.
+- **[IMPERIAL Core — ecosystem website](https://oromaskevic23-cmd.github.io/Capital-Core-Public/)** — multilingual company/project presentation, architecture and verifiable engineering context.
 
 Both URLs are hosted on GitHub Pages, with 10 indexable language versions, sitemap files and per-language canonical/hreflang metadata. Search Console ownership and actual Google indexing must be verified separately.
 
@@ -81,6 +81,13 @@ Federated Multi-Orchestrator Architecture; multiple organizational structures an
 
 [Historical public architecture notes](https://github.com/oromaskevic23-cmd/Capital--Core-Public/blob/6f52f3b0371b618529fe5bc3c857700ffc6802d1/README.md) remain in immutable Git history. The current identity contract supersedes older role wording. Historical designs are specifications, not proof of deployed capabilities. Existing rights and licenses are unchanged.
 
-[Authorship and provenance](NOTICE.md) · [Canonical visual identity](https://oromaskevic23-cmd.github.io/Capital--Core-Public/reference/brand/BRAND.md)
+[Authorship and provenance](NOTICE.md) · [Canonical visual identity](https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/brand/BRAND.md)
 
 **Build software. Verify everything.**
+
+
+---
+
+### Canonical founder and public project identity
+
+This public repository is listed in the [founder-maintained IMPERIAL Core engineering portfolio](https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/projects/). The public [engineering source registry](https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/projects/) links this source to the account's published project records under **Alexander Nikolaevich Romaskevich (RomaskevicH)**, Founder, Owner and CEO of IMPERIAL Core and its final architectural decision authority. Repository-specific governance, contributor rights, third-party intellectual property, and documented independence of individual projects remain unchanged. Publication does not prove production execution, market adoption or Google indexing.
