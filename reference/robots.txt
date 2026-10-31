@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/sitemap.xml
+Sitemap: https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/sitemap.xml
 # Host-root robots.txt governs crawlers; this project file is informational.

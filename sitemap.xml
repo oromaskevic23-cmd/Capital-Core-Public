@@ -1,344 +1,346 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/de/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/zh/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/ar/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/"/>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/de/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/ar/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/"/>
     <image:image>
-      <image:loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
+      <image:loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/alexander-romaskevich-portrait.jpeg</image:loc>
     </image:image>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/</loc>
     <lastmod>2026-10-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/</loc>
     <lastmod>2026-10-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/</loc>
     <lastmod>2026-10-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/constructor-ai/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
   <url>
-    <loc>https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/</loc>
+    <loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/</loc>
     <lastmod>2026-10-28</lastmod>
-    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
-    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/uk/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/de-CH/"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/fr/"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/es/"/>
-    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/pt/"/>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ar/"/>
-    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/ja/"/>
-    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/zh/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/IMPERIAL-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
+    <xhtml:link rel="alternate" hreflang="uk" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de-CH" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/"/>
   </url>
+  <url><loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/projects/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/velion/</loc><lastmod>2026-10-31</lastmod></url>
 </urlset>
