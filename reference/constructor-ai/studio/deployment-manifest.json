@@ -1,10 +1,13 @@
 {
   "schema": "constructor-studio-deployment-v1",
+  "sourceRepo": "oromaskevic23-cmd/CONSTRUCTOR-AI",
+  "sourceCommit": "6f2e33e582d56e8636a0a2b68ce16bd42b8d071c",
+  "scope": "REVIEWED_LOCAL_TEMPLATE_STUDIO_NOT_PRODUCTION_AUTONOMOUS_AI",
   "files": [
     {
       "path": "studio.html",
-      "bytes": 2789,
-      "sha256": "cb5ddc7bfc7901a4d00a4acd6271cec3847e08b87a5d16bcd387aa59057a09d4"
+      "bytes": 2788,
+      "sha256": "cacc947390ebbff22694f58c14afbff8b2d759701b90e071b62f8c2104b57df5"
     },
     {
       "path": "studio.css",
@@ -23,18 +26,23 @@
     },
     {
       "path": "src/project-runtime.mjs",
-      "bytes": 6757,
-      "sha256": "7da281903171c8a7f646de306e7d8705d7c036091f872c0b854512cbe04b6678"
+      "bytes": 7911,
+      "sha256": "da99c2893d1ca5ef609e01debbc4a65e7eb3aca86cfc4cbcafb4f9e2a0cd7d39"
+    },
+    {
+      "path": "src/project-backup.mjs",
+      "bytes": 1372,
+      "sha256": "e48727063db347c80ff014612f38f9ad1dc21710595c968bf366802bf5564fa9"
     },
     {
       "path": "src/project-export.mjs",
-      "bytes": 7119,
-      "sha256": "60c473c2142c0912c4998d33d42c062c4a111738db30c043c7c16a98636e3ab2"
+      "bytes": 8091,
+      "sha256": "aebecfcef7b38e7d00c76b5a9f6726b2dfe4fab15beacdd8d4a860460beaf605"
     },
     {
       "path": "src/project.css",
-      "bytes": 1780,
-      "sha256": "126c9eb2760345bf3d66119887ecb9f316f05390274e8e5b0b3672df1f2891bc"
+      "bytes": 1866,
+      "sha256": "00e349c88ac555f1a3f44d6d376a835af94f90a7277ea2c7ccdf61f197b6b93f"
     },
     {
       "path": "src/zip.mjs",
