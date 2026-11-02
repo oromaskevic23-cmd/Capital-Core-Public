@@ -75,7 +75,7 @@ These results belong to the linked revisions in open PRs, observed on 25 October
 
 Federated Multi-Orchestrator Architecture; multiple organizational structures and professional teams; dynamic Nano Core Agents. AI Passport, Enterprise Skills, Guardian Core, Approval Gateway, Audit Ledger, Zero Trust, Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary remain explicit architectural requirements.
 
-**HANTER — AI Command Center / Chief Systems** remains subordinate to the founder's final architectural decisions. The source-confirmed intelligence name is **VELION ⚡️**; existing repository URLs remain stable.
+**HANTER — AI Command Center** remains subordinate to the founder's final architectural decisions. The source-confirmed intelligence name is **VELION ⚡️**; existing repository URLs remain stable.
 
 ## Documentation continuity
 
