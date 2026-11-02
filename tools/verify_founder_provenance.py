@@ -73,6 +73,9 @@ def verify_repository(root: Path, added_code_paths: list[str] | None = None) -> 
     for path in sorted(ANCHORS - REQUIRED.keys()):
         digests[path] = hashlib.sha256(_tracked(root, path)).hexdigest()
     for path in (added_code_paths or []):
+        if (type(path) is not str or not path or path.startswith("/")
+                or "\\" in path or ".." in Path(path).parts):
+            raise ProvenanceViolation("INVALID_NEW_SOURCE_PATH")
         if not path.startswith(SCOPED_ORIGINAL_MODULES) or Path(path).suffix not in PROGRAM_EXTENSIONS:
             continue  # Third-party or unscoped files are not automatically relicensed.
         raw = _tracked(root, path)
