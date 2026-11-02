@@ -9,7 +9,7 @@ Effective: **28 October 2026** · Owner directive: `IC-ASTRA-FOUNDER-ENTERPRISE-
 | Ukrainian-language name (romanized) | Oleksandr Mykolaiovych Romaskevych |
 | Signature | RomaskevicH |
 | Role | Founder • Owner • CEO of IMPERIAL Core |
-| HANTER role | AI Command Center / Chief Systems, subject to the founder's architectural decisions |
+| HANTER role | AI Command Center, subject to the founder's architectural decisions |
 
 Founder titles are owner-declared project roles, not independent verification of incorporation, employment, patent rights or external certification. HANTER's component title is not assigned to the founder.
 
