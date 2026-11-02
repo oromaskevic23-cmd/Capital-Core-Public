@@ -6,3 +6,8 @@
 /.github/CODEOWNERS @oromaskevic23-cmd
 /.github/workflows/enterprise-founder-authorship.yml @oromaskevic23-cmd
 /LICENSE* @oromaskevic23-cmd
+/docs/DIGITAL_STATE_ARCHITECTURE.md @oromaskevic23-cmd
+/governance/FOUNDER_CODE_AUTHORSHIP_STANDARD.md @oromaskevic23-cmd
+/tools/verify_founder_provenance.py @oromaskevic23-cmd
+/tests/test_founder_provenance.py @oromaskevic23-cmd
+/.github/workflows/digital-state-founder-provenance.yml @oromaskevic23-cmd
