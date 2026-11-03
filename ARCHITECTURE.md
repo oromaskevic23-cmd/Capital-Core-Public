@@ -27,6 +27,17 @@ AI Passport identifies the agent; Enterprise Skills define intended capabilities
 
 Zero Trust, Deny by Default and Fail Closed apply across boundaries. Public documentation excludes private control internals, credentials, infrastructure addresses and proprietary skill bodies. The Public / Private Boundary and CRYPTO IMPERIAL Ecosystem Boundary remain explicit.
 
+## Capital Core — federated city operating model (reference implemented)
+
+Each major city is a separate legal/privacy jurisdiction and agent-execution boundary with an optional anchor Universal NCA plus dynamic specialist workers. City agent identity (AI Passport), capability (Enterprise Skills), independent QA, regional approval and lawful licensed human supervision are different gates. No agent may authorize itself or make automatic brokerage or finance decisions.
+
+- [City NCA Enterprise blueprint](docs/CAPITAL_CORE_GLOBAL_CITY_ENTERPRISE.md)
+- [Revenue engine & verification contract](docs/CAPITAL_CORE_REVENUE_ENGINE.md)
+- [Per-agent earnings attribution](docs/CAPITAL_CORE_AGENT_EARNINGS.md)
+- [Stdlib Python control-plane reference](capital_core/reference.py) and [non-cash attribution](capital_core/attribution.py)
+
+Implemented here: **local in-memory reference** for city registration, agent certification, bounded mission dispatch, explicit reviewer identity, owner stop, hash-linked demonstration events, signed adapter test receipts and non-cash internal attribution. This does **not** verify legality, qualified partners, live LLM workers, durable audit, CRM-SOFFT database, real bank transfers or running city operations. Production controls require independently verified integrations and privileges.
+
 ## Observed reference technologies
 
 Node.js 22 / JavaScript, the Node built-in test runner and GitHub Actions are evidenced in public reference projects. CONSTRUCTOR AI's reference UI uses HTML/CSS and browser localStorage. Python standard-library tooling validates public documentation. Runtime capabilities remain scoped to the linked revisions.
