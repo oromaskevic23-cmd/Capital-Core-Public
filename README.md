@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img src="https://d2ol7oe51mr4n9.cloudfront.net/user_3IVOKXTwsRFSR1qLtI96nF4edlB/628727f0-ad54-4971-af94-ef8b942b7989.jpg" alt="Capital Core — Sophia Bennett, Universal NCA Real Estate Agent, Frankfurt Commercial Properties Division" width="840">
+  <img src="assets/sophia-bennett-frankfurt-commercial-properties.jpg" alt="Capital Core — Sophia Bennett, Universal NCA Real Estate Agent, Frankfurt Commercial Properties Division" width="840">
 </p>
 
 **Real assets. Real value. Real impact.**
