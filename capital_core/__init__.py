@@ -4,6 +4,7 @@ Founding architect: Alexander Nikolaevich Romaskevich (RomaskevicH).
 Original implementation contributions are recorded by Git history.
 Third-party rights are retained where applicable.
 """
+from .attribution import AcceptedContribution, AttributionLedger
 from .reference import (
     Agent, City, CityNetwork, ContractTerms, FinanceLedger,
     GovernanceError, Mission, PaymentAttestation, RevenueGateError,
@@ -13,5 +14,5 @@ from .reference import (
 __all__ = [
     "Agent", "City", "CityNetwork", "ContractTerms", "FinanceLedger",
     "GovernanceError", "Mission", "PaymentAttestation", "RevenueGateError",
-    "sign_attestation",
+    "sign_attestation", "AcceptedContribution", "AttributionLedger",
 ]
