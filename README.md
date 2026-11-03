@@ -11,7 +11,20 @@
 
 Capital Core is the proposed real-estate and financial direction of IMPERIAL Core. Its long-term vision includes property development, asset management, local professional teams, transparent governance and evidence-led decisions.
 
-**Status: concept and architectural direction.** The illustration contains aspirational descriptions and an illustrated domain; it does not establish operating businesses, managed assets, investment returns or an active website. Any future financial or real-estate activity requires its own evidence and applicable professional review.
+**Status:** Capital Core is an architectural initiative with a local, testable Python **reference control plane**. This synthetic Sophia Bennett promotional image depicts a digital NCA persona; it is not proof of an employed/licensed human broker, a physical office, completed property transactions, or deployed agents. Licensed real-estate operations, commercial income, production runtime and global city coverage are **NOT VERIFIED**.
+
+## Global City NCA Network — Enterprise Reference (2026-11-03)
+
+Every future metropolitan operation is a separately governed **City Cell** under HANTER and federated Capital Core orchestrators. City-specific Universal NCA agents are identity-scoped by **AI Passport**, constrained to **Enterprise Skills**, supervised by licensed human partners when legally necessary, and controlled by **Guardian Core, Approval Gateway, Independent QA, Audit Ledger and Owner Kill Switch**. No city is represented as operational by this reference.
+
+- [Global City Enterprise Architecture](docs/CAPITAL_CORE_GLOBAL_CITY_ENTERPRISE.md) — city admission, NCA skill permissions, human brokerage boundary, CRM-SOFFT mission routing, threat controls and evidence gates.
+- [Earnings and Revenue Engine](docs/CAPITAL_CORE_REVENUE_ENGINE.md) — contracted SaaS/service revenue streams, external payment proof, jurisdictional gates and precise minor-unit allocation.
+- [Python Reference Engine](capital_core/reference.py) — in-memory city/agent/mission dispatch, fail-closed policy gates, hash-linked demo events, HMAC-attested receipt allocations with zero payouts.
+- [Regression Tests](tests/test_capital_core_reference.py) · [CI Quality Gate](.github/workflows/capital-core-reference.yml).
+
+**Reproduce the reference tests locally:** `python3 -m unittest discover -s tests -p 'test_capital_core_*.py' -v`. Reference test attestations are synthetic; they do not confirm live bank deposits or validate third-party licenses. No default commission rates, autonomous brokerage or automatic transfers are authorized.
+
+
 
 **Founder and Architect:** Alexander Romaskevich · **Signature:** RomaskevicH
 
