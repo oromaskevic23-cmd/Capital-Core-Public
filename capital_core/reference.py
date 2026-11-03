@@ -177,14 +177,17 @@ class CityNetwork:
         })
         return mission
 
-    def accept_mission(self, mission_id: str, *, qa_ref: str, human_approval_ref: str) -> Mission:
+    def accept_mission(self, mission_id: str, *, qa_ref: str, reviewer_id: str, human_approval_ref: str) -> Mission:
         if self.owner_kill_switch:
             raise GovernanceError("Owner Kill Switch is active")
         _require_ref(qa_ref, "qa_ref")
+        _require_ref(reviewer_id, "reviewer_id")
         _require_ref(human_approval_ref, "human_approval_ref")
         mission = self.missions.get(mission_id)
         if not mission or mission.status != "DISPATCHED":
             raise GovernanceError("mission not found or already reviewed")
+        if reviewer_id == mission.agent_id:
+            raise GovernanceError("agent cannot be its own independent reviewer")
         if self.agents[mission.agent_id].status != "CERTIFIED_REFERENCE":
             raise GovernanceError("disabled agent cannot complete a mission")
         if self.cities[mission.city_id].status != "PILOT_READY":
@@ -192,7 +195,7 @@ class CityNetwork:
         accepted = replace(mission, status="HUMAN_ACCEPTED", qa_ref=qa_ref,
                            human_approval_ref=human_approval_ref)
         self.missions[mission_id] = accepted
-        _audit_append(self.audit, "REFERENCE_MISSION_ACCEPTED", {"mission": mission_id, "qa": qa_ref})
+        _audit_append(self.audit, "REFERENCE_MISSION_ACCEPTED", {"mission": mission_id, "qa": qa_ref, "reviewer": reviewer_id})
         return accepted
 
     def disable_agent(self, agent_id: str, *, owner_approval_ref: str) -> None:
@@ -282,6 +285,7 @@ class FinanceLedger:
             raise RevenueGateError("verifier key must be at least 32 bytes")
         self._key = trusted_adapter_key
         self.receipts: dict[str, dict[str, Any]] = {}
+        self.external_receipt_refs: set[str] = set()
         self.audit: list[dict[str, Any]] = []
         self.owner_kill_switch = False
 
@@ -303,6 +307,8 @@ class FinanceLedger:
             _require_ref(getattr(attestation, k), k, RevenueGateError)
         if attestation.payment_id in self.receipts:
             raise RevenueGateError("duplicate payment evidence (idempotency)")
+        if attestation.external_receipt_ref in self.external_receipt_refs:
+            raise RevenueGateError("duplicate external receipt evidence (replay)")
         if terms.contract_id != attestation.contract_id or terms.currency != attestation.currency:
             raise RevenueGateError("contract and currency mismatch")
         if type(attestation.amount_minor) is not int or attestation.amount_minor <= 0:
@@ -335,6 +341,7 @@ class FinanceLedger:
             "cash_disbursed_minor": 0,
         }
         self.receipts[attestation.payment_id] = result.copy()
+        self.external_receipt_refs.add(attestation.external_receipt_ref)
         _audit_append(self.audit, "REFERENCE_RECEIPT_ALLOCATED", {
             "payment": attestation.payment_id, "contract": terms.contract_id,
             "distributable_minor": distributable,
