@@ -10,7 +10,7 @@ from dataclasses import dataclass
 from typing import Any, Sequence
 
 from .reference import (
-    CityNetwork, GovernanceError, _audit_append, _require_ref,
+    CityNetwork, FinanceLedger, GovernanceError, _audit_append, _require_ref,
 )
 
 
@@ -48,21 +48,22 @@ class AttributionLedger:
         self,
         *,
         network: CityNetwork,
+        finance: FinanceLedger,
         city_id: str,
-        receipt: dict[str, Any],
+        receipt_id: str,
         contributions: Sequence[AcceptedContribution],
         owner_approval_ref: str,
     ) -> dict[str, Any]:
-        if self.owner_kill_switch or network.owner_kill_switch:
+        if self.owner_kill_switch or network.owner_kill_switch or finance.owner_kill_switch:
             raise GovernanceError("agent attribution blocked by Owner Kill Switch")
         _require_ref(city_id, "city_id")
         _require_ref(owner_approval_ref, "owner_approval_ref")
         if city_id not in network.cities or network.cities[city_id].status != "PILOT_READY":
             raise GovernanceError("city attribution requires approved pilot city")
-        if not isinstance(receipt, dict):
-            raise GovernanceError("receipt must be the immutable result of the finance gate")
-        receipt_id = receipt.get("payment_id")
         _require_ref(receipt_id, "payment_id")
+        receipt = finance.receipts.get(receipt_id)
+        if not isinstance(receipt, dict):
+            raise GovernanceError("receipt missing from finance evidence gate")
         if receipt_id in self.allocations:
             raise GovernanceError("duplicate receipt attribution")
         if receipt.get("status") != "REFERENCE_ATTESTED_NOT_SETTLED":
