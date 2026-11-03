@@ -1,0 +1,39 @@
+name: Capital Core — City NCA & Revenue Reference Gates
+
+on:
+  pull_request:
+    paths:
+      - 'capital_core/**'
+      - 'tests/test_capital_core_*.py'
+      - '.github/workflows/capital-core-reference.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'capital_core/**'
+      - 'tests/test_capital_core_*.py'
+      - '.github/workflows/capital-core-reference.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deterministic-reference-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout exact submitted revision
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Python 3 version
+        run: python3 --version
+      - name: Compile reference engine
+        run: python3 -m compileall -q capital_core tests/test_capital_core_reference.py
+      - name: Verify city, safety, audit and financial reference tests
+        run: python3 -m unittest discover -s tests -p 'test_capital_core_*.py' -v
+      - name: No runtime/provider/profit claim
+        run: |
+          test -f docs/CAPITAL_CORE_GLOBAL_CITY_ENTERPRISE.md
+          test -f docs/CAPITAL_CORE_REVENUE_ENGINE.md
+          grep -q 'REFERENCE_ATTESTED_NOT_SETTLED' capital_core/reference.py
