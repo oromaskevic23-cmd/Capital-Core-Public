@@ -81,11 +81,17 @@ class CityControlTests(unittest.TestCase):
         n = approved_network()
         n.dispatch(mission())
         with self.assertRaises(GovernanceError):
-            n.accept_mission("m1", qa_ref="", human_approval_ref="human")
-        accepted = n.accept_mission("m1", qa_ref="independent-qa",
+            n.accept_mission("m1", qa_ref="", reviewer_id="independent-human", human_approval_ref="human")
+        accepted = n.accept_mission("m1", qa_ref="independent-qa", reviewer_id="independent-human",
                                     human_approval_ref="human")
         self.assertEqual(accepted.status, "HUMAN_ACCEPTED")
         self.assertTrue(audit_chain_valid(n.audit))
+
+    def test_agent_cannot_accept_own_output(self) -> None:
+        n = approved_network()
+        n.dispatch(mission())
+        with self.assertRaises(GovernanceError):
+            n.accept_mission("m1", qa_ref="self-qa", reviewer_id="nca-fra-001", human_approval_ref="owner")
 
     def test_unapproved_skill_and_missing_listing_rights_denied(self) -> None:
         n = approved_network()
@@ -194,6 +200,13 @@ class FinanceTests(unittest.TestCase):
         ledger.post_attested_receipt(terms(), signed)
         with self.assertRaises(RevenueGateError):
             ledger.post_attested_receipt(terms(), signed)
+
+    def test_same_external_receipt_with_new_id_is_replay(self) -> None:
+        ledger = FinanceLedger(trusted_adapter_key=KEY)
+        ledger.post_attested_receipt(terms(), sign_attestation(receipt(), trusted_adapter_key=KEY))
+        duplicate = replace(receipt(), payment_id="payment-2")
+        with self.assertRaises(RevenueGateError):
+            ledger.post_attested_receipt(terms(), sign_attestation(duplicate, trusted_adapter_key=KEY))
 
     def test_owner_stop_prevents_new_financial_allocation(self) -> None:
         ledger = FinanceLedger(trusted_adapter_key=KEY)
