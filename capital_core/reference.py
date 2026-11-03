@@ -91,6 +91,7 @@ class Mission:
     listing_authorization_ref: str = ""
     status: str = "DISPATCHED"
     qa_ref: str = ""
+    qa_reviewer_id: str = ""
     human_approval_ref: str = ""
 
 
@@ -193,7 +194,7 @@ class CityNetwork:
         if self.cities[mission.city_id].status != "PILOT_READY":
             raise GovernanceError("disabled city cannot complete a mission")
         accepted = replace(mission, status="HUMAN_ACCEPTED", qa_ref=qa_ref,
-                           human_approval_ref=human_approval_ref)
+                           qa_reviewer_id=reviewer_id, human_approval_ref=human_approval_ref)
         self.missions[mission_id] = accepted
         _audit_append(self.audit, "REFERENCE_MISSION_ACCEPTED", {"mission": mission_id, "qa": qa_ref, "reviewer": reviewer_id})
         return accepted
