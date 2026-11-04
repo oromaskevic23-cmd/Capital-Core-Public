@@ -1,30 +1,32 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-11-04",
   "canonical_base": "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference",
   "brand": "crowned-globe",
   "pages": [
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/",
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/projects/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/",
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/",
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/velion/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"
   ],
   "files": [
     {
       "path": "NOTICE.md",
-      "sha256": "c57bfebaf6ef2779e0cce91e9452f9057709c6be8684396fcc6f9a25f33b3492"
+      "sha256": "614da97a0bb23e3b871af0ebc1bf615142ef5667db0a6325bc8da0864f2ab7e1"
     },
     {
       "path": "ar/index.html",
-      "sha256": "15d406fbe92a4fecc68405e43363019591312a6041b6cef2c19946d57751221a"
+      "sha256": "e874cca344c4d438671ca968fbb4fcc5ee0f7a213ad40dfa087748294452ef32"
     },
     {
       "path": "assets/alexander-romaskevich.jpeg",
@@ -108,47 +110,91 @@
     },
     {
       "path": "constructor-ai/index.html",
-      "sha256": "8989137568160365a4ea08634a4bb5e8959203fcd19b6157d23aee03a9fdec21"
+      "sha256": "c429dc9ac1884a605c326cf6d113052b5e2cd90bc5e075ffd234cabc0c540bc0"
+    },
+    {
+      "path": "constructor-ai/studio/deployment-manifest.json",
+      "sha256": "67df8da1ccff95ea19a67895a16864fcf08756e0792fad6d8f19bd25a529fa88"
+    },
+    {
+      "path": "constructor-ai/studio/src/project-backup.mjs",
+      "sha256": "e48727063db347c80ff014612f38f9ad1dc21710595c968bf366802bf5564fa9"
+    },
+    {
+      "path": "constructor-ai/studio/src/project-domain.mjs",
+      "sha256": "d6721bfb5ac03035e0c8bd229ddccd8f6e71017eca2c074bcb74be7203a67ed4"
+    },
+    {
+      "path": "constructor-ai/studio/src/project-export.mjs",
+      "sha256": "aebecfcef7b38e7d00c76b5a9f6726b2dfe4fab15beacdd8d4a860460beaf605"
+    },
+    {
+      "path": "constructor-ai/studio/src/project-runtime.mjs",
+      "sha256": "da99c2893d1ca5ef609e01debbc4a65e7eb3aca86cfc4cbcafb4f9e2a0cd7d39"
+    },
+    {
+      "path": "constructor-ai/studio/src/project.css",
+      "sha256": "00e349c88ac555f1a3f44d6d376a835af94f90a7277ea2c7ccdf61f197b6b93f"
+    },
+    {
+      "path": "constructor-ai/studio/src/studio.mjs",
+      "sha256": "7ef66a41754632d2db27e66f0c4231522ff7b1ba9ab3e2a4364977fc3bbb1d1e"
+    },
+    {
+      "path": "constructor-ai/studio/src/zip.mjs",
+      "sha256": "7402d9c785481fc09378c4b2007019d92b16fe57c401326cd16e53175eda1597"
+    },
+    {
+      "path": "constructor-ai/studio/studio.css",
+      "sha256": "961c0f816753bd2caf89035dd89e7775c20d7a3d5c1219f0fcd7f525a28191c0"
+    },
+    {
+      "path": "constructor-ai/studio/studio.html",
+      "sha256": "cacc947390ebbff22694f58c14afbff8b2d759701b90e071b62f8c2104b57df5"
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "27d872c66b6418374ec546afb757d216562bd1bfb9b3eb85298d15733f519469"
+      "sha256": "ca959966c3a9d5e7e6151c32321a3fa82c27d79ea51cbde77edeae9960e02f5e"
     },
     {
       "path": "es/index.html",
-      "sha256": "d0f8a9c55cc0cef0c673189721f2dc637cb7dd6d7aa9a3490361b2d87f957f2c"
+      "sha256": "c50653f9eecf8a299bdae390badd0f88224095c70ea5bd29df587eb4a0314c69"
     },
     {
       "path": "fr/index.html",
-      "sha256": "7b56dee0ece176ac06fa0fa0f67c50245ce2864b718c3dc43c1aeece11a2335a"
+      "sha256": "3ae4b929a8fb54fb59dd68e75be48ceff1e6154f136cf8216a6e763f3a01788a"
     },
     {
       "path": "index.html",
-      "sha256": "0e0c696992252a6ea13884293b51a13508adb78f8f74a5b252799a9547793d9b"
+      "sha256": "6f5999b05a502aa6868cf0c76aca080ff89bbaad2ee9b2f85cce06db42e2240c"
     },
     {
       "path": "ja/index.html",
-      "sha256": "2d5a92ceee6547e055578070a4411fc44f0bbc9af2122105a1b284ac148e3593"
+      "sha256": "ef14d6dcd041931e392d62c5a6a39efc926b4dfe8ce4baa7355642e6682c9d6a"
+    },
+    {
+      "path": "projects/index.html",
+      "sha256": "68918d857c2cc51fd337d1924064ae7a1400e8f6bb47a18e3449516e57499731"
     },
     {
       "path": "pt/index.html",
-      "sha256": "ee7688347a383a80b89032ad28461dcf44a4063ee403536a89211ffa0a504dad"
+      "sha256": "59f875384a3c7fca2dfe8a63798c60cc123cbb19202433c630fb061f9f4d6df3"
     },
     {
       "path": "robots.txt",
-      "sha256": "f12538987bc6e981a85a37878907e25f8b907560e99b50308937d1a001e303c7"
+      "sha256": "a955d3111452e0ff369f1e6e59d04c2a89a193b76bf6a8afd035ba77b7af60a9"
     },
     {
       "path": "ru/constructor-ai/index.html",
-      "sha256": "992de30cf9d3d678e448d4fbc3aa667a8a9aef09c44f8b7508e454ee0c15563e"
+      "sha256": "8c7d1bf92e8955d1453fc296b92007f47b638bab9048e6f9866562df827847c8"
     },
     {
       "path": "ru/index.html",
-      "sha256": "fdebc71284c6c6f594f22b0c455983f85642f0cd2d8213979dca947ff259d125"
+      "sha256": "744d814d3ffbb636ce06b4a94baedb802ebbb3ccb07dfb9e0fae0fa9bb21b9fc"
     },
     {
       "path": "sitemap.xml",
-      "sha256": "6e10c2f6bf5fb44be26025460e1cc57657df24d275cbb12088efeec2098f9902"
+      "sha256": "151ac7a69d80bef3ce57c572099ab9bf184418a3c7bc8eb491493300d16a3c9a"
     },
     {
       "path": "translations/ar.json",
@@ -172,51 +218,19 @@
     },
     {
       "path": "uk/constructor-ai/index.html",
-      "sha256": "e03229cbe39a76c54db049efec999b600428896f97484d40c5134814affa04cc"
+      "sha256": "e86a46172c80ff89e89e645bec92e52fa6cbee9d68e3968191524a944c61f454"
     },
     {
       "path": "uk/index.html",
-      "sha256": "1ab05d36001d2d296b50c9298d26e1cb20707762715c16c682491d57068bc179"
+      "sha256": "77be35c805ef2a7407c8e2e05622d23758a4aeede53ad9d8d8b59e66b626536b"
+    },
+    {
+      "path": "velion/index.html",
+      "sha256": "9c90354b49079acb9fb908e69f2b2da76f42e3d3f6eb94605eb34e9f960183bf"
     },
     {
       "path": "zh/index.html",
-      "sha256": "1ed98a9c61c0c92465105f1ab47397fbd71dc8182073011278f405922ba9ba1f"
-    },
-    {
-      "path": "constructor-ai/studio/deployment-manifest.json",
-      "sha256": "02da3bbde795e400cd1b970908883c48cfe8c5a566e7c6986ae430f56c2c8eb8"
-    },
-    {
-      "path": "constructor-ai/studio/src/project-domain.mjs",
-      "sha256": "d6721bfb5ac03035e0c8bd229ddccd8f6e71017eca2c074bcb74be7203a67ed4"
-    },
-    {
-      "path": "constructor-ai/studio/src/project-export.mjs",
-      "sha256": "60c473c2142c0912c4998d33d42c062c4a111738db30c043c7c16a98636e3ab2"
-    },
-    {
-      "path": "constructor-ai/studio/src/project-runtime.mjs",
-      "sha256": "7da281903171c8a7f646de306e7d8705d7c036091f872c0b854512cbe04b6678"
-    },
-    {
-      "path": "constructor-ai/studio/src/project.css",
-      "sha256": "126c9eb2760345bf3d66119887ecb9f316f05390274e8e5b0b3672df1f2891bc"
-    },
-    {
-      "path": "constructor-ai/studio/src/studio.mjs",
-      "sha256": "7ef66a41754632d2db27e66f0c4231522ff7b1ba9ab3e2a4364977fc3bbb1d1e"
-    },
-    {
-      "path": "constructor-ai/studio/src/zip.mjs",
-      "sha256": "7402d9c785481fc09378c4b2007019d92b16fe57c401326cd16e53175eda1597"
-    },
-    {
-      "path": "constructor-ai/studio/studio.css",
-      "sha256": "961c0f816753bd2caf89035dd89e7775c20d7a3d5c1219f0fcd7f525a28191c0"
-    },
-    {
-      "path": "constructor-ai/studio/studio.html",
-      "sha256": "cb5ddc7bfc7901a4d00a4acd6271cec3847e08b87a5d16bcd387aa59057a09d4"
+      "sha256": "ef3f5956d62edb8a2ee013ce68caac8b36e294e21fcda96c603ad2dc77243fe6"
     }
   ]
 }
