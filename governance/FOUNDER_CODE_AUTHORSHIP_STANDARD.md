@@ -6,7 +6,7 @@ This standard is an engineering evidence and rights-hygiene procedure. It is not
 
 ## Attribution levels — do not collapse them
 
-1. **Project creation and architecture:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder · Owner · CEO · Chief Systems Architect of IMPERIAL Core. This describes project leadership and architecture, not every source-line author.
+1. **Project creation and architecture:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder · Owner · CEO of IMPERIAL Core. This describes project leadership and architecture, not every source-line author.
 2. **Individual file author / contributor:** the actual person(s) responsible for copyrightable portions, recorded using Git commits and accurate source notes. An AI tool's generated output should not be silently classified as a human-authored work; human-authorship and rights must be assessed for the relevant jurisdiction.
 3. **Rights holder:** a person or legal entity **only where a valid legal basis supports the specific work**; employment, contributor licensing or assignment terms may affect ownership. Never claim rights to third-party dependencies, model weights, copyrighted artwork, fonts, datasets, or inherited components simply because they are present.
 4. **License:** an already applicable LICENSE/NOTICE remains in effect. A project-wide notice cannot revoke earlier compatible grants or remove upstream conditions. Do not add a false `SPDX-License-Identifier` on code with unresolved licensing.
