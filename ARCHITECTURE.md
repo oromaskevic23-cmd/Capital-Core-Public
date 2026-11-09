@@ -4,7 +4,7 @@
 
 ## Authority and federation
 
-Alexander Romaskevich — RomaskevicH — is Founder • Owner • CEO of IMPERIAL Core, and Architect / Final Architectural Decision Authority. HANTER is the AI Command Center / Chief Systems component under that architectural authority.
+Alexander Romaskevich — RomaskevicH — is Founder • Owner • CEO of IMPERIAL Core, and Architect / Final Architectural Decision Authority. HANTER is the AI Command Center component under that architectural authority.
 
 IMPERIAL Core uses a **Federated Multi-Orchestrator Architecture**. Domain and functional orchestrators have separate responsibilities, permissions and runtime boundaries. Multiple organizational structures and professional teams can allocate a dynamic number of Nano Core Agents. There is no single unrestricted global orchestrator.
 

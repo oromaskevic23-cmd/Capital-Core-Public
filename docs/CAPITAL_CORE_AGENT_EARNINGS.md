@@ -2,7 +2,7 @@
 
 **Status:** SPECIFIED + PYTHON REFERENCE ATTRIBUTION. No AI agent or human has been paid from these reference calculations.
 
-**Architectural authority:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder • Owner • CEO • Chief Systems Architect.
+**Architectural authority:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder • Owner • CEO.
 
 ## Principle
 

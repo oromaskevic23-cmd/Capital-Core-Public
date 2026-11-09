@@ -2,7 +2,7 @@
 
 **Status:** IMPLEMENTED AS A LOCAL REFERENCE CONTROL PLANE; all real-city deployments, brokerage authority, LLM workers, CRM integration, payment-provider integration and revenue collection are **NOT VERIFIED / NOT DEPLOYED** by this repository.
 
-**Architecture authority:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder • Owner • CEO • Chief Systems Architect of IMPERIAL Core, final architectural decision authority.
+**Architecture authority:** Alexander Nikolaevich Romaskevich (RomaskevicH), Founder • Owner • CEO of IMPERIAL Core, final architectural decision authority.
 
 **Date:** 2026-11-03 · **Language:** English (GitHub documentation standard).
 
