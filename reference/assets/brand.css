@@ -49,3 +49,10 @@
 /* Keep the owner-selected banner fully visible. */
 .vision-hero img{-webkit-mask-image:none;mask-image:none}
 
+
+.passport-section{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);align-items:center;gap:clamp(28px,5vw,72px)}
+.passport-copy p:not(.eyebrow){max-width:34rem;line-height:1.7;margin:20px 0 26px}.passport-section figure{margin:0}.passport-section img{display:block;width:100%;height:auto}.passport-section figcaption{font-size:12px;line-height:1.6;margin-top:10px;color:#6b7480}@media(max-width:760px){.passport-section{grid-template-columns:1fr;gap:24px}}
+
+/* Dubai preparation, bounded LEGION evidence, and the AI Passport concept. */
+.dubai-showcase,.legion-showcase,.reference-passport{border-top:1px solid rgba(87,150,190,.22)}
+.dubai-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.dubai-grid article,.legion-evidence{padding:24px;border:1px solid rgba(104,174,210,.3);background:rgba(7,22,38,.78);border-radius:12px}.dubai-grid span{font-size:11px;letter-spacing:.1em;color:#e8c67f}.dubai-grid h3,.legion-evidence h3{color:#f3e5bd;font-size:1.25rem;margin:12px 0}.dubai-grid p,.legion-evidence p,.reference-passport p{line-height:1.7;color:#c5d3de}.showcase-note{margin:20px 0;color:#a9bdcc;line-height:1.7}.showcase-link{display:inline-block;margin:8px 16px 8px 0;color:#e5c989;text-decoration:underline;text-underline-offset:4px}.reference-passport{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:clamp(24px,5vw,72px);align-items:center}.reference-passport h2{font-family:Georgia,serif;font-size:clamp(2.3rem,5vw,4rem);color:#f3e5bd;font-weight:500}.reference-passport figure{margin:0}.reference-passport img{display:block;width:100%;height:auto;border-radius:10px}.reference-passport figcaption{color:#9fb1c1;font-size:12px;line-height:1.6;margin-top:10px}@media(max-width:760px){.dubai-grid,.reference-passport{grid-template-columns:1fr}}
