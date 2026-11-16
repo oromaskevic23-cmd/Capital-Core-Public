@@ -45,3 +45,7 @@
 @media(prefers-reduced-motion:reduce){.hero::after{animation:none}.cosmic-transition{animation:none}html{scroll-behavior:auto}}
 
 .capital-section{border-top:1px solid #d7af5b44}.capital-section .section-heading{max-width:940px}.capital-status{color:#e7c77d!important;font-size:13px}.capital-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:34px 60px}.capital-grid article{border-top:1px solid #d7af5b44;padding-top:26px}.capital-number{font-size:13px;color:#d8ad62}.capital-grid h3{color:#f3dca2;font-size:23px;line-height:1.4;font-weight:500}.capital-grid p,.capital-card-update{color:#b7c8d5;line-height:1.9;font-size:15px}.capital-links{display:flex;flex-wrap:wrap;gap:18px 32px}.capital-links a,.capital-card-update a{color:#acd7ef;text-decoration:underline;text-underline-offset:5px;line-height:1.9}@media(max-width:650px){.capital-grid{grid-template-columns:1fr;gap:24px}}
+
+/* Keep the owner-selected banner fully visible. */
+.vision-hero img{-webkit-mask-image:none;mask-image:none}
+
