@@ -60,3 +60,16 @@
 /* Display the complete owner-supplied diamond artwork in the reference footer. */
 .footer-mark{display:block;width:min(280px,72vw);height:auto;margin:0 auto 32px;border:0;transform:none;background:#030812;box-shadow:0 20px 70px rgba(0,105,190,.12)}
 .footer-mark img{display:block;width:100%;height:auto;max-width:100%;object-fit:contain;border-radius:0}
+
+/* The selected diamond artwork remains complete; the site shares its midnight-blue palette. */
+body.diamond-background{background:#00020e url("/Capital-Core-Public/reference/assets/diamond-circuits-20261117.svg") center top / 960px 880px repeat}
+body.diamond-background::before{content:none}
+body.diamond-background .topbar{background:#00020e}
+body.diamond-background .hero{background:transparent}
+body.diamond-background .hero::before,body.diamond-background .hero::after{content:none}
+body.diamond-background footer{background:#00020e;border-top-color:rgba(36,112,161,.22)}
+body.diamond-background .footer-mark{background:transparent;box-shadow:none}
+body.diamond-background .vision-hero img,body.diamond-background .reference-passport img{border-radius:0;-webkit-mask-image:none;mask-image:none}
+body.diamond-background section[aria-label="Public technology registry"]{background:#05101d!important;border-color:#18435f!important;color:#c9d8e5!important}
+body.diamond-background section[aria-label="Public technology registry"] h2{color:#f3dca2!important}
+body.diamond-background section[aria-label="Public technology registry"] a{color:#a7d8f7}
