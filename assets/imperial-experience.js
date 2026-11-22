@@ -8,7 +8,7 @@
   if(!hero||!content||hero.querySelector('.ic-experience-nav'))return;
   const language=document.documentElement.lang.toLowerCase().slice(0,2);
   const words={
-    en:['Skyline','Sky Tower','Freefall','Command Center','Explore the viewpoints','Dubai skyline panorama','Above the skyline','Aerial flight concept','AI command visualization'],
+    en:['Skyline','Sky Tower','Parachute Flight','Command Center','Explore the viewpoints','Dubai skyline panorama','Above the skyline','Aerial flight concept','AI command visualization'],
     ru:['Панорама','Небоскрёб','Полёт','Командный центр','Выберите панораму','Панорама Дубая','Высоко над городом','Визуализация полёта','Визуализация AI-командного центра'],
     uk:['Панорама','Хмарочос','Політ','Командний центр','Оберіть панораму','Панорама Дубая','Над містом','Візуалізація польоту','Візуалізація AI-командного центру'],
     de:['Skyline','Wolkenkratzer','Freiflug','Kommandozentrale','Perspektive wählen','Dubai-Panorama','Hoch über Dubai','Flugvisualisierung','KI-Kommandozentrale'],
@@ -20,7 +20,8 @@
     ar:['الأفق','برج شاهق','التحليق','مركز القيادة','اختر المشهد','أفق دبي','فوق المدينة','تصور الرحلة','مركز قيادة الذكاء الاصطناعي']
   };
   const w=words[language]||words.en;
-  const local='/Capital-Core-Public/assets/imperial-core-banner-diamond-20261116.jpg';
+  const local='/Capital-Core-Public/assets/imperial-skyline-fallback.svg';
+  const canonicalDiamond='/Capital-Core-Public/assets/imperial-core-diamond-20261116.jpg';
   const scenes=[
     {id:'skyline',label:w[0],caption:w[5],image:'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=2000&q=80'},
     {id:'tower',label:w[1],caption:w[6],image:'https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=2000&q=80'},
@@ -43,6 +44,11 @@
   const altitude=document.createElement('div');altitude.className='ic-altitude';altitude.setAttribute('aria-hidden','true');
   altitude.innerHTML='<small>IMPERIAL CORE · EXPERIENCE</small><span>Dubai / UAE</span>';
   hero.appendChild(altitude);
+  // Render the Architect-approved diamond, using its original unchanged asset.
+  const plaque=document.createElement('figure');plaque.className='ic-brand-plaque';
+  plaque.setAttribute('aria-hidden','true');
+  const diamond=document.createElement('img');diamond.src=canonicalDiamond;diamond.alt='';
+  diamond.loading='lazy';diamond.decoding='async';plaque.appendChild(diamond);hero.appendChild(plaque);
   const dock=document.createElement('div');dock.className='ic-experience-nav';dock.setAttribute('role','group');dock.setAttribute('aria-label',w[4]);
   const caption=document.createElement('p');caption.className='ic-scene-caption';caption.setAttribute('aria-live','polite');
   scenes.forEach(function(s,i){
