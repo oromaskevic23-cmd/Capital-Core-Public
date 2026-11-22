@@ -431,3 +431,23 @@ body.ic-sovereign.ecosystem .ic-module-visual svg{
  body.ic-sovereign.ecosystem .company-hero h1{max-width:100%}
  body.ic-sovereign.ecosystem .ic-module-visual svg{opacity:.92}
 }
+
+
+/* Correct the legacy founder grid override: portrait first, Architect copy second. */
+@media(min-width:561px){
+ body.ic-sovereign.ecosystem .ic-architect{grid-template-columns:minmax(245px,.66fr) minmax(0,1.34fr)}
+ body.ic-sovereign.ecosystem .ic-architect .portrait{
+  grid-column:1!important;grid-row:1!important;justify-self:center;align-self:center;
+ }
+ body.ic-sovereign.ecosystem .ic-architect>div{
+  grid-column:2!important;grid-row:1!important;align-self:center;
+ }
+}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .ic-architect .portrait,
+ body.ic-sovereign.ecosystem .ic-architect>div{
+  grid-column:1!important;grid-row:auto!important;
+ }
+ body.ic-sovereign.ecosystem .ic-architect .portrait{order:0}
+ body.ic-sovereign.ecosystem .ic-architect>div{order:1}
+}
