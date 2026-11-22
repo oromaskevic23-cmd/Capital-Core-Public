@@ -813,3 +813,42 @@ body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond svg{display:block
  body.ic-sovereign.ecosystem .header .brand .monogram{width:38px!important;min-width:38px!important;height:38px!important}
  body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{width:34px;height:34px}
 }
+
+
+/* Final reference QA: correct icon box (the original brand CSS was flowing it onto the hero). */
+body.ic-sovereign.ecosystem .header .brand .monogram{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ position:relative!important;width:47px!important;min-width:47px!important;height:45px!important;
+ overflow:visible!important;padding:0!important;margin:0!important;
+ transform:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand .monogram img{
+ display:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{
+ position:absolute!important;inset:1px!important;width:43px!important;height:43px!important;
+ margin:0!important;padding:0!important;transform:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand{
+ display:flex!important;align-items:center!important;gap:8px!important;
+ height:45px!important;min-height:45px!important;
+}
+body.ic-sovereign.ecosystem .ic-infinity-pool{
+ position:absolute;z-index:-1;inset-inline-start:43%;inset-inline-end:0;bottom:91px;
+ height:102px;pointer-events:none;opacity:.73;
+ background:
+  repeating-linear-gradient(-5deg,transparent 0 15px,#7ad4d31b 18px 19px,transparent 24px 33px),
+  linear-gradient(172deg,#264b5d84 0%,#2c849e71 36%,#14334ca3 72%,#0d1824d1 100%);
+ border-top:1px solid #a6b8baad;
+ box-shadow:inset 0 17px 37px #9bd1d039,0 -2px 11px #d5dbb52e;
+ transform:skewY(-1.5deg);
+}
+body.ic-sovereign.ecosystem .footer{display:none!important}
+@media(max-width:800px){
+ body.ic-sovereign.ecosystem .ic-infinity-pool{opacity:.48;bottom:150px;height:75px}
+}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .header .brand .monogram{width:35px!important;min-width:35px!important;height:36px!important}
+ body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{inset:1px!important;width:33px!important;height:33px!important}
+ body.ic-sovereign.ecosystem .ic-infinity-pool{display:none!important}
+}
