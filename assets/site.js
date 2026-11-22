@@ -6,12 +6,14 @@ for (const menu of document.querySelectorAll('.language-menu')) {
   });
 }
 
-/* Progressive enhancement: the original site remains intact if immersive files cannot load. */
+/* IMPERIAL Core — optional visual layer, with original locale navigation preserved. */
 if (document.body.classList.contains('ecosystem')) {
   const sheet=document.createElement('link');
-  sheet.rel='stylesheet';sheet.href='/Capital-Core-Public/assets/imperial-experience.css?v=20261122';
+  sheet.rel='stylesheet';sheet.href='/Capital-Core-Public/assets/imperial-sovereign.css?v=20261122b';
   sheet.onload=()=>{
-    const script=document.createElement('script');script.src='/Capital-Core-Public/assets/imperial-experience.js?v=20261122';script.defer=true;document.body.appendChild(script);
+    const script=document.createElement('script');
+    script.src='/Capital-Core-Public/assets/imperial-sovereign.js?v=20261122b';
+    script.defer=true;document.body.appendChild(script);
   };
   document.head.appendChild(sheet);
 }
