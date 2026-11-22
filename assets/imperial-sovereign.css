@@ -780,3 +780,18 @@ body.ic-sovereign.ecosystem .footer .footer-brand strong{font-size:18px}
   animation:none!important;transition:none!important;scroll-behavior:auto!important;
  }
 }
+
+/* High-quality photographic lounge layer to approximate the owner reference.
+   Pexels 19074480 is a genuine free-to-use dusk interior photo, not a generated person.
+   Gold roof and architectural accents remain decorative SVG. */
+@media(min-width:801px){
+ body.ic-sovereign.ecosystem .ic-hero-terrace{
+  width:66%;background-image:
+   linear-gradient(90deg,#080a11dc 0%,#11111a8c 37%,#120e1538 100%),
+   url("https://images.pexels.com/photos/19074480/pexels-photo-19074480.jpeg?auto=compress&cs=tinysrgb&w=1250");
+  background-size:cover;background-position:center 54%;
+  -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 63%,transparent 100%);
+  mask-image:linear-gradient(90deg,#000 0%,#000 63%,transparent 100%);
+ }
+ body.ic-sovereign.ecosystem .ic-hero-terrace svg{opacity:.64}
+}
