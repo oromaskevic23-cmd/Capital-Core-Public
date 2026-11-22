@@ -78,10 +78,14 @@ function visualArt(cls){
    return prefix+'<g transform="translate(310 87)"><circle r="75" stroke="#E7A65C" stroke-opacity=".34"/><circle r="58" stroke="#F5C080" stroke-opacity=".55" stroke-dasharray="6 12"/><circle r="43" stroke="#F5CE8B" stroke-opacity=".55"/><path d="M0-39 30-27v25C30 24 16 36 0 42-16 36-30 24-30-2v-25Z" fill="#B7833540" stroke="#FFD592" stroke-width="2"/><path d="m-13 0 10 10 21-22" stroke="#FFE0AA" stroke-width="2.3"/></g>'+end;
  }
  if(cls==="ic-card-agy"){
-  return prefix+'<g transform="translate(310 86)"><circle r="73" fill="#EBAE6426" stroke="#EFC48D" stroke-opacity=".35"/><path d="M-32-38 0-54 32-38 40-4 33 40 0 52-33 40-40-4Z" fill="#152432" stroke="#F0BC80" stroke-width="2.2"/><path d="M-26-6 -9-10 0-5 9-10 26-6M-21 21 0 26 21 21M0-45V-20" stroke="#F2C28C" stroke-width="2"/><circle cx="-18" cy="2" r="4" fill="#F3CB94"/><circle cx="18" cy="2" r="4" fill="#F3CB94"/></g>'+end;
+  return prefix+'<defs><radialGradient id="rg"><stop stop-color="#F6C487" stop-opacity=".39"/><stop offset="1" stop-color="#E3AD5C" stop-opacity="0"/></radialGradient></defs><circle cx="321" cy="90" r="79" fill="url(#rg)"/><g stroke="#F6C281" stroke-width="2" fill="#0B1523"><path d="M322 15c-34 0-57 27-57 60 0 23 9 39 27 48v28l27 8 23-14-3-28c17-16 25-35 25-55 0-26-17-47-42-47Z"/><path d="M279 53c13-17 28-24 45-24m-41 69 35 12 30-21M283 76h65M319 30v85M293 53l26-15 29 19M292 121l27 12 25-17" stroke-opacity=".7"/><path d="M280 76h20l8 8-7 7h-22Zm53 0h20l-2 15h-20l-6-7Z" fill="#DBA765" opacity=".8"/><path d="M311 145l17 2" stroke="#FFDCA9" stroke-width="3"/></g>'+end;
  }
  if(cls==="ic-card-hanter"){
-  return prefix+'<g transform="translate(318 82)"><circle r="57" stroke="#F1C47E" stroke-opacity=".55"/><circle r="37" stroke="#F7CB86" stroke-dasharray="4 8" stroke-opacity=".78"/><path d="M-56 0H56M0-57V57" stroke="#F7D39A" stroke-opacity=".35"/><circle r="8" fill="#FFDEAB"/></g>'+end;
+  const screens=Array.from({length:8},(_,i)=>{
+   const x=170+(i%4)*55,y=22+Math.floor(i/4)*52;
+   return '<rect x="'+x+'" y="'+y+'" width="48" height="41" rx="3" fill="#0A233E" stroke="#6BC7FC" stroke-opacity=".65" stroke-width="1.3"/><path d="M'+(x+8)+' '+(y+29)+'l9-10 8 6 9-18" fill="none" stroke="#7EE0FF" stroke-opacity=".8" stroke-width="1.2"/>';
+  }).join("");
+  return prefix+'<defs><radialGradient id="hc"><stop stop-color="#84E2FF" stop-opacity=".55"/><stop offset="1" stop-color="#84E2FF" stop-opacity="0"/></radialGradient></defs><rect x="160" y="10" width="260" height="150" rx="9" fill="#0B1A32" stroke="#D7A15C" stroke-opacity=".65"/>'+screens+'<circle cx="320" cy="93" r="55" fill="url(#hc)"/><circle cx="320" cy="93" r="37" stroke="#A9E7FF" stroke-width="1.6" opacity=".75"/><ellipse cx="320" cy="93" rx="18" ry="37" stroke="#B5E9FF" stroke-width="1.4" opacity=".65"/><path d="M283 93h74M287 76h67M289 109h62" stroke="#B7F1FF" stroke-width="1.3" opacity=".66"/>'+end;
  }
  return "";
 }
