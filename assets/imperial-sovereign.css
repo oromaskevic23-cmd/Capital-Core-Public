@@ -411,3 +411,23 @@ body.ic-sovereign.ecosystem .footer p,body.ic-sovereign.ecosystem .footer .copyr
 @media(prefers-reduced-motion:reduce){
  body.ic-sovereign.ecosystem *{scroll-behavior:auto!important;animation:none!important;transition-duration:.001ms!important}
 }
+
+
+/* Owner reference: editorial left-aligned hero, no generic centered marketing block. */
+body.ic-sovereign.ecosystem .company-hero .hero-copy,
+body.ic-sovereign.ecosystem .company-hero h1,
+body.ic-sovereign.ecosystem .company-hero .intro{
+ text-align:start!important;
+}
+body.ic-sovereign.ecosystem .company-hero .actions{justify-content:flex-start!important}
+[dir="rtl"] body.ic-sovereign.ecosystem .company-hero .hero-copy,
+[dir="rtl"] body.ic-sovereign.ecosystem .company-hero h1,
+[dir="rtl"] body.ic-sovereign.ecosystem .company-hero .intro{text-align:right!important}
+body.ic-sovereign.ecosystem .ic-module-visual svg{
+ position:absolute;inset:0;width:100%;height:100%;
+ overflow:hidden;filter:drop-shadow(0 0 16px #d6a05f55);
+}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .company-hero h1{max-width:100%}
+ body.ic-sovereign.ecosystem .ic-module-visual svg{opacity:.92}
+}
