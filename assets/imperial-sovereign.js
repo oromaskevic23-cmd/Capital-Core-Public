@@ -9,7 +9,7 @@ const hero=document.querySelector(".company-hero"),main=document.querySelector("
 if(!hero||!main||document.querySelector("#ic-ecosystem"))return;
 const lang=(document.documentElement.lang||"en").split("-")[0];
 const translations={
-en:{headline:["The Sovereign","AI Ecosystem"],desc:"Enterprise orchestration, verified execution, and intelligent systems — in one unified ecosystem.",cta:"Explore the Ecosystem",evidence:"Engineering Evidence",modules:"Explore the IMPERIAL Core Ecosystem",view:"View all modules",arch:"Platform Architecture",archintro:"A federated architecture designed for multiple organizations, professional teams and bounded AI agent execution. All operational claims require evidence.",cap:"Trusted Capabilities for the Enterprise",architect:"The Architect Behind IMPERIAL Core",footer:"Build Your AI Sovereignty with IMPERIAL Core",contact:"Request a Private Demo",strap:"THE ARCHITECTURE",links:"Open verified source",labels:["AI Command Center","Intelligence & Routing","Specialized AI Agents","Defensive Security","Identity & Governance","Agent Trust Research"],trust:["Federated Orchestration","Independent execution domains under bounded authority","Verified Engineering","Tests, releases and auditable evidence","Zero Trust Governance","Identity is not authority; approval is explicit","Human Sovereignty","Owner retains final architectural authority"],chip:["HANTER","Federated Orchestration","Verified Engineering","Zero Trust","Audit Ledger","AI Systems"]},
+en:{headline:["The Sovereign","AI Ecosystem"],desc:"Enterprise orchestration, verified execution, and intelligent systems — in one unified ecosystem.",cta:"Explore the Ecosystem",evidence:"Engineering Evidence",modules:"Explore the IMPERIAL Core Ecosystem",view:"View all modules",arch:"Platform Architecture",archintro:"A sovereign AI architecture designed for federated orchestration, security, verifiability and enterprise-grade autonomous execution. Operational claims remain evidence-bound.",cap:"Trusted Capabilities for the Enterprise",architect:"The Architect Behind IMPERIAL Core",footer:"Build Your AI Sovereignty with IMPERIAL Core",contact:"Request a Private Demo",strap:"THE ARCHITECTURE",links:"Open verified source",labels:["AI Command Center","Intelligence & Routing","Specialized AI Agents","Defensive Security","Identity & Governance","Agent Trust Research"],trust:["Federated Orchestration","Independent execution domains under bounded authority","Verified Engineering","Tests, releases and auditable evidence","Zero Trust Governance","Identity is not authority; approval is explicit","Human Sovereignty","Owner retains final architectural authority"],chip:["HANTER","Federated Orchestration","Enterprise-Grade Execution","Zero Trust","Audit Ledger","Intelligent Systems"]},
 ru:{headline:["Суверенная","AI-экосистема"],desc:"Федеративная оркестрация, управляемые AI-агенты, проверяемая разработка и подотчётное исполнение в единой архитектуре.",cta:"Исследовать экосистему",evidence:"Инженерные доказательства",modules:"Экосистема IMPERIAL Core",view:"Все модули",arch:"Архитектура платформы",archintro:"Федеративная архитектура для организаций, профессиональных команд и AI-агентов с ограниченными полномочиями. Работа каждого компонента требует доказательств.",cap:"Технологические принципы Enterprise",architect:"Архитектор IMPERIAL Core",footer:"Создавайте AI-будущее с IMPERIAL Core",contact:"Обсудить демонстрацию",strap:"АРХИТЕКТУРА",links:"Открыть исходники",labels:["Командный центр AI","Интеллект и маршрутизация","Специализированные AI-агенты","Защитная безопасность","Идентичность и управление","Исследования доверия"],trust:["Федеративная оркестрация","Автономные домены с ограниченными полномочиями","Проверяемая разработка","Тесты, релизы и проверяемые свидетельства","Управление Zero Trust","Идентичность не даёт полномочий без одобрения","Власть человека","Финальная архитектурная власть у владельца"],chip:["HANTER","Федеративная оркестрация","Проверяемая разработка","Zero Trust","Audit Ledger","AI-системы"]},
 uk:{headline:["Суверенна","AI-екосистема"],desc:"Федеративна оркестрація, керовані AI-агенти, перевірена розробка й підзвітне виконання в єдиній архітектурі.",cta:"Дослідити екосистему",evidence:"Інженерні докази",modules:"Екосистема IMPERIAL Core",view:"Усі модулі",arch:"Архітектура платформи",archintro:"Федеративна архітектура для організацій, професійних команд та AI-агентів з обмеженими повноваженнями.",cap:"Принципи Enterprise",architect:"Архітектор IMPERIAL Core",footer:"Будуйте AI-майбутнє з IMPERIAL Core",contact:"Обговорити демонстрацію",strap:"АРХІТЕКТУРА",links:"Переглянути код",labels:["Командний центр AI","Інтелект і маршрутизація","Спеціалізовані AI-агенти","Кіберзахист","Ідентичність і управління","Дослідження довіри"],trust:["Федеративна оркестрація","Обмежені повноваження","Перевірена розробка","Тести й докази","Управління Zero Trust","Дозвіл має бути явним","Суверенітет людини","Власник зберігає остаточне рішення"],chip:["HANTER","Федеративна оркестрація","Перевірка","Zero Trust","Audit Ledger","AI-системи"]},
 ar:{headline:["المنظومة السيادية","للذكاء الاصطناعي"],desc:"تنسيق اتحادي ووكلاء ذكاء اصطناعي محكومون وهندسة قابلة للتحقق وتنفيذ خاضع للمساءلة.",cta:"استكشف المنظومة",evidence:"الأدلة الهندسية",modules:"استكشف منظومة IMPERIAL Core",view:"جميع الوحدات",arch:"معمارية المنصة",archintro:"معمارية اتحادية للمؤسسات والفرق المهنية ووكلاء الذكاء الاصطناعي بصلاحيات محددة، مع متطلبات إثبات مستقلة.",cap:"قدرات الحوكمة للمؤسسات",architect:"مهندس IMPERIAL Core المعماري",footer:"ابنِ سيادتك في الذكاء الاصطناعي مع IMPERIAL Core",contact:"اطلب عرضاً خاصاً",strap:"المعمارية",links:"عرض المصدر",labels:["مركز قيادة الوكلاء","الذكاء والتوجيه","وكلاء متخصصون","الأمن الدفاعي","الهوية والحوكمة","أبحاث الثقة"],trust:["التنسيق الاتحادي","صلاحيات محددة","هندسة قابلة للتحقق","اختبارات وأدلة","حوكمة انعدام الثقة","التصريح صريح","السيادة البشرية","القرار النهائي للمالك"],chip:["HANTER","التنسيق الاتحادي","التحقق","Zero Trust","Audit Ledger","أنظمة الذكاء"]},
@@ -60,7 +60,7 @@ const featurebar=div("ic-featurebar");features.forEach(([ico,label,href])=>{cons
 hero.append(featurebar);
 const shell=div("ic-expo");
 const showcase=div("ic-showcase","section");showcase.id="ic-ecosystem";
-const heading=div("ic-section-heading");heading.append(textEl("h2","",t.modules),link("#projects",t.view+"  →","ic-view-all"));showcase.append(heading);
+const heading=div("ic-section-heading");heading.append(textEl("h2","",t.modules),link("https://github.com/oromaskevic23-cmd?tab=repositories",t.view+"  →","ic-view-all"));showcase.append(heading);
 const cards=div("ic-module-grid");
 /* Original vector module artwork, no generated personal photographs. */
 function visualArt(cls){
@@ -79,6 +79,9 @@ function visualArt(cls){
  }
  if(cls==="ic-card-agy"){
   return prefix+'<defs><radialGradient id="rg"><stop stop-color="#F6C487" stop-opacity=".39"/><stop offset="1" stop-color="#E3AD5C" stop-opacity="0"/></radialGradient></defs><circle cx="321" cy="90" r="79" fill="url(#rg)"/><g stroke="#F6C281" stroke-width="2" fill="#0B1523"><path d="M322 15c-34 0-57 27-57 60 0 23 9 39 27 48v28l27 8 23-14-3-28c17-16 25-35 25-55 0-26-17-47-42-47Z"/><path d="M279 53c13-17 28-24 45-24m-41 69 35 12 30-21M283 76h65M319 30v85M293 53l26-15 29 19M292 121l27 12 25-17" stroke-opacity=".7"/><path d="M280 76h20l8 8-7 7h-22Zm53 0h20l-2 15h-20l-6-7Z" fill="#DBA765" opacity=".8"/><path d="M311 145l17 2" stroke="#FFDCA9" stroke-width="3"/></g>'+end;
+ }
+ if(cls==="ic-card-passport"){
+  return prefix+'<defs><linearGradient id="bp" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BD8547"/><stop offset=".6" stop-color="#382C31"/><stop offset="1" stop-color="#090F17"/></linearGradient></defs><g transform="translate(259 14) rotate(11 64 76)"><rect x="0" y="0" width="127" height="145" rx="9" fill="url(#bp)" stroke="#F4C788" stroke-width="2"/><rect x="9" y="9" width="109" height="125" rx="4" stroke="#DBAB76" stroke-opacity=".76"/><path d="M46 47 63 31h23l18 16-28 40Z" stroke="#FFD6A0" stroke-width="2"/><path d="M46 47h58M63 31l13 56 10-56" stroke="#FFDEAA" stroke-width="1.8"/><circle cx="74" cy="111" r="13" stroke="#F6D49C" stroke-width="1.6"/><path d="M74 98v26M61 111h26" stroke="#F6D49C" stroke-opacity=".5"/><path d="M30 141h88" stroke="#E2A96E" stroke-width="3"/></g>'+end;
  }
  if(cls==="ic-card-hanter"){
   const screens=Array.from({length:8},(_,i)=>{
@@ -124,10 +127,10 @@ diagram.append(art);
 const copy=div("ic-architecture-copy");copy.append(textEl("p","ic-kicker",t.strap),textEl("h2","",t.arch),textEl("p","ic-architecture-desc",t.archintro));
 const principles=div("ic-principles");
 const destinations=[
- [icons.layers,t.trust[0],t.trust[1],github+"Nano-Core-Agents-Public"],
- [icons.cpu,t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
- [icons.shield,t.trust[4],t.trust[5],github+"GUARDIAN-CORE"],
- [icons.diamond,t.trust[6],t.trust[7],"https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/docs/UNIFIED_ECOSYSTEM_EVIDENCE.md"]
+ [icons.layers,lang==="en"?"Federated Orchestration":t.trust[0],lang==="en"?"Multiple bounded execution domains":t.trust[1],github+"Nano-Core-Agents-Public"],
+ [icons.cpu,lang==="en"?"Enterprise Execution":t.trust[2],lang==="en"?"Verified, auditable engineering":t.trust[3],github+"CONSTRUCTOR-AI"],
+ [icons.shield,lang==="en"?"Zero Trust by Design":t.trust[4],lang==="en"?"Policy and explicit authorization":t.trust[5],github+"GUARDIAN-CORE"],
+ [icons.database,lang==="en"?"Audit Ledger":t.trust[6],lang==="en"?"Traceable actions and evidence":t.trust[7],github+"AUDIT-LEDGER"]
 ];
 destinations.forEach(([markup,title,description,url])=>{
  const a=link(url,"","ic-principle");a.innerHTML='<span class="ic-principle-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">'+markup+'</svg></span>';
@@ -137,10 +140,10 @@ copy.append(principles);architecture.append(diagram,copy);shell.append(architect
 const capabilities=div("ic-capabilities","section");capabilities.id="ic-capabilities";capabilities.append(textEl("h2","",t.cap));
 const capGrid=div("ic-capability-grid");
 [
- ["star",t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
- ["network",t.trust[0],t.trust[1],github+"HANTER-Public"],
- ["shield",t.trust[4],t.trust[5],github+"ZERO-TRUST"],
- ["diamond",t.trust[6],t.trust[7],github+"APPROVAL-GATEWAY"]
+ ["star",lang==="en"?"Autonomous Execution":t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
+ ["network",lang==="en"?"Federated Intelligence":t.trust[0],t.trust[1],github+"HANTER-Public"],
+ ["shield",lang==="en"?"Governance & Trust":t.trust[4],t.trust[5],github+"ZERO-TRUST"],
+ ["diamond",lang==="en"?"Scalable by Design":t.trust[6],t.trust[7],github+"APPROVAL-GATEWAY"]
 ].forEach(([icon,title,sub,href])=>{const c=link(href,"","ic-capability");c.append(svgIcon(icon),textEl("strong","",title),textEl("p","",sub));capGrid.append(c);});
 capabilities.append(capGrid);shell.append(capabilities);
 const founder=document.querySelector(".company-founder");
