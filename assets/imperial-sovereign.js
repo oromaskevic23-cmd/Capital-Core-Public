@@ -9,7 +9,7 @@ const hero=document.querySelector(".company-hero"),main=document.querySelector("
 if(!hero||!main||document.querySelector("#ic-ecosystem"))return;
 const lang=(document.documentElement.lang||"en").split("-")[0];
 const translations={
-en:{headline:["The Sovereign","AI Ecosystem"],desc:"Federated orchestration, governed AI agents, verified engineering and accountable execution — within one architectural vision.",cta:"Explore the Ecosystem",evidence:"Engineering Evidence",modules:"Explore the IMPERIAL Core Ecosystem",view:"View all modules",arch:"Platform Architecture",archintro:"A federated architecture designed for multiple organizations, professional teams and bounded AI agent execution. All operational claims require evidence.",cap:"Trusted Capabilities for the Enterprise",architect:"The Architect Behind IMPERIAL Core",footer:"Build Your AI Sovereignty with IMPERIAL Core",contact:"Request a Private Demo",strap:"THE ARCHITECTURE",links:"Open verified source",labels:["AI Command Center","Intelligence & Routing","Specialized AI Agents","Defensive Security","Identity & Governance","Agent Trust Research"],trust:["Federated Orchestration","Independent execution domains under bounded authority","Verified Engineering","Tests, releases and auditable evidence","Zero Trust Governance","Identity is not authority; approval is explicit","Human Sovereignty","Owner retains final architectural authority"],chip:["HANTER","Federated Orchestration","Verified Engineering","Zero Trust","Audit Ledger","AI Systems"]},
+en:{headline:["The Sovereign","AI Ecosystem"],desc:"Enterprise orchestration, verified execution, and intelligent systems — in one unified ecosystem.",cta:"Explore the Ecosystem",evidence:"Engineering Evidence",modules:"Explore the IMPERIAL Core Ecosystem",view:"View all modules",arch:"Platform Architecture",archintro:"A sovereign AI architecture designed for federated orchestration, security, verifiability and enterprise-grade autonomous execution. Operational claims remain evidence-bound.",cap:"Trusted Capabilities for the Enterprise",architect:"The Architect Behind IMPERIAL Core",footer:"Build Your AI Sovereignty with IMPERIAL Core",contact:"Request a Private Demo",strap:"THE ARCHITECTURE",links:"Open verified source",labels:["AI Command Center","Intelligence & Routing","Specialized AI Agents","Defensive Security","Identity & Governance","Agent Trust Research"],trust:["Federated Orchestration","Independent execution domains under bounded authority","Verified Engineering","Tests, releases and auditable evidence","Zero Trust Governance","Identity is not authority; approval is explicit","Human Sovereignty","Owner retains final architectural authority"],chip:["HANTER","Federated Orchestration","Enterprise-Grade Execution","Zero Trust","Audit Ledger","Intelligent Systems"]},
 ru:{headline:["Суверенная","AI-экосистема"],desc:"Федеративная оркестрация, управляемые AI-агенты, проверяемая разработка и подотчётное исполнение в единой архитектуре.",cta:"Исследовать экосистему",evidence:"Инженерные доказательства",modules:"Экосистема IMPERIAL Core",view:"Все модули",arch:"Архитектура платформы",archintro:"Федеративная архитектура для организаций, профессиональных команд и AI-агентов с ограниченными полномочиями. Работа каждого компонента требует доказательств.",cap:"Технологические принципы Enterprise",architect:"Архитектор IMPERIAL Core",footer:"Создавайте AI-будущее с IMPERIAL Core",contact:"Обсудить демонстрацию",strap:"АРХИТЕКТУРА",links:"Открыть исходники",labels:["Командный центр AI","Интеллект и маршрутизация","Специализированные AI-агенты","Защитная безопасность","Идентичность и управление","Исследования доверия"],trust:["Федеративная оркестрация","Автономные домены с ограниченными полномочиями","Проверяемая разработка","Тесты, релизы и проверяемые свидетельства","Управление Zero Trust","Идентичность не даёт полномочий без одобрения","Власть человека","Финальная архитектурная власть у владельца"],chip:["HANTER","Федеративная оркестрация","Проверяемая разработка","Zero Trust","Audit Ledger","AI-системы"]},
 uk:{headline:["Суверенна","AI-екосистема"],desc:"Федеративна оркестрація, керовані AI-агенти, перевірена розробка й підзвітне виконання в єдиній архітектурі.",cta:"Дослідити екосистему",evidence:"Інженерні докази",modules:"Екосистема IMPERIAL Core",view:"Усі модулі",arch:"Архітектура платформи",archintro:"Федеративна архітектура для організацій, професійних команд та AI-агентів з обмеженими повноваженнями.",cap:"Принципи Enterprise",architect:"Архітектор IMPERIAL Core",footer:"Будуйте AI-майбутнє з IMPERIAL Core",contact:"Обговорити демонстрацію",strap:"АРХІТЕКТУРА",links:"Переглянути код",labels:["Командний центр AI","Інтелект і маршрутизація","Спеціалізовані AI-агенти","Кіберзахист","Ідентичність і управління","Дослідження довіри"],trust:["Федеративна оркестрація","Обмежені повноваження","Перевірена розробка","Тести й докази","Управління Zero Trust","Дозвіл має бути явним","Суверенітет людини","Власник зберігає остаточне рішення"],chip:["HANTER","Федеративна оркестрація","Перевірка","Zero Trust","Audit Ledger","AI-системи"]},
 ar:{headline:["المنظومة السيادية","للذكاء الاصطناعي"],desc:"تنسيق اتحادي ووكلاء ذكاء اصطناعي محكومون وهندسة قابلة للتحقق وتنفيذ خاضع للمساءلة.",cta:"استكشف المنظومة",evidence:"الأدلة الهندسية",modules:"استكشف منظومة IMPERIAL Core",view:"جميع الوحدات",arch:"معمارية المنصة",archintro:"معمارية اتحادية للمؤسسات والفرق المهنية ووكلاء الذكاء الاصطناعي بصلاحيات محددة، مع متطلبات إثبات مستقلة.",cap:"قدرات الحوكمة للمؤسسات",architect:"مهندس IMPERIAL Core المعماري",footer:"ابنِ سيادتك في الذكاء الاصطناعي مع IMPERIAL Core",contact:"اطلب عرضاً خاصاً",strap:"المعمارية",links:"عرض المصدر",labels:["مركز قيادة الوكلاء","الذكاء والتوجيه","وكلاء متخصصون","الأمن الدفاعي","الهوية والحوكمة","أبحاث الثقة"],trust:["التنسيق الاتحادي","صلاحيات محددة","هندسة قابلة للتحقق","اختبارات وأدلة","حوكمة انعدام الثقة","التصريح صريح","السيادة البشرية","القرار النهائي للمالك"],chip:["HANTER","التنسيق الاتحادي","التحقق","Zero Trust","Audit Ledger","أنظمة الذكاء"]},
@@ -23,12 +23,20 @@ const t=translations[lang]||translations.en;
 const link=(href,label,cls)=>{const a=document.createElement("a");a.href=href;a.className=cls||"";a.textContent=label;return a;};
 const div=(cls,tag="div")=>{const x=document.createElement(tag);x.className=cls;return x;};
 const textEl=(tag,cls,txt)=>{const n=div(cls,tag);n.textContent=txt;return n;};
+
+// Architectural roof, glass lounge and gold diamond sculpture are decorative
+// website art. No photographs of people or fictional founder likenesses.
+const terrace=div("ic-hero-terrace");terrace.setAttribute("aria-hidden","true");
+terrace.innerHTML='<svg viewBox="0 0 730 448" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin slice"><defs><linearGradient id="icRoof" x1="0" y1="0" x2="1" y2=".8"><stop stop-color="#1e1210"/><stop offset=".5" stop-color="#37251b"/><stop offset="1" stop-color="#0b111a"/></linearGradient><linearGradient id="icGlass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0a0c11" stop-opacity=".9"/><stop offset="1" stop-color="#101622" stop-opacity="0"/></linearGradient><linearGradient id="icGold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0c6"/><stop offset=".55" stop-color="#dfa44f"/><stop offset="1" stop-color="#a76b36"/></linearGradient><filter id="icB"><feGaussianBlur stdDeviation="7"/></filter></defs><path d="M0 0H660Q672 71 631 107Q595 131 515 122Q410 108 300 120H0Z" fill="url(#icRoof)" opacity=".93"/><path d="M0 64Q165 41 312 71T592 94Q636 93 641 43" stroke="#ffcd78" stroke-width="12" opacity=".75" filter="url(#icB)"/><path d="M0 64Q165 41 312 71T592 94Q636 93 641 43" stroke="#f9c275" stroke-width="3.5" opacity=".95"/><path d="M0 105H525V356H0Z" fill="url(#icGlass)" opacity=".85"/><g opacity=".64" stroke="#b3814a" stroke-width="3"><path d="M74 101V355M164 96V352M260 98V348M364 107V346M473 119V349"/><path d="M0 348H531"/></g><g opacity=".78"><ellipse cx="293" cy="381" rx="175" ry="17" fill="#c48e5a" opacity=".3"/><path d="M122 356Q127 305 191 313L337 313Q403 312 411 352L404 382H122Z" fill="#887366"/><path d="M135 356Q152 331 178 330H371Q403 334 402 355V373H135Z" fill="#cbb5a0"/><path d="M166 325Q195 303 220 329L213 348H163ZM235 320Q271 303 298 325L286 350H228ZM315 328Q336 302 364 329L359 349H307Z" fill="#e8d6bf"/></g><g transform="translate(548 302)" stroke="url(#icGold)" fill="none" stroke-width="4"><path d="M0 16 25 0h50l26 16-52 68L0 16Z"/><path d="M0 16h101M25 0l24 84L75 0M49 84l7-68"/><path d="M49 85V117"/><ellipse cx="49" cy="120" rx="65" ry="11" fill="#53321c" opacity=".8"/></g><ellipse cx="599" cy="398" rx="92" ry="9" fill="#ffca73" opacity=".52" filter="url(#icB)"/></svg>';
+hero.prepend(terrace);
+const pool=div("ic-infinity-pool");pool.setAttribute("aria-hidden","true");hero.prepend(pool);
+
 const originalHero=hero.querySelector(".hero-copy");if(!originalHero)return;
 const h1=originalHero.querySelector("h1"),intro=originalHero.querySelector(".intro");
 if(h1){h1.textContent="";h1.append(document.createTextNode(t.headline[0]),document.createElement("br"));const em=document.createElement("em");em.textContent=t.headline[1];h1.append(em);}
 if(intro)intro.textContent=t.desc;
 const actions=originalHero.querySelector(".actions");
-if(actions){actions.replaceChildren(link("#ic-ecosystem",t.cta+"  →","button primary"),link("https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/engineering/",t.evidence+"  ↗","button secondary"));}
+if(actions){actions.replaceChildren(link("#ic-ecosystem",t.cta+"  →","button primary"),link("#ic-platform",lang==="en"?"Platform Overview  ↗":t.arch+"  ↗","button secondary"));}
 const github="https://github.com/oromaskevic23-cmd/";
 const features=[
  ["diamond","HANTER",github+"HANTER-Public"],
@@ -53,7 +61,7 @@ const featurebar=div("ic-featurebar");features.forEach(([ico,label,href])=>{cons
 hero.append(featurebar);
 const shell=div("ic-expo");
 const showcase=div("ic-showcase","section");showcase.id="ic-ecosystem";
-const heading=div("ic-section-heading");heading.append(textEl("h2","",t.modules),link("#projects",t.view+"  →","ic-view-all"));showcase.append(heading);
+const heading=div("ic-section-heading");heading.append(textEl("h2","",t.modules),link("https://github.com/oromaskevic23-cmd?tab=repositories",t.view+"  →","ic-view-all"));showcase.append(heading);
 const cards=div("ic-module-grid");
 /* Original vector module artwork, no generated personal photographs. */
 function visualArt(cls){
@@ -71,10 +79,17 @@ function visualArt(cls){
    return prefix+'<g transform="translate(310 87)"><circle r="75" stroke="#E7A65C" stroke-opacity=".34"/><circle r="58" stroke="#F5C080" stroke-opacity=".55" stroke-dasharray="6 12"/><circle r="43" stroke="#F5CE8B" stroke-opacity=".55"/><path d="M0-39 30-27v25C30 24 16 36 0 42-16 36-30 24-30-2v-25Z" fill="#B7833540" stroke="#FFD592" stroke-width="2"/><path d="m-13 0 10 10 21-22" stroke="#FFE0AA" stroke-width="2.3"/></g>'+end;
  }
  if(cls==="ic-card-agy"){
-  return prefix+'<g transform="translate(310 86)"><circle r="73" fill="#EBAE6426" stroke="#EFC48D" stroke-opacity=".35"/><path d="M-32-38 0-54 32-38 40-4 33 40 0 52-33 40-40-4Z" fill="#152432" stroke="#F0BC80" stroke-width="2.2"/><path d="M-26-6 -9-10 0-5 9-10 26-6M-21 21 0 26 21 21M0-45V-20" stroke="#F2C28C" stroke-width="2"/><circle cx="-18" cy="2" r="4" fill="#F3CB94"/><circle cx="18" cy="2" r="4" fill="#F3CB94"/></g>'+end;
+  return prefix+'<defs><radialGradient id="rg"><stop stop-color="#F6C487" stop-opacity=".39"/><stop offset="1" stop-color="#E3AD5C" stop-opacity="0"/></radialGradient></defs><circle cx="321" cy="90" r="79" fill="url(#rg)"/><g stroke="#F6C281" stroke-width="2" fill="#0B1523"><path d="M322 15c-34 0-57 27-57 60 0 23 9 39 27 48v28l27 8 23-14-3-28c17-16 25-35 25-55 0-26-17-47-42-47Z"/><path d="M279 53c13-17 28-24 45-24m-41 69 35 12 30-21M283 76h65M319 30v85M293 53l26-15 29 19M292 121l27 12 25-17" stroke-opacity=".7"/><path d="M280 76h20l8 8-7 7h-22Zm53 0h20l-2 15h-20l-6-7Z" fill="#DBA765" opacity=".8"/><path d="M311 145l17 2" stroke="#FFDCA9" stroke-width="3"/></g>'+end;
+ }
+ if(cls==="ic-card-passport"){
+  return prefix+'<defs><linearGradient id="bp" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BD8547"/><stop offset=".6" stop-color="#382C31"/><stop offset="1" stop-color="#090F17"/></linearGradient></defs><g transform="translate(259 14) rotate(11 64 76)"><rect x="0" y="0" width="127" height="145" rx="9" fill="url(#bp)" stroke="#F4C788" stroke-width="2"/><rect x="9" y="9" width="109" height="125" rx="4" stroke="#DBAB76" stroke-opacity=".76"/><path d="M46 47 63 31h23l18 16-28 40Z" stroke="#FFD6A0" stroke-width="2"/><path d="M46 47h58M63 31l13 56 10-56" stroke="#FFDEAA" stroke-width="1.8"/><circle cx="74" cy="111" r="13" stroke="#F6D49C" stroke-width="1.6"/><path d="M74 98v26M61 111h26" stroke="#F6D49C" stroke-opacity=".5"/><path d="M30 141h88" stroke="#E2A96E" stroke-width="3"/></g>'+end;
  }
  if(cls==="ic-card-hanter"){
-  return prefix+'<g transform="translate(318 82)"><circle r="57" stroke="#F1C47E" stroke-opacity=".55"/><circle r="37" stroke="#F7CB86" stroke-dasharray="4 8" stroke-opacity=".78"/><path d="M-56 0H56M0-57V57" stroke="#F7D39A" stroke-opacity=".35"/><circle r="8" fill="#FFDEAB"/></g>'+end;
+  const screens=Array.from({length:8},(_,i)=>{
+   const x=170+(i%4)*55,y=22+Math.floor(i/4)*52;
+   return '<rect x="'+x+'" y="'+y+'" width="48" height="41" rx="3" fill="#0A233E" stroke="#6BC7FC" stroke-opacity=".65" stroke-width="1.3"/><path d="M'+(x+8)+' '+(y+29)+'l9-10 8 6 9-18" fill="none" stroke="#7EE0FF" stroke-opacity=".8" stroke-width="1.2"/>';
+  }).join("");
+  return prefix+'<defs><radialGradient id="hc"><stop stop-color="#84E2FF" stop-opacity=".55"/><stop offset="1" stop-color="#84E2FF" stop-opacity="0"/></radialGradient></defs><rect x="160" y="10" width="260" height="150" rx="9" fill="#0B1A32" stroke="#D7A15C" stroke-opacity=".65"/>'+screens+'<circle cx="320" cy="93" r="55" fill="url(#hc)"/><circle cx="320" cy="93" r="37" stroke="#A9E7FF" stroke-width="1.6" opacity=".75"/><ellipse cx="320" cy="93" rx="18" ry="37" stroke="#B5E9FF" stroke-width="1.4" opacity=".65"/><path d="M283 93h74M287 76h67M289 109h62" stroke="#B7F1FF" stroke-width="1.3" opacity=".66"/>'+end;
  }
  return "";
 }
@@ -101,35 +116,69 @@ const diamond=div("ic-diagram-diamond");const brand=document.createElement("img"
 brand.src="/Capital-Core-Public/assets/imperial-core-diamond-20261116.jpg";brand.alt="";brand.decoding="async";brand.loading="lazy";
 diamond.append(brand);art.append(diamond);
 const orbit=div("ic-diagram-orbit");orbit.setAttribute("aria-hidden","true");art.append(orbit);
+
+const artGold=div("ic-architecture-illustration");
+artGold.setAttribute("aria-hidden","true");
+artGold.innerHTML='<svg viewBox="0 0 580 290" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet"><defs><radialGradient id="aGlow"><stop stop-color="#ffbe71" stop-opacity=".38"/><stop offset="1" stop-color="#ffbe71" stop-opacity="0"/></radialGradient><linearGradient id="aGold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0c5"/><stop offset=".65" stop-color="#e8a55d"/><stop offset="1" stop-color="#91632f"/></linearGradient></defs><ellipse cx="284" cy="218" rx="230" ry="82" fill="url(#aGlow)"/><g stroke="#ecad64" opacity=".68" fill="none"><ellipse cx="288" cy="227" rx="227" ry="35" stroke-width="2"/><ellipse cx="288" cy="219" rx="186" ry="28" stroke-width="1.6"/><ellipse cx="288" cy="211" rx="144" ry="23" stroke-width="1.6"/></g><g stroke="url(#aGold)" stroke-width="2.4" fill="#211625" fill-opacity=".52"><path d="M216 102h143l37 40-105 111-111-111Z"/><path d="M180 142h216M216 102l75 151 68-151M245 102l46 151 32-151"/></g><g fill="#131a29ce" stroke="#f2c485" stroke-width="1.6"><rect x="32" y="79" width="115" height="119" rx="6"/><rect x="433" y="79" width="115" height="119" rx="6"/></g><g fill="#f9d4a5" font-family="Georgia" font-size="17"><text x="52" y="146">HANTER</text><text x="461" y="146">VELION</text></g></svg>';
+art.prepend(artGold);
+
 const nodeNames=["HANTER","VELION","Nano Core Agents","Zero Trust"];
 nodeNames.forEach((n,i)=>art.append(textEl("span","ic-diagram-node ic-node-"+i,n)));
 diagram.append(art);
 const copy=div("ic-architecture-copy");copy.append(textEl("p","ic-kicker",t.strap),textEl("h2","",t.arch),textEl("p","ic-architecture-desc",t.archintro));
 const principles=div("ic-principles");
 const destinations=[
- [icons.layers,t.trust[0],t.trust[1],github+"Nano-Core-Agents-Public"],
- [icons.cpu,t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
- [icons.shield,t.trust[4],t.trust[5],github+"GUARDIAN-CORE"],
- [icons.diamond,t.trust[6],t.trust[7],"https://github.com/oromaskevic23-cmd/oromaskevic23-cmd/blob/main/docs/UNIFIED_ECOSYSTEM_EVIDENCE.md"]
+ [icons.layers,lang==="en"?"Federated Orchestration":t.trust[0],lang==="en"?"Multiple bounded execution domains":t.trust[1],github+"Nano-Core-Agents-Public"],
+ [icons.cpu,lang==="en"?"Enterprise Execution":t.trust[2],lang==="en"?"Verified, auditable engineering":t.trust[3],github+"CONSTRUCTOR-AI"],
+ [icons.shield,lang==="en"?"Zero Trust by Design":t.trust[4],lang==="en"?"Policy and explicit authorization":t.trust[5],github+"GUARDIAN-CORE"],
+ [icons.database,lang==="en"?"Audit Ledger":t.trust[6],lang==="en"?"Traceable actions and evidence":t.trust[7],github+"AUDIT-LEDGER"]
 ];
 destinations.forEach(([markup,title,description,url])=>{
  const a=link(url,"","ic-principle");a.innerHTML='<span class="ic-principle-icon"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">'+markup+'</svg></span>';
  a.append(textEl("strong","",title),textEl("small","",description));principles.append(a);
 });
 copy.append(principles);architecture.append(diagram,copy);shell.append(architecture);
-const capabilities=div("ic-capabilities","section");capabilities.append(textEl("h2","",t.cap));
+const capabilities=div("ic-capabilities","section");capabilities.id="ic-capabilities";capabilities.append(textEl("h2","",t.cap));
 const capGrid=div("ic-capability-grid");
 [
- ["star",t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
- ["network",t.trust[0],t.trust[1],github+"HANTER-Public"],
- ["shield",t.trust[4],t.trust[5],github+"ZERO-TRUST"],
- ["diamond",t.trust[6],t.trust[7],github+"APPROVAL-GATEWAY"]
+ ["star",lang==="en"?"Autonomous Execution":t.trust[2],t.trust[3],github+"CONSTRUCTOR-AI"],
+ ["network",lang==="en"?"Federated Intelligence":t.trust[0],t.trust[1],github+"HANTER-Public"],
+ ["shield",lang==="en"?"Governance & Trust":t.trust[4],t.trust[5],github+"ZERO-TRUST"],
+ ["diamond",lang==="en"?"Scalable by Design":t.trust[6],t.trust[7],github+"APPROVAL-GATEWAY"]
 ].forEach(([icon,title,sub,href])=>{const c=link(href,"","ic-capability");c.append(svgIcon(icon),textEl("strong","",title),textEl("p","",sub));capGrid.append(c);});
 capabilities.append(capGrid);shell.append(capabilities);
 const founder=document.querySelector(".company-founder");
-if(founder){founder.id="architect";const title=founder.querySelector("h2");if(title)title.textContent=t.architect;founder.classList.add("ic-architect");shell.append(founder);}
-const cta=div("ic-closing","section");cta.append(textEl("h2","",t.footer),link("mailto:oromaskevic23@gmail.com?subject=IMPERIAL%20Core%20Private%20Demo",t.contact+"  →","button primary"));shell.append(cta);
+if(founder){founder.hidden=true;founder.style.display="none";} // No person or portrait on this screenshot-faithful homepage.
+const cta=div("ic-closing","section");cta.id="ic-closing";cta.append(textEl("h2","",t.footer),link("mailto:oromaskevic23@gmail.com?subject=IMPERIAL%20Core%20Private%20Demo",t.contact+"  →","button primary"));shell.append(cta);
 hero.insertAdjacentElement("afterend",shell);
-const nv=document.querySelector(".header .main-nav");if(nv){const a=nv.querySelector('a[href="#about"]');if(a)a.href="#ic-ecosystem";}
+const nv=document.querySelector(".header .main-nav");
+if(nv){
+ const dest=[
+  ["Platform","#ic-platform"],["Solutions","#ic-capabilities"],["Ecosystem","#ic-ecosystem"],
+  ["Resources","https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/engineering/"],
+  ["About Us","https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/"],
+  ["Contact","mailto:oromaskevic23@gmail.com?subject=IMPERIAL%20Core"]
+ ];
+ nv.replaceChildren(...dest.map(([name,url])=>link(url,name,"ic-nav-link")));
+}
+const header=document.querySelector(".header");
+const emblem=header&&header.querySelector(".brand .monogram");
+if(emblem && !emblem.querySelector(".ic-outline-diamond")){
+ const gold=document.createElement("span");gold.className="ic-outline-diamond";
+ gold.setAttribute("aria-hidden","true");
+ gold.innerHTML='<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#F7CB8B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7"><path d="M7 23 19 11h26l12 12-25 31L7 23Z"/><path d="M7 23h50M19 11l13 43 13-43M32 23l7-12M32 23l-7-12"/></svg>';
+ emblem.append(gold);
+}
+
+if(header && !header.querySelector(".ic-nav-access")){
+ const mail=link("mailto:oromaskevic23@gmail.com?subject=IMPERIAL%20Core%20Access","Request Access   →","ic-nav-access");
+ const langMenu=header.querySelector(".language-menu");
+ header.insertBefore(mail,langMenu||null);
+}
+// Display only the sections shown in the approved reference; preserve every
+// original content node, locale, and evidence source in the underlying HTML.
+for(const child of Array.from(main.children)){
+ if(child!==hero && child!==shell){child.hidden=true;child.style.display="none";}
+}
 body.classList.add("ic-sovereign");
 })();

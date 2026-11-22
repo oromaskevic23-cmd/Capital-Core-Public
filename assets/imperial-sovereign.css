@@ -451,3 +451,404 @@ body.ic-sovereign.ecosystem .ic-module-visual svg{
  body.ic-sovereign.ecosystem .ic-architect .portrait{order:0}
  body.ic-sovereign.ecosystem .ic-architect>div{order:1}
 }
+
+
+/* Owner-approved reference match: imagery, hierarchy, proportionality and exclusions.
+   Dedicated correction for the supplied 1102x1318 UAE / IMPERIAL Core screenshot.
+   Explicitly NO people in the hero, cards, Architect section or additional awards. */
+body.ic-sovereign.ecosystem{
+  background:#0c0e13!important;color:#f7ece0;
+}
+body.ic-sovereign.ecosystem .header{
+  min-height:59px!important;padding:9px max(3.5%,calc((100vw - 1370px)/2))!important;
+  background:linear-gradient(180deg,#07090dc8,#080a0f88)!important;
+  box-shadow:none!important;border-bottom:1px solid #e4b97825!important;
+}
+body.ic-sovereign.ecosystem .header .brand strong{
+  font:400 clamp(21px,1.8vw,27px)/1 Georgia,serif!important;
+  letter-spacing:-.02em;
+}
+body.ic-sovereign.ecosystem .header .brand small{display:none!important}
+body.ic-sovereign.ecosystem .header .main-nav{
+  flex:1;justify-content:center;gap:clamp(12px,1.6vw,27px)!important;
+}
+body.ic-sovereign.ecosystem .header .main-nav a{
+  font-size:11px!important;color:#f5eadd!important;
+  text-decoration:none;white-space:nowrap;
+}
+body.ic-sovereign.ecosystem .ic-nav-access{
+  flex:none;display:inline-flex;align-items:center;justify-content:center;
+  padding:9px 16px;min-height:36px;border-radius:60px;
+  font:700 11px/1.2 Arial,Helvetica,sans-serif;
+  color:#21150e;background:linear-gradient(130deg,#ffe0a2,#d7a058);
+  border:1px solid #fbe2b3;box-shadow:0 4px 18px #0005;
+}
+body.ic-sovereign.ecosystem .header .language-menu summary{font-size:10px;min-height:36px}
+body.ic-sovereign.ecosystem .company-hero{
+  min-height:0!important;background:#0b0d14!important;
+  overflow:hidden;isolation:isolate;
+}
+body.ic-sovereign.ecosystem .company-hero::before{
+  content:"";position:absolute;z-index:-3;inset:0;
+  background-image:
+    linear-gradient(90deg,#080b12cf 0%,#111015a8 28%,#14203624 55%,#13233505 100%),
+    linear-gradient(0deg,#101015b9 0%,transparent 24%,#0609103b 100%),
+    url("https://images.pexels.com/photos/12462486/pexels-photo-12462486.jpeg?auto=compress&cs=tinysrgb&w=2200");
+  background-size:cover;background-position:center,center,center 48%;
+  filter:saturate(1.25) contrast(1.12) sepia(.07);
+  transform:none;
+}
+body.ic-sovereign.ecosystem .company-hero::after{
+  content:"";z-index:-1;position:absolute;inset:auto 0 0;height:33%;
+  background:linear-gradient(transparent,#101117b8 72%,#111219f8);
+  pointer-events:none;
+}
+body.ic-sovereign.ecosystem .ic-hero-terrace{
+ position:absolute;z-index:-2;top:0;left:0;width:61%;height:92%;pointer-events:none;
+ opacity:.93;overflow:hidden;mix-blend-mode:normal;
+}
+body.ic-sovereign.ecosystem .ic-hero-terrace svg{display:block;width:100%;height:100%}
+body.ic-sovereign.ecosystem .company-hero-inner{
+ display:block;width:min(1350px,calc(100% - 102px));min-height:383px;
+ margin:0 auto;padding:93px 0 20px!important;
+}
+body.ic-sovereign.ecosystem .company-hero .hero-copy{
+ position:relative;z-index:2;margin:0!important;padding:0!important;
+ max-width:535px!important;min-height:0!important;
+ text-align:start!important;
+}
+body.ic-sovereign.ecosystem .company-hero h1{
+ color:#f9f0e6;font:400 clamp(50px,5.4vw,76px)/.99 Georgia,serif!important;
+ letter-spacing:-.052em;max-width:580px!important;
+ margin:0!important;text-shadow:0 3px 21px #09090cb8;
+}
+body.ic-sovereign.ecosystem .company-hero h1 em{color:#f5ca96}
+body.ic-sovereign.ecosystem .company-hero .intro{
+ font:400 14px/1.53 Arial,Helvetica,sans-serif!important;
+ color:#eee6df;margin:12px 0 0!important;max-width:410px!important;
+ text-shadow:0 2px 10px #000e;text-align:start!important;
+}
+body.ic-sovereign.ecosystem .company-hero .actions{
+ display:flex;gap:12px;align-items:center;margin:21px 0 0!important;
+ justify-content:flex-start!important;
+}
+body.ic-sovereign.ecosystem .company-hero .button{
+ min-height:39px;padding:10px 18px!important;font-size:11px!important;
+ border-radius:30px;
+}
+body.ic-sovereign.ecosystem .company-hero .button.secondary{
+ background:#0e131bc4;color:#fbebdb;border:1px solid #e2be88!important;
+}
+body.ic-sovereign.ecosystem .ic-featurebar{
+ display:grid;grid-template-columns:repeat(6,minmax(0,1fr));
+ position:relative;z-index:2;width:100%;max-width:none!important;
+ min-height:91px!important;margin:0 auto!important;padding:11px max(4%,calc((100vw - 1370px)/2))!important;
+ border-top:1px solid #f7c37f6b;border-bottom:1px solid #aa82533d;
+ border-radius:0!important;
+ background:linear-gradient(180deg,#101117b8,#111319e5);
+ -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+}
+body.ic-sovereign.ecosystem .ic-feature{
+ min-height:68px!important;gap:6px!important;padding:4px 9px!important;
+ font-size:11px!important;line-height:1.24;color:#f5ece4!important;
+ border-inline-end:1px solid #d3ac7561;
+}
+body.ic-sovereign.ecosystem .ic-feature .ic-icon{
+ width:27px!important;height:27px!important;color:#eec47f;
+}
+body.ic-sovereign.ecosystem .ic-expo{
+ margin:0 auto;width:min(1350px,calc(100% - 96px))!important;
+ max-width:1350px;
+}
+body.ic-sovereign.ecosystem .ic-showcase{padding:20px 0 0!important}
+body.ic-sovereign.ecosystem .ic-section-heading{margin-bottom:13px}
+body.ic-sovereign.ecosystem .ic-section-heading h2{
+ font:400 clamp(27px,3vw,38px)/1.15 Georgia,serif!important;
+ color:#fff1df;letter-spacing:-.03em;
+}
+body.ic-sovereign.ecosystem .ic-section-heading h2::first-letter{color:#f8e9d4}
+body.ic-sovereign.ecosystem .ic-view-all{font:500 11px Arial,sans-serif;color:#f1cc90}
+body.ic-sovereign.ecosystem .ic-module-grid{gap:10px!important}
+body.ic-sovereign.ecosystem .ic-module{
+ min-height:132px!important;height:132px;border:1px solid #d7af7c90;
+ border-radius:13px!important;background:#121720;
+ box-shadow:0 7px 24px #000a;
+}
+body.ic-sovereign.ecosystem .ic-module-content{
+ padding:13px 18px!important;min-height:132px!important;
+ max-width:87%;justify-content:end;
+}
+body.ic-sovereign.ecosystem .ic-module h3{
+ color:#fff2e6;font:400 clamp(22px,2.1vw,29px)/1 Georgia,serif;
+ text-shadow:0 2px 9px #000d;
+}
+body.ic-sovereign.ecosystem .ic-module p{
+ font-size:11px!important;line-height:1.35;color:#f0e6db;
+ margin-top:5px!important;text-shadow:0 2px 9px #000e;
+}
+body.ic-sovereign.ecosystem .ic-module .ic-icon{
+ width:23px;height:23px;margin-bottom:6px;
+}
+body.ic-sovereign.ecosystem .ic-module-arrow{
+ width:29px;height:29px;inset-inline-end:12px;inset-block-end:12px;font-size:18px;
+}
+body.ic-sovereign.ecosystem .ic-module::after{
+ background:linear-gradient(90deg,#090e18e8 0%,#0a121ac9 41%,#0a111c1b 100%)!important;
+}
+body.ic-sovereign.ecosystem .ic-card-hanter .ic-module-visual{
+ background-image:linear-gradient(110deg,#17121b,#13233d 48%,#1d4674 80%,#0c1121)!important;
+}
+body.ic-sovereign.ecosystem .ic-card-velion .ic-module-visual{
+ background-image:radial-gradient(ellipse at 73% 56%,#e5ac6175,transparent 45%),linear-gradient(115deg,#101321,#261a2f,#101725)!important;
+}
+body.ic-sovereign.ecosystem .ic-card-nca .ic-module-visual{
+ background-image:radial-gradient(circle at 80% 43%,#e5b16b77,transparent 42%),linear-gradient(130deg,#101324,#201b25)!important;
+}
+body.ic-sovereign.ecosystem .ic-card-cyber .ic-module-visual{
+ background-image:radial-gradient(circle at 78% 49%,#df9c5a44,transparent 45%),linear-gradient(140deg,#161321,#0c1e2a)!important;
+}
+body.ic-sovereign.ecosystem .ic-card-passport .ic-module-visual{
+ background-image:linear-gradient(110deg,#101421d7,#241b2177),url("/Capital-Core-Public/assets/ai-passport-concept-20261116.jpg")!important;
+}
+body.ic-sovereign.ecosystem .ic-card-agy .ic-module-visual{
+ background-image:radial-gradient(circle at 80% 48%,#d3a05c70,transparent 48%),linear-gradient(135deg,#101827,#261c24)!important;
+}
+body.ic-sovereign.ecosystem .ic-module-visual svg{filter:drop-shadow(0 0 12px #edb77865)}
+body.ic-sovereign.ecosystem .ic-architecture{
+ display:grid;grid-template-columns:1.16fr .84fr;align-items:center;
+ gap:clamp(25px,4vw,56px)!important;margin:18px 0 10px!important;
+}
+body.ic-sovereign.ecosystem .ic-diagram{
+ position:relative;min-height:255px!important;border:1px solid #cfa86f74;
+ border-radius:13px;background-image:linear-gradient(110deg,#08111aa8,#1b1625c9),
+ url("https://images.pexels.com/photos/12462486/pexels-photo-12462486.jpeg?auto=compress&cs=tinysrgb&w=1400")!important;
+ background-size:cover;background-position:center 56%;
+}
+body.ic-sovereign.ecosystem .ic-diagram-art{isolation:isolate}
+body.ic-sovereign.ecosystem .ic-diagram .ic-diagram-diamond{display:none!important}
+body.ic-sovereign.ecosystem .ic-diagram-art::before,
+body.ic-sovereign.ecosystem .ic-diagram-art::after{display:none!important}
+body.ic-sovereign.ecosystem .ic-architecture-illustration{
+ position:absolute;inset:0;z-index:1;pointer-events:none;
+}
+body.ic-sovereign.ecosystem .ic-architecture-illustration svg{width:100%;height:100%;display:block}
+body.ic-sovereign.ecosystem .ic-diagram-node{
+ z-index:2;min-width:90px;padding:8px 10px;border:1px solid #f2c17d8c;
+ border-radius:6px;background:#101725e5;font:400 11px Georgia,serif;
+}
+body.ic-sovereign.ecosystem .ic-node-0{top:24%;left:5%}
+body.ic-sovereign.ecosystem .ic-node-1{top:24%;right:5%}
+body.ic-sovereign.ecosystem .ic-node-2{bottom:17%;left:5%}
+body.ic-sovereign.ecosystem .ic-node-3{bottom:17%;right:5%}
+body.ic-sovereign.ecosystem .ic-kicker{
+ font:700 10px/1.2 Arial,sans-serif;letter-spacing:.14em;
+ color:#e9bf80;margin-bottom:7px;
+}
+body.ic-sovereign.ecosystem .ic-architecture-copy h2{
+ font:400 clamp(31px,3.2vw,43px)/1.08 Georgia,serif!important;
+ color:#f7ece2!important;
+}
+body.ic-sovereign.ecosystem .ic-architecture-desc{
+ font:400 13px/1.53 Arial,sans-serif;color:#d3ccd0;margin:9px 0 12px;
+}
+body.ic-sovereign.ecosystem .ic-principles{gap:8px}
+body.ic-sovereign.ecosystem .ic-principle{
+ padding:7px 3px;border-top:0!important;grid-template-columns:27px 1fr;gap:7px;
+}
+body.ic-sovereign.ecosystem .ic-principle-icon{width:24px;height:24px}
+body.ic-sovereign.ecosystem .ic-principle strong{font-size:11px}
+body.ic-sovereign.ecosystem .ic-principle small{font-size:9px;color:#bac0c9}
+body.ic-sovereign.ecosystem .ic-capabilities{padding:12px 0 20px!important}
+body.ic-sovereign.ecosystem .ic-capabilities h2{
+ font:400 29px/1.18 Georgia,serif!important;margin-bottom:12px;
+}
+body.ic-sovereign.ecosystem .ic-capability-grid{gap:11px!important}
+body.ic-sovereign.ecosystem .ic-capability{
+ min-height:93px!important;padding:12px 13px!important;border-radius:10px;
+ grid-template-columns:33px 1fr;column-gap:10px;
+ background:linear-gradient(140deg,#1c1d23,#13151a 74%,#24222a);
+}
+body.ic-sovereign.ecosystem .ic-capability .ic-icon{
+ grid-column:1;grid-row:1/3;width:28px;height:28px;
+}
+body.ic-sovereign.ecosystem .ic-capability strong{grid-column:2;font-size:12px}
+body.ic-sovereign.ecosystem .ic-capability p{grid-column:2;font-size:10px;margin-top:3px}
+body.ic-sovereign.ecosystem .ic-architect,
+body.ic-sovereign.ecosystem .company-founder{display:none!important}
+body.ic-sovereign.ecosystem .ic-closing{
+ min-height:178px!important;padding:24px 16px!important;margin:0 0 24px!important;
+ border:none!important;border-radius:0!important;
+ width:calc(100% + 96px)!important;max-width:none!important;
+ margin-inline:-48px!important;
+ background-image:linear-gradient(180deg,#101218aa,#1e18243a 40%,#0c0d15c1 100%),
+ url("https://images.pexels.com/photos/12462486/pexels-photo-12462486.jpeg?auto=compress&cs=tinysrgb&w=2200")!important;
+ background-position:center 36%!important;
+}
+body.ic-sovereign.ecosystem .ic-closing h2{
+ font:400 clamp(27px,3.5vw,41px)/1.15 Georgia,serif!important;
+ color:#ffdeab!important;
+}
+body.ic-sovereign.ecosystem .ic-closing .button{min-height:39px;padding:10px 23px}
+body.ic-sovereign.ecosystem #main>section[hidden],
+body.ic-sovereign.ecosystem .company-founder[hidden]{display:none!important}
+body.ic-sovereign.ecosystem .footer{
+ min-height:65px!important;background:#0c0e13!important;
+ padding:15px max(4%,calc((100vw - 1350px)/2));
+}
+body.ic-sovereign.ecosystem .footer .footer-brand strong{font-size:18px}
+@media(max-width:1050px){
+ body.ic-sovereign.ecosystem .header .main-nav{gap:8px!important}
+ body.ic-sovereign.ecosystem .header .main-nav a{font-size:10px!important}
+ body.ic-sovereign.ecosystem .company-hero-inner{width:calc(100% - 75px)}
+ body.ic-sovereign.ecosystem .ic-expo{width:calc(100% - 60px)!important}
+ body.ic-sovereign.ecosystem .ic-closing{width:calc(100% + 60px)!important;margin-inline:-30px!important}
+ body.ic-sovereign.ecosystem .ic-hero-terrace{width:66%}
+}
+@media(max-width:800px){
+ body.ic-sovereign.ecosystem .header{position:relative!important;background:#0b0d14!important}
+ body.ic-sovereign.ecosystem .header .main-nav{display:none!important}
+ body.ic-sovereign.ecosystem .header .ic-nav-access{margin-inline-start:auto}
+ body.ic-sovereign.ecosystem .company-hero-inner{
+  min-height:390px;padding:45px 0 30px!important
+ }
+ body.ic-sovereign.ecosystem .ic-hero-terrace{width:100%;height:100%;opacity:.6}
+ body.ic-sovereign.ecosystem .ic-module-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ body.ic-sovereign.ecosystem .ic-architecture{grid-template-columns:1fr}
+ body.ic-sovereign.ecosystem .ic-capability-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .header{padding:10px 12px!important;min-height:61px!important}
+ body.ic-sovereign.ecosystem .header .brand strong{font-size:16px!important}
+ body.ic-sovereign.ecosystem .header .brand .monogram{width:30px!important;min-width:30px!important;height:34px!important}
+ body.ic-sovereign.ecosystem .header .ic-nav-access{
+  padding:8px 10px;font-size:9px;min-height:35px;display:none;
+ }
+ body.ic-sovereign.ecosystem .company-hero::before{
+  background-image:linear-gradient(90deg,#090b12e7,#0d1421aa 70%,#1d233762),linear-gradient(0deg,#17131cb0,transparent 46%),
+  url("https://images.pexels.com/photos/12462486/pexels-photo-12462486.jpeg?auto=compress&cs=tinysrgb&w=1050");
+  background-position:center,center,57% center;
+ }
+ body.ic-sovereign.ecosystem .company-hero-inner{
+  min-height:347px;width:calc(100% - 36px);padding:36px 0 16px!important
+ }
+ body.ic-sovereign.ecosystem .company-hero h1{
+  font-size:clamp(39px,10.6vw,53px)!important;line-height:1.06!important;
+ }
+ body.ic-sovereign.ecosystem .company-hero .intro{
+  max-width:340px!important;font-size:12px!important;margin-top:12px!important;
+ }
+ body.ic-sovereign.ecosystem .company-hero .actions{gap:9px;flex-wrap:wrap;margin-top:16px!important}
+ body.ic-sovereign.ecosystem .company-hero .button{
+  min-height:39px;padding:9px 13px!important;font-size:10px!important
+ }
+ body.ic-sovereign.ecosystem .ic-hero-terrace{width:120%;height:100%;opacity:.36;left:-8%}
+ body.ic-sovereign.ecosystem .ic-featurebar{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  min-height:150px!important;padding:7px 4px!important;
+ }
+ body.ic-sovereign.ecosystem .ic-feature{
+  min-height:67px!important;padding:7px 3px!important;font-size:9px!important
+ }
+ body.ic-sovereign.ecosystem .ic-feature:nth-child(3){border-inline-end:0}
+ body.ic-sovereign.ecosystem .ic-feature:nth-child(-n+3){border-bottom:1px solid #c4a1724c}
+ body.ic-sovereign.ecosystem .ic-expo{width:calc(100% - 28px)!important}
+ body.ic-sovereign.ecosystem .ic-showcase{padding-top:19px!important}
+ body.ic-sovereign.ecosystem .ic-section-heading h2{font-size:25px!important}
+ body.ic-sovereign.ecosystem .ic-module-grid{grid-template-columns:1fr}
+ body.ic-sovereign.ecosystem .ic-module{min-height:142px!important;height:142px}
+ body.ic-sovereign.ecosystem .ic-module-content{min-height:142px!important}
+ body.ic-sovereign.ecosystem .ic-diagram{min-height:230px!important}
+ body.ic-sovereign.ecosystem .ic-architecture-copy h2{font-size:31px!important}
+ body.ic-sovereign.ecosystem .ic-capabilities h2{font-size:27px!important}
+ body.ic-sovereign.ecosystem .ic-capability-grid{gap:8px!important}
+ body.ic-sovereign.ecosystem .ic-capability{
+  grid-template-columns:1fr;min-height:112px!important;padding:12px!important
+ }
+ body.ic-sovereign.ecosystem .ic-capability .ic-icon,
+ body.ic-sovereign.ecosystem .ic-capability strong,
+ body.ic-sovereign.ecosystem .ic-capability p{
+  grid-column:1;grid-row:auto;
+ }
+ body.ic-sovereign.ecosystem .ic-closing{
+  width:calc(100% + 28px)!important;margin-inline:-14px!important;
+  min-height:185px!important;
+ }
+ body.ic-sovereign.ecosystem .ic-closing h2{font-size:27px!important}
+}
+@media(prefers-reduced-motion:reduce){
+ body.ic-sovereign.ecosystem *,body.ic-sovereign.ecosystem *::before,body.ic-sovereign.ecosystem *::after{
+  animation:none!important;transition:none!important;scroll-behavior:auto!important;
+ }
+}
+
+/* High-quality photographic lounge layer to approximate the owner reference.
+   Pexels 19074480 is a genuine free-to-use dusk interior photo, not a generated person.
+   Gold roof and architectural accents remain decorative SVG. */
+@media(min-width:801px){
+ body.ic-sovereign.ecosystem .ic-hero-terrace{
+  width:66%;background-image:
+   linear-gradient(90deg,#080a11dc 0%,#11111a8c 37%,#120e1538 100%),
+   url("https://images.pexels.com/photos/19074480/pexels-photo-19074480.jpeg?auto=compress&cs=tinysrgb&w=1250");
+  background-size:cover;background-position:center 54%;
+  -webkit-mask-image:linear-gradient(90deg,#000 0%,#000 63%,transparent 100%);
+  mask-image:linear-gradient(90deg,#000 0%,#000 63%,transparent 100%);
+ }
+ body.ic-sovereign.ecosystem .ic-hero-terrace svg{opacity:.64}
+}
+
+
+/* Exact gold diamond header motif from the approved visual reference.
+   The original corporate icon remains in the HTML and repository unchanged. */
+body.ic-sovereign.ecosystem .header .brand .monogram{
+ position:relative;display:grid;place-items:center;
+ width:45px;min-width:45px;height:45px;
+}
+body.ic-sovereign.ecosystem .header .brand .monogram img{opacity:0;position:absolute;inset:0}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{
+ display:block;position:relative;width:42px;height:42px;
+ filter:drop-shadow(0 0 6px #efbd714a);
+}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond svg{display:block;width:100%;height:100%}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .header .brand .monogram{width:38px!important;min-width:38px!important;height:38px!important}
+ body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{width:34px;height:34px}
+}
+
+
+/* Final reference QA: correct icon box (the original brand CSS was flowing it onto the hero). */
+body.ic-sovereign.ecosystem .header .brand .monogram{
+ display:flex!important;align-items:center!important;justify-content:center!important;
+ position:relative!important;width:47px!important;min-width:47px!important;height:45px!important;
+ overflow:visible!important;padding:0!important;margin:0!important;
+ transform:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand .monogram img{
+ display:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{
+ position:absolute!important;inset:1px!important;width:43px!important;height:43px!important;
+ margin:0!important;padding:0!important;transform:none!important;
+}
+body.ic-sovereign.ecosystem .header .brand{
+ display:flex!important;align-items:center!important;gap:8px!important;
+ height:45px!important;min-height:45px!important;
+}
+body.ic-sovereign.ecosystem .ic-infinity-pool{
+ position:absolute;z-index:-1;inset-inline-start:43%;inset-inline-end:0;bottom:91px;
+ height:102px;pointer-events:none;opacity:.73;
+ background:
+  repeating-linear-gradient(-5deg,transparent 0 15px,#7ad4d31b 18px 19px,transparent 24px 33px),
+  linear-gradient(172deg,#264b5d84 0%,#2c849e71 36%,#14334ca3 72%,#0d1824d1 100%);
+ border-top:1px solid #a6b8baad;
+ box-shadow:inset 0 17px 37px #9bd1d039,0 -2px 11px #d5dbb52e;
+ transform:skewY(-1.5deg);
+}
+body.ic-sovereign.ecosystem .footer{display:none!important}
+@media(max-width:800px){
+ body.ic-sovereign.ecosystem .ic-infinity-pool{opacity:.48;bottom:150px;height:75px}
+}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .header .brand .monogram{width:35px!important;min-width:35px!important;height:36px!important}
+ body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{inset:1px!important;width:33px!important;height:33px!important}
+ body.ic-sovereign.ecosystem .ic-infinity-pool{display:none!important}
+}
