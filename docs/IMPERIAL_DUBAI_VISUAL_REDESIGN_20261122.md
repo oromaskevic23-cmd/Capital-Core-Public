@@ -40,3 +40,48 @@ Status: PROPOSED / BRANCH ONLY. This is not a live-production release.
 - [ ] Human review of visual preview and approval to merge to the publishing branch.
 
 **Founder and final architectural authority:** Alexander Nikolaevich Romaskevich — Founder · Owner · CEO.
+
+
+## Verified follow-up — 2026-11-22
+
+### Corrections integrated into the draft PR
+
+- Original illustrated first-party skyline fallback added as `assets/imperial-skyline-fallback.svg`. It is used when external scene images fail to load.
+- Original owner-approved diamond is referenced directly from `assets/imperial-core-diamond-20261116.jpg`. Its source asset and SHA remain unchanged.
+- Redundant legacy hero banner suppressed in enhanced view through CSS only; the file remains intact.
+- The mobile parachute overlay was moved below the introductory text and reduced in size/opacity to avoid collisions.
+- Existing founder portrait `assets/alexander-romaskevich-portrait.jpeg` remains unmodified, with layered gold-frame presentation.
+- All 10 language HTML pages are still unchanged.
+
+### Reproducible execution evidence
+
+| Verification | Observed outcome | Limit |
+| --- | --- | --- |
+| JavaScript simulated DOM across 10 locales | **292/292** in-memory assertions PASS: scene state, button exclusivity, keyboard arrows, captions, broken-image fallback and stale image request handling | V8 simulation, not an actual browser |
+| Browser responsive sweep | Chromium **360, 390, 768, 1440, 1920 px**: four buttons present, no horizontal overflow, scene modes switch | Chromium browser; actual iOS Safari not checked |
+| Locale smoke in browser | `en`, `ru`, `ar` (RTL), `ja`, `zh` at 390 px: distinct four scenes, no horizontal overflow, and portrait URL preserved | Remaining five locales checked by source and simulated DOM only |
+| Reduced-motion | `prefers-reduced-motion: reduce` disables parachute animation; scene transition duration becomes near-zero | Chromium environment only |
+| Founder portrait | Source image loaded successfully, native resolution **1122×1402**, framed width **400 px** at desktop preview | Manual browser view, no formal visual-diff baseline |
+| Real page asset loader | Tested original live HTML with draft branch `assets/site.js`, stylesheet and scene script injected via browser request interception. CSS and JS both loaded, 4 buttons rendered | Isolated browser simulation of release, **not** an actual preview deployment |
+| Asset integrity | GitHub branch diff examined; original diamond and portrait files, translations and canonical links untouched | No independent external design certification |
+
+The live-page browser harness fetched **candidate assets from the GitHub draft branch**, rendered them onto the existing public DOM in an isolated browser, and checked responsive states. This is not a production release or evidence of iOS Safari QA.
+
+### Known operational constraints
+
+- External photographic scenes currently use Unsplash URLs; the original first-party vector illustration provides deterministic fallback. External image loading may disclose the visitor's IP address to the image host.
+- Interface labels are unchanged for the existing localized body content; only the new four visual-scene controls use already-supplied translations.
+- No real skydiving, parachute telemetry, 3D simulator, payment, blockchain transaction, or production AI runtime is implied by these decorative scenes.
+- Free-tier-only browser and GitHub verification. No paid deployment, Val Town, secrets, or production APIs used.
+- Production publication must be verified by loading the **actual** GitHub Pages URL after a governed merge, and rolled back if critical navigation, hero or language switching fails.
+
+### Engineering acceptance after browser QA
+
+- [x] Show canonical diamond without re-drawing it
+- [x] Keep original founder portrait and the ten language HTML files
+- [x] Four clickable scene buttons and mobile responsive layout
+- [x] Verify browser rendering at representative widths and five locale routes
+- [x] Confirm fallback SVG and reduced-motion preference
+- [x] Verify progressive loader in isolated browser
+- [ ] Real iPhone Safari device verification
+- [ ] Production URL check after release/merge
