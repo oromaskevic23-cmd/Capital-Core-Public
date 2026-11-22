@@ -55,6 +55,30 @@ const shell=div("ic-expo");
 const showcase=div("ic-showcase","section");showcase.id="ic-ecosystem";
 const heading=div("ic-section-heading");heading.append(textEl("h2","",t.modules),link("#projects",t.view+"  →","ic-view-all"));showcase.append(heading);
 const cards=div("ic-module-grid");
+/* Original vector module artwork, no generated personal photographs. */
+function visualArt(cls){
+ const prefix='<svg viewBox="0 0 420 170" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">';
+ const end='</svg>';
+ if(cls==="ic-card-velion"){
+   const lines=Array.from({length:22},(_,i)=>{const y=30+i*5;const dy=Math.sin(i*.45)*18;return '<path d="M125 '+y+' C218 '+(y-58+dy)+' 264 '+(y+60-dy)+' 420 '+(y-22)+'" stroke="#F1BD74" stroke-opacity="'+(.12+(i%6)*.053).toFixed(2)+'" stroke-width="1.2"/>';}).join("");
+   return prefix+'<defs><radialGradient id="vg"><stop stop-color="#E8A95C" stop-opacity=".34"/><stop offset="1" stop-color="#E8A95C" stop-opacity="0"/></radialGradient></defs><circle cx="310" cy="78" r="115" fill="url(#vg)"/>'+lines+end;
+ }
+ if(cls==="ic-card-nca"){
+   const cube=(x,y,n)=>'<g transform="translate('+x+' '+y+')" opacity="'+n+'"><path d="M0 0 26-14 52 0 26 15Z" stroke="#FFD69B" stroke-width="1.8" fill="#CB8B484F"/><path d="M0 0V31L26 46V15Z" stroke="#F4C07E" stroke-width="1.7" fill="#6B48365A"/><path d="M52 0V31L26 46V15Z" stroke="#EFB875" stroke-width="1.7" fill="#D69B5D66"/></g>';
+   return prefix+cube(255,44,1)+cube(326,77,.94)+cube(215,93,.85)+cube(298,126,.8)+'<path d="M281 88 326 96M265 127l52 17M348 103l-24 18" stroke="#F1C27B" stroke-opacity=".65" stroke-width="1.7"/>'+end;
+ }
+ if(cls==="ic-card-cyber"){
+   return prefix+'<g transform="translate(310 87)"><circle r="75" stroke="#E7A65C" stroke-opacity=".34"/><circle r="58" stroke="#F5C080" stroke-opacity=".55" stroke-dasharray="6 12"/><circle r="43" stroke="#F5CE8B" stroke-opacity=".55"/><path d="M0-39 30-27v25C30 24 16 36 0 42-16 36-30 24-30-2v-25Z" fill="#B7833540" stroke="#FFD592" stroke-width="2"/><path d="m-13 0 10 10 21-22" stroke="#FFE0AA" stroke-width="2.3"/></g>'+end;
+ }
+ if(cls==="ic-card-agy"){
+  return prefix+'<g transform="translate(310 86)"><circle r="73" fill="#EBAE6426" stroke="#EFC48D" stroke-opacity=".35"/><path d="M-32-38 0-54 32-38 40-4 33 40 0 52-33 40-40-4Z" fill="#152432" stroke="#F0BC80" stroke-width="2.2"/><path d="M-26-6 -9-10 0-5 9-10 26-6M-21 21 0 26 21 21M0-45V-20" stroke="#F2C28C" stroke-width="2"/><circle cx="-18" cy="2" r="4" fill="#F3CB94"/><circle cx="18" cy="2" r="4" fill="#F3CB94"/></g>'+end;
+ }
+ if(cls==="ic-card-hanter"){
+  return prefix+'<g transform="translate(318 82)"><circle r="57" stroke="#F1C47E" stroke-opacity=".55"/><circle r="37" stroke="#F7CB86" stroke-dasharray="4 8" stroke-opacity=".78"/><path d="M-56 0H56M0-57V57" stroke="#F7D39A" stroke-opacity=".35"/><circle r="8" fill="#FFDEAB"/></g>'+end;
+ }
+ return "";
+}
+
 const modules=[
  ["HANTER",t.labels[0],"diamond",github+"HANTER-Public","ic-card-hanter"],
  ["VELION",t.labels[1],"layers",github+"VELION-LLM-Public","ic-card-velion"],
@@ -65,7 +89,7 @@ const modules=[
 ];
 modules.forEach(([name,description,ico,href,cls],i)=>{
  const card=link(href,"","ic-module "+cls);card.setAttribute("aria-label",name+" — "+description);
- const glow=div("ic-module-visual");glow.setAttribute("aria-hidden","true");card.append(glow);
+ const glow=div("ic-module-visual");glow.setAttribute("aria-hidden","true");glow.innerHTML=visualArt(cls);card.append(glow);
  const content=div("ic-module-content");content.append(svgIcon(ico),textEl("h3","",name),textEl("p","",description));
  card.append(content);card.append(textEl("span","ic-module-arrow","↗"));cards.append(card);
 });
