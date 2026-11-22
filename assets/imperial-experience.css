@@ -1,0 +1,182 @@
+/* IMPERIAL Core — Dubai immersive interface, 2026-11-22
+   Scope: the public ecosystem homepage only. Locale HTML, canonical brand and its image assets remain unchanged.
+   Source photography: Unsplash (Dubai scenes), served from images.unsplash.com. Decorative only.
+   A failed external image falls back to the repository's existing diamond banner.
+*/
+body.ic-ready.ecosystem{
+  --bg:#070d15;--surface:#101927;--ink:#f8f2e9;--muted:#b5c3d1;
+  --line:#dfbd8050;--gold:#f0c681;--accent:#92c4de;
+  color:var(--ink);
+  background:radial-gradient(ellipse at 75% 8%,#182d44 0,transparent 36%),#070d15;
+}
+.ic-ready.ecosystem .header{
+  position:sticky;top:0;z-index:90;
+  border-bottom:1px solid #e6c27f38;
+  background:#060d18ed!important;color:#fff8ec;
+  -webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);
+  box-shadow:0 8px 35px #0004;padding-block:15px;
+}
+.ic-ready.ecosystem .header .brand strong{font-family:Georgia,serif;font-weight:400;font-size:clamp(19px,1.7vw,27px);letter-spacing:.015em;color:#fff3d8}
+.ic-ready.ecosystem .header .brand small{font-size:9px;letter-spacing:.08em;color:#dfc9a1}
+.ic-ready.ecosystem .header .main-nav{gap:clamp(12px,2vw,29px)}
+.ic-ready.ecosystem .header .main-nav a{color:#e6e8ec;font-weight:500}
+.ic-ready.ecosystem .header .main-nav a:hover{color:#f4d396}
+.ic-ready.ecosystem .monogram{border:0!important;background:transparent!important;box-shadow:none!important}
+.ic-ready.ecosystem .monogram img{object-fit:contain}
+.ic-ready.ecosystem .language-menu summary{border:1px solid #b88c597c;border-radius:50px;color:#f6e4c7;background:#101b2bc9}
+.ic-ready.ecosystem .language-panel{border-radius:16px;background:#111923;box-shadow:0 20px 45px #000a}
+.ic-ready.ecosystem .company-hero{
+  position:relative;isolation:isolate;min-height:850px;
+  overflow:hidden;background:#080f1c!important;color:#fffaf3;
+}
+.ic-experience-bg{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:linear-gradient(130deg,#080d1a,#274b66 65%,#df9e75)}
+.ic-experience-bg .ic-scene-photo{position:absolute;inset:-2%;background-position:center 53%;background-size:cover;opacity:0;transform:scale(1.065);transition:opacity .75s ease,transform 8s cubic-bezier(.15,.75,.2,1);filter:saturate(1.05) contrast(1.06)}
+.ic-experience-bg .ic-scene-photo.is-visible{opacity:1;transform:scale(1)}
+.ic-experience-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#050a14f2 0%,#060d19db 32%,#060d1973 61%,#03081042 100%),linear-gradient(0deg,#060b16e8 0%,transparent 28%,#02060d5c 100%);pointer-events:none}
+.ic-experience-bg::before{content:"";position:absolute;inset:0;z-index:3;opacity:.25;background-image:radial-gradient(#f7e7ba88 .6px,transparent .9px);background-size:27px 27px;mask-image:linear-gradient(to bottom,transparent 30%,#000 100%);pointer-events:none}
+.ic-ready.ecosystem .company-hero-inner{display:block;min-height:710px;padding-block:92px 48px;position:relative;width:min(1360px,calc(100% - 100px));z-index:2}
+.ic-ready.ecosystem .company-hero .hero-copy{position:relative;max-width:790px;margin:0!important;min-height:465px;padding:22px 0 36px}
+.ic-ready.ecosystem .company-hero .eyebrow{color:#f3d9ac;font-size:12px;letter-spacing:.24em;text-shadow:0 2px 12px #000}
+.ic-ready.ecosystem .company-hero h1{max-width:760px;font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(54px,6.4vw,99px);line-height:1.06;letter-spacing:-.05em;text-shadow:0 8px 36px #0007}
+.ic-ready.ecosystem .company-hero h1 em{color:#f7ce92}
+.ic-ready.ecosystem .company-hero .intro{max-width:640px;margin-top:28px;color:#e6e6e6;font-size:clamp(15px,1.3vw,18px);line-height:1.78;text-shadow:0 2px 16px #000a}
+.ic-ready.ecosystem .button{border-radius:90px;font-size:13px;font-weight:600;letter-spacing:.01em;min-height:51px;padding:15px 24px;box-shadow:0 8px 23px #0002}
+.ic-ready.ecosystem .button.primary,.ic-ready.ecosystem .company-hero .button.primary{background:linear-gradient(120deg,#fce2ad,#c79247 110%);color:#15120f;border:1px solid #f6ddaf}
+.ic-ready.ecosystem .company-hero .button.secondary{color:#fff4da;background:#07152178;border:1px solid #d6b47a99;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.ic-ready.ecosystem .button:hover{transform:translateY(-3px);box-shadow:0 16px 32px #0005}
+.ic-ready.ecosystem .company-hero .vision-hero{
+  position:absolute;top:10%;left:calc(100% + 12vw);
+  width:320px;max-width:40vw!important;pointer-events:none;opacity:.78;
+  filter:drop-shadow(0 0 34px #e6c48a60);transform:perspective(900px) rotateY(-13deg);
+}
+.ic-ready.ecosystem .company-hero .vision-hero img{width:100%;height:auto;max-height:260px;object-fit:cover;border:1px solid #f0cf8757;border-radius:20px;opacity:.88;mask-image:linear-gradient(#000 45%,transparent 100%)}
+.ic-ready.ecosystem .company-hero .vision-hero figcaption{display:none}
+.ic-ready.ecosystem .company-hero .cosmic-transition{display:none}
+.ic-ready.ecosystem .company-pillars{
+  grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin-top:25px;
+}
+.ic-ready.ecosystem .pillar{min-height:158px;padding:23px 24px;color:#fff;background:linear-gradient(138deg,#162337db,#09101bc0);
+  border:1px solid #edc99070;border-radius:17px;box-shadow:0 14px 45px #0006;
+  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+}
+.ic-ready.ecosystem .pillar:hover{background:#1e2e40ed;border-color:#ffe2a5;transform:translateY(-5px)}
+.ic-ready.ecosystem .pillar strong{color:#fff1d3;font-family:Georgia,serif;font-weight:400;font-size:23px}
+.ic-ready.ecosystem .pillar p{color:#cbd4dd;font-size:12px}
+.ic-ready.ecosystem .pillar-index,.ic-ready.ecosystem .pillar-arrow{color:#f4ca86}
+.ic-ready.ecosystem .principles{background:#07101b;color:#ddc496;border-top:1px solid #8f734750;border-bottom:1px solid #8f734750;justify-content:center;gap:20px;padding-block:23px}
+.ic-ready.ecosystem .principles span+span{border-inline-start:1px solid #ae956470}
+.ic-experience-nav{display:flex;gap:9px;flex-wrap:wrap;margin-top:24px;max-width:100%;position:relative;z-index:6}
+.ic-scene-button{display:inline-flex;align-items:center;gap:12px;min-height:46px;padding:10px 16px;cursor:pointer;border:1px solid #f0cd8a67;border-radius:60px;background:#06111eb9;color:#f6e8d3;font:600 12px/1.35 system-ui,sans-serif;box-shadow:0 9px 25px #0005;-webkit-backdrop-filter:blur(11px);backdrop-filter:blur(11px);transition:background .25s,border-color .25s,transform .25s}
+.ic-scene-button:hover{background:#243a4bdc;transform:translateY(-2px)}
+.ic-scene-button[aria-pressed=true]{background:linear-gradient(125deg,#fde1a8,#be894c);color:#171515;border-color:#fbe9bf}
+.ic-scene-button:focus-visible{outline:3px solid #f9d89b;outline-offset:3px}
+.ic-scene-button .ic-scene-num{font-size:10px;letter-spacing:.12em;opacity:.8}
+.ic-scene-caption{display:flex;align-items:center;gap:14px;min-height:26px;margin-top:17px;color:#f1d6a9;font:500 10px/1.6 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.14em}
+.ic-scene-caption:before{content:"";width:35px;height:1px;background:#f1d6a9}
+.ic-altitude{position:absolute;inset-block-start:80px;inset-inline-end:4%;z-index:2;display:grid;gap:10px;justify-items:end;color:#ffecbe;text-shadow:0 2px 20px #000;pointer-events:none}
+.ic-altitude small{font:600 10px system-ui,sans-serif;letter-spacing:.22em}
+.ic-altitude span{font:400 clamp(19px,2vw,29px) Georgia,serif;letter-spacing:.015em}
+.ic-orbit{position:absolute;inset-block-start:18%;inset-inline-end:-10%;height:520px;width:520px;z-index:1;opacity:.19;border:1px solid #ecd39f;border-radius:50%;pointer-events:none;transform:rotate(-26deg)}
+.ic-orbit::after{content:"";position:absolute;inset:12%;border-radius:50%;border:1px solid #eeddb67b}
+.ic-flight-object{position:absolute;inset-block-start:10%;inset-inline-end:10%;width:clamp(120px,19vw,260px);z-index:3;opacity:0;pointer-events:none;filter:drop-shadow(0 13px 17px #06162d75);transition:opacity .6s,transform .8s;transform:translateY(-36px) rotate(4deg)}
+.ic-flight-object svg{width:100%;height:auto;display:block}
+.company-hero[data-ic-scene="flight"] .ic-flight-object{opacity:.93;transform:translateY(0) rotate(-5deg);animation:ic-float 5.5s ease-in-out infinite alternate}
+.ic-command-grid{position:absolute;inset:10% 3% 19% auto;width:min(42vw,590px);z-index:2;border:1px solid #dcb97745;border-radius:24px;opacity:0;pointer-events:none;background:linear-gradient(125deg,#0915213a,#1228407d),repeating-linear-gradient(0deg,transparent 0 38px,#f7ce8c24 39px 40px),repeating-linear-gradient(90deg,transparent 0 38px,#f7ce8c24 39px 40px);box-shadow:inset 0 0 65px #6fbced23,0 0 58px #d0b17522;transition:opacity .65s}
+.ic-command-grid::before{content:"";position:absolute;inset:17%;border:2px solid #e2ba7a70;border-radius:50%;box-shadow:0 0 0 30px #d8bf8620,0 0 0 70px #d8bf8615,0 0 30px #dec48740}
+.ic-command-grid::after{content:"✧";position:absolute;inset:31%;display:grid;place-items:center;color:#f5d6aa;font-size:130px;text-shadow:0 0 35px #f1c17b}
+.company-hero[data-ic-scene="command"] .ic-command-grid{opacity:.8}
+.company-hero[data-ic-scene="flight"] .ic-scene-photo{filter:saturate(1.2) hue-rotate(5deg)}
+.company-hero[data-ic-scene="tower"] .ic-experience-bg::after{background:linear-gradient(90deg,#030912f5,#091525b5 46%,#09152534),linear-gradient(0deg,#091321cf,transparent 45%)}
+.company-hero[data-ic-scene="command"] .ic-experience-bg::after{background:linear-gradient(90deg,#030817f5,#060c1ad9 52%,#0815269e),linear-gradient(0deg,#030916ed,transparent 35%)}
+.ic-ready.ecosystem .section{border-top:1px solid #c9aa7040}
+.ic-ready.ecosystem .section-heading>p,.ic-ready.ecosystem .prose p,.ic-ready.ecosystem .about-grid p,.ic-ready.ecosystem .crypto-section p,.ic-ready.ecosystem .company-founder p{color:#cad2da}
+.ic-ready.ecosystem h2{font-family:Georgia,serif;font-weight:400;color:#fff3e3;letter-spacing:-.035em}
+.ic-ready.ecosystem .eyebrow{color:#e9c283}
+.ic-ready.ecosystem #about{position:relative;isolation:isolate;padding-block:112px;background:linear-gradient(90deg,#0a1523ed,#091421d8),url("https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1800&q=78") center / cover;border-radius:0}
+.ic-ready.ecosystem #dubai-2027{background:linear-gradient(112deg,#0a1221d9,#132b43bf),url("https://images.unsplash.com/photo-1526495124232-a04e1849168c?auto=format&fit=crop&w=1800&q=78") center / cover;min-height:330px;border:1px solid #c5a06360;border-radius:22px;padding-inline:clamp(24px,5vw,72px);margin-block:35px}
+.ic-ready.ecosystem #dubai-2027 h2{color:#fff4dc}
+.ic-ready.ecosystem #ai-passport{background:linear-gradient(130deg,#0b1925,#131d2b);border:1px solid #d3ab6b50;border-radius:22px;padding-inline:clamp(22px,4vw,60px);margin-block:30px}
+.ic-ready.ecosystem .passport-section p:not(.eyebrow){color:#c9d7e4}
+.ic-ready.ecosystem .passport-section figcaption{color:#afbbc6}
+.ic-ready.ecosystem .passport-section img{border-radius:16px;border:1px solid #efcb8966;box-shadow:0 20px 55px #0007}
+.ic-ready.ecosystem .project-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.ic-ready.ecosystem .project{position:relative;overflow:hidden;background:linear-gradient(140deg,#192538,#0a1420);color:#fff3df;border:1px solid #cbaa735c;border-radius:18px;min-height:255px;box-shadow:0 16px 38px #0005;transition:transform .25s,border-color .25s,background .25s}
+.ic-ready.ecosystem .project:before{content:"";position:absolute;top:0;left:-40%;height:1px;width:90%;background:linear-gradient(90deg,transparent,#fee1a0,transparent)}
+.ic-ready.ecosystem .project:hover{transform:translateY(-5px);border-color:#edcb94;background:linear-gradient(140deg,#1c3146,#101b2b)}
+.ic-ready.ecosystem .project h3{color:#fff2dc;font-family:Georgia,serif;font-weight:400}
+.ic-ready.ecosystem .project p{color:#b9c8d7}
+.ic-ready.ecosystem .project .number{background:#a77b4936;color:#f5ce8c}
+.ic-ready.ecosystem .text-link{color:#f6d49c}
+.ic-ready.ecosystem .source-label{color:#b6c8d4}
+.ic-ready.ecosystem .fields li{background:#162333;border:1px solid #cab18463;color:#e5d4bd;border-radius:20px}
+.ic-ready.ecosystem .evidence-panel{border:1px solid #e2bf8e5e;background:linear-gradient(130deg,#142437,#091521);border-radius:24px;color:#fff9f3;box-shadow:0 20px 55px #0006}
+.ic-ready.ecosystem .evidence-panel p:not(.eyebrow){color:#cad5de}
+.ic-ready.ecosystem .evidence-panel .button{background:linear-gradient(120deg,#fde0a7,#c99458);color:#1b130d}
+.ic-ready.ecosystem .company-founder{margin-block:35px;padding:clamp(25px,4vw,60px);border:1px solid #dfbf8569;border-radius:28px;background:radial-gradient(ellipse at 13% 45%,#253d56,transparent 48%),linear-gradient(130deg,#121f30,#0b1522);gap:7%;grid-template-columns:minmax(0,.82fr) minmax(0,1.18fr);box-shadow:0 22px 65px #0007}
+.ic-ready.ecosystem .company-founder .portrait{max-width:400px;position:relative;padding:11px;border-radius:26px;border:1px solid #d7aa71aa;background:linear-gradient(140deg,#fff0b44d,#111b2a 40%,#c5a47744);box-shadow:0 15px 45px #0008,0 0 48px #b9945840}
+.ic-ready.ecosystem .company-founder .portrait::before{content:"";position:absolute;inset:5px;border:1px solid #ffda9680;border-radius:20px;pointer-events:none;z-index:2}
+.ic-ready.ecosystem .company-founder .portrait-frame{padding:0;border:0;border-radius:17px;overflow:hidden;background:#0b1422}
+.ic-ready.ecosystem .company-founder .portrait img{width:100%;height:auto;object-fit:contain;transition:transform .4s ease}
+.ic-ready.ecosystem .company-founder .portrait:hover img{transform:scale(1.018)}
+.ic-ready.ecosystem .company-founder .portrait figcaption{margin:15px 8px 5px;color:#f2d8aa;text-align:center;font:500 12px/1.5 system-ui,sans-serif}
+.ic-ready.ecosystem .company-founder .founder-name{color:#f9daaa;font:400 clamp(22px,2.4vw,34px) Georgia,serif}
+.ic-ready.ecosystem .company-founder .role{color:#e9bd7a}
+.ic-ready.ecosystem .contact-section{background:linear-gradient(145deg,#172438,#131b2b);border:1px solid #d1b17a66;border-radius:24px;margin-block:48px 64px}
+.ic-ready.ecosystem .contact-section h2{color:#fff4e5}
+.ic-ready.ecosystem .contact-section p:not(.eyebrow){color:#cbd4de}
+.ic-ready.ecosystem section[aria-label="Public technology registry"]{background:#101e2b!important;color:#d8e0e7!important;border-color:#bd9d676e!important}
+.ic-ready.ecosystem section[aria-label="Public technology registry"] h2{color:#f3d29a!important}
+.ic-ready.ecosystem section[aria-label="Public technology registry"] a{color:#f4d5a7}
+.ic-ready.ecosystem .footer{border-top:1px solid #c7a87652;color:#e5e0d4}
+.ic-ready.ecosystem .footer-brand p,.ic-ready.ecosystem .disclosure,.ic-ready.ecosystem .copyright{color:#acb8c4}
+.ic-ready.ecosystem .footer-brand strong{color:#f9e2b1}
+@keyframes ic-float{0%{transform:translateY(-8px) rotate(-6deg)}100%{transform:translateY(15px) rotate(3deg)}}
+@media(max-width:1100px){
+ .ic-ready.ecosystem .company-hero-inner{width:calc(100% - 72px)}
+ .ic-ready.ecosystem .company-hero .vision-hero{display:none}
+ .ic-ready.ecosystem .company-hero h1{font-size:clamp(50px,7.4vw,80px)}
+ .ic-ready.ecosystem .ic-altitude{inset-inline-end:3%}
+}
+@media(max-width:800px){
+ .ic-ready.ecosystem .company-hero-inner{width:calc(100% - 44px);padding-block:70px 30px;min-height:600px}
+ .ic-ready.ecosystem .company-hero .hero-copy{min-height:390px}
+ .ic-ready.ecosystem .company-hero .intro{max-width:520px}
+ .ic-ready.ecosystem .company-pillars{grid-template-columns:1fr 1fr}
+ .ic-ready.ecosystem .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .ic-ready.ecosystem .company-founder{grid-template-columns:1fr;gap:25px}
+ .ic-ready.ecosystem .company-founder .portrait{margin-inline:auto}
+ .ic-ready.ecosystem .ic-altitude{display:none}
+}
+@media(max-width:550px){
+ .ic-ready.ecosystem .header{padding:12px 15px}
+ .ic-ready.ecosystem .header .brand strong{font-size:16px}
+ .ic-ready.ecosystem .header .brand small{display:none}
+ .ic-ready.ecosystem .header .monogram{width:38px!important;height:42px!important;min-width:38px;flex-basis:38px}
+ .ic-ready.ecosystem .company-hero{min-height:720px}
+ .ic-ready.ecosystem .company-hero-inner{width:calc(100% - 36px);padding-block:42px 28px}
+ .ic-ready.ecosystem .company-hero .hero-copy{min-height:0;padding-block:16px 20px}
+ .ic-ready.ecosystem .company-hero h1{font-size:clamp(42px,11.7vw,64px)}
+ .ic-ready.ecosystem .company-hero .intro{font-size:14px;line-height:1.7;margin-top:18px}
+ .ic-ready.ecosystem .company-hero .eyebrow{font-size:10px;letter-spacing:.08em}
+ .ic-ready.ecosystem .company-hero .actions{gap:9px}
+ .ic-ready.ecosystem .company-hero .button{font-size:11px;min-height:45px;padding:12px 16px}
+ .ic-experience-nav{gap:8px;margin-top:21px}
+ .ic-scene-button{min-height:43px;flex:1 1 calc(50% - 10px);justify-content:center;padding:9px 10px;font-size:11px}
+ .ic-scene-caption{font-size:9px;letter-spacing:.06em}
+ .ic-ready.ecosystem .company-pillars{grid-template-columns:1fr;gap:9px;margin-top:16px}
+ .ic-ready.ecosystem .pillar{min-height:unset;padding:16px 20px}
+ .ic-ready.ecosystem .pillar strong{font-size:19px}
+ .ic-ready.ecosystem .pillar p{font-size:11px;margin-top:4px}
+ .ic-ready.ecosystem .principles{padding:18px 17px;gap:8px;font-size:9px}
+ .ic-ready.ecosystem .project-grid{grid-template-columns:1fr}
+ .ic-ready.ecosystem #about{padding-block:65px}
+ .ic-ready.ecosystem #dubai-2027{padding-inline:20px;margin-block:20px}
+ .ic-ready.ecosystem #ai-passport{padding-inline:20px;margin-block:20px}
+ .ic-ready.ecosystem .company-founder{padding:23px;margin-block:24px;border-radius:20px}
+ .ic-ready.ecosystem .ic-flight-object{inset-inline-end:-2%;inset-block-start:12%;opacity:0;width:130px}
+ .ic-ready.ecosystem .ic-command-grid{inset-inline-end:-15%;width:70vw}
+}
+@media(prefers-reduced-motion:reduce){
+ .ic-ready.ecosystem *,.ic-ready.ecosystem *::before,.ic-ready.ecosystem *::after{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
+ .ic-scene-photo{transform:none!important}
+}
