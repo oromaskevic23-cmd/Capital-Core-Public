@@ -795,3 +795,21 @@ body.ic-sovereign.ecosystem .footer .footer-brand strong{font-size:18px}
  }
  body.ic-sovereign.ecosystem .ic-hero-terrace svg{opacity:.64}
 }
+
+
+/* Exact gold diamond header motif from the approved visual reference.
+   The original corporate icon remains in the HTML and repository unchanged. */
+body.ic-sovereign.ecosystem .header .brand .monogram{
+ position:relative;display:grid;place-items:center;
+ width:45px;min-width:45px;height:45px;
+}
+body.ic-sovereign.ecosystem .header .brand .monogram img{opacity:0;position:absolute;inset:0}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{
+ display:block;position:relative;width:42px;height:42px;
+ filter:drop-shadow(0 0 6px #efbd714a);
+}
+body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond svg{display:block;width:100%;height:100%}
+@media(max-width:560px){
+ body.ic-sovereign.ecosystem .header .brand .monogram{width:38px!important;min-width:38px!important;height:38px!important}
+ body.ic-sovereign.ecosystem .header .brand .ic-outline-diamond{width:34px;height:34px}
+}
