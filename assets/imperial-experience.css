@@ -180,3 +180,38 @@ body.ic-ready.ecosystem{
  .ic-ready.ecosystem *,.ic-ready.ecosystem *::before,.ic-ready.ecosystem *::after{animation-duration:.001ms!important;transition-duration:.001ms!important;scroll-behavior:auto!important}
  .ic-scene-photo{transform:none!important}
 }
+
+
+/* Additive scene artwork and diamond identity. Does not modify original brand assets. */
+.ic-ready.ecosystem .ic-experience-bg{
+ background:#081425 url("/Capital-Core-Public/assets/imperial-skyline-fallback.svg") center / cover no-repeat;
+}
+.ic-ready.ecosystem .company-hero[data-ic-scene="tower"] .ic-experience-bg{background-position:70% 24%;filter:saturate(1.12)}
+.ic-ready.ecosystem .company-hero[data-ic-scene="flight"] .ic-experience-bg{background-position:50% 64%;filter:hue-rotate(-6deg) saturate(1.16)}
+.ic-ready.ecosystem .company-hero[data-ic-scene="command"] .ic-experience-bg{background-position:60% center;filter:hue-rotate(19deg) saturate(.7)}
+.ic-ready.ecosystem .ic-brand-plaque{
+ position:absolute;inset-block-start:43%;inset-inline-end:4%;z-index:4;
+ width:clamp(126px,14vw,185px);padding:8px;margin:0;pointer-events:none;
+ background:linear-gradient(140deg,#111e32df,#08111dce);
+ border:1px solid #f6d299ad;border-radius:17px;
+ box-shadow:0 24px 55px #0009,0 0 40px #d7ae6560;
+ -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+ transition:transform .7s,opacity .6s;
+}
+.ic-ready.ecosystem .ic-brand-plaque img{display:block;width:100%;height:auto;object-fit:contain;border-radius:9px}
+.ic-ready.ecosystem .company-hero[data-ic-scene="command"] .ic-brand-plaque{transform:translateY(-10px) scale(.96)}
+.ic-ready.ecosystem .company-hero[data-ic-scene="flight"] .ic-brand-plaque{opacity:.65;transform:translateY(12px)}
+@media(max-width:1050px){.ic-ready.ecosystem .ic-brand-plaque{width:115px;inset-block-start:30%;inset-inline-end:2%}}
+@media(max-width:800px){.ic-ready.ecosystem .ic-brand-plaque{display:none}}
+@media(max-width:550px){
+ body.ic-ready.ecosystem .company-hero[data-ic-scene="flight"] .ic-flight-object{
+  opacity:.93;inset-block-start:15%;inset-inline-end:1%;width:116px;
+ }
+ body.ic-ready.ecosystem .ic-experience-bg .ic-scene-photo{
+  background-position:56% center;filter:saturate(1.06)
+ }
+}
+@media(prefers-reduced-motion:reduce){
+ .ic-ready.ecosystem .ic-flight-object{animation:none!important}
+ .ic-ready.ecosystem .ic-brand-plaque{transition:none!important}
+}
