@@ -215,3 +215,15 @@ body.ic-ready.ecosystem{
  .ic-ready.ecosystem .ic-flight-object{animation:none!important}
  .ic-ready.ecosystem .ic-brand-plaque{transition:none!important}
 }
+
+
+/* Real-browser QA 2026-11-22: remove duplicate original banner in immersive mode. */
+body.ic-ready.ecosystem .company-hero .vision-hero{display:none!important}
+/* Keep the aerial illustration clear of main copy on narrow devices. */
+@media(max-width:550px){
+ body.ic-ready.ecosystem .company-hero[data-ic-scene="flight"] .ic-flight-object{
+  inset-block-start:29%;inset-inline-end:0;width:88px;opacity:.56;
+  filter:drop-shadow(0 8px 9px #05152caa);
+ }
+ body.ic-ready.ecosystem .company-hero[data-ic-scene="flight"] .ic-flight-object svg{width:88px;height:auto}
+}
