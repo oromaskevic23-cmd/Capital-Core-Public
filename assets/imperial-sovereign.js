@@ -161,6 +161,14 @@ if(nv){
  nv.replaceChildren(...dest.map(([name,url])=>link(url,name,"ic-nav-link")));
 }
 const header=document.querySelector(".header");
+const emblem=header&&header.querySelector(".brand .monogram");
+if(emblem && !emblem.querySelector(".ic-outline-diamond")){
+ const gold=document.createElement("span");gold.className="ic-outline-diamond";
+ gold.setAttribute("aria-hidden","true");
+ gold.innerHTML='<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#F7CB8B" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.7"><path d="M7 23 19 11h26l12 12-25 31L7 23Z"/><path d="M7 23h50M19 11l13 43 13-43M32 23l7-12M32 23l-7-12"/></svg>';
+ emblem.append(gold);
+}
+
 if(header && !header.querySelector(".ic-nav-access")){
  const mail=link("mailto:oromaskevic23@gmail.com?subject=IMPERIAL%20Core%20Access","Request Access   →","ic-nav-access");
  const langMenu=header.querySelector(".language-menu");
