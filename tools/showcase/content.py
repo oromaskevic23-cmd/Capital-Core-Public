@@ -62,7 +62,7 @@ Languages
 GitHub
 The Sovereign
 AI Ecosystem
-Federated orchestration, governed execution and verifiable engineering under human authority.
+Enterprise orchestration, verified execution and intelligent systems in one unified ecosystem.
 Explore the ecosystem
 View architecture
 Dubai panoramas
@@ -75,7 +75,7 @@ Open project
 Engineering evidence
 All projects
 Explore the IMPERIAL Core Ecosystem
-Platform architecture
+Platform Architecture
 The Architect sets intent and retains final authority. HANTER coordinates missions. Federated orchestrators assign bounded work to specialized teams and Nano Core Agents, with evidence returned after execution.
 I wanted to build a company. I built a digital state.
 The Digital State is our engineering vision for a shared system of agent identity, delegated authority, human approval and auditable outcomes. The digital diamond is its symbol.
@@ -106,8 +106,8 @@ Alexander Romaskevich designs the IMPERIAL Core architecture and directs its eng
 Official founder profile
 Engineering dossier
 Technical reference
-Build with accountable intelligence
-Contact the founder
+Build Your AI Sovereignty with IMPERIAL Core
+Request a private demo
 Architecture → Implementation → Evidence
 """)
 
@@ -777,4 +777,19 @@ MORE_TEXT = {
 "ar": "أبحاث العقارات والتحكم بفرق المدن. | بحث إبداعي في تقنيات الفن التاريخية. | أتمتة عمليات إدارة العملاء تحت الحوكمة. | استوديو إبداعي للعمل بمساعدة الذكاء الاصطناعي. | بحث في الذكاء العام للوكلاء. | تطوير المشاريع الجديدة والتحقق منها على مراحل. | قدرات يمكن إسنادها إلى الوكلاء. | واجهات لربط الأدوات الخارجية. | فحص السياسات قبل التنفيذ. | موافقة صريحة على الإجراءات ذات العواقب. | أدلة قابلة للتتبع للقرارات والإجراءات. | التحقق من الهوية والصلاحيات عند كل حد. | تدفقات عمل مرجعية مبنية على n8n. | مهارات هندسية عامة لتدفقات عمل Codex.",
 "ja": "不動産調査と都市別チームの制御基盤。 | 歴史的な芸術技法を題材とする創作研究。 | 統制されたCRM業務の自動化。 | AIを活用した創作スタジオ構想。 | 汎用エージェントの知能に関する研究。 | 新規事業を段階的に開発・検証する仕組み。 | エージェントに割り当てられる能力の定義。 | 外部ツールにつなぐインターフェース。 | 実行前のポリシー確認。 | 影響の大きい操作への明示的な承認。 | 操作と意思決定を追跡できる証拠。 | 各境界で識別と権限を確認。 | n8nを使った参照ワークフロー。 | Codexの公開エンジニアリングスキル。",
 "zh": "房地产研究和城市团队控制系统。 | 围绕历史艺术技法的创作研究。 | 受治理的客户关系管理流程自动化。 | 借助人工智能开展工作的创意工作室。 | 通用智能体智能研究。 | 分阶段开发并验证新项目。 | 可分配给智能体的能力定义。 | 用于连接外部工具的接口。 | 执行前进行策略检查。 | 对重要操作实施明确审批。 | 可追溯的行动与决策记录。 | 在各个边界验证身份和权限。 | 基于 n8n 的参考工作流。 | 面向 Codex 工作流的公开工程技能。",
+}
+
+# Compact labels for the reference layout. Longer engineering descriptions
+# remain in the product dialogs.
+REFERENCE_LABELS = {
+    "en": "Platform | Solutions | Resources | About Us | Contact | Request Access | View Overview | Architecture highlights | Trusted Capabilities for the Enterprise | Autonomous Execution | Federated Intelligence | Governance and Trust | Scalable by Design | AI Command Center | Intelligence core for reasoning and execution | Specialized agents for scoped work | Defensive auditing and software integrity | Agent identity and governance | Agent control and recovery research | Human-defined scope, reviewed outcomes. | Specialized teams with shared coordination. | Identity, policy, approvals and audit. | Dynamic team composition across domains.",
+    "ru": "Платформа | Решения | Материалы | Об основателе | Контакты | Запросить доступ | К обзору платформы | Ключевые принципы | Возможности для бизнеса | Автономное исполнение | Федеративный интеллект | Контроль и доверие | Масштабируемая архитектура | Командный центр ИИ | Ядро интеллекта и маршрутизация моделей | Специализированные агенты | Защитный аудит и целостность ПО | Идентификация и контроль агентов | Управление и восстановление агентов | Заданные человеком границы и проверка результата. | Координация специализированных команд. | Идентификация, политики, согласование и аудит. | Динамический состав команд в разных областях.",
+    "uk": "Платформа | Рішення | Матеріали | Про засновника | Контакти | Запросити доступ | До огляду платформи | Ключові принципи | Можливості для бізнесу | Автономне виконання | Федеративний інтелект | Контроль і довіра | Масштабована архітектура | Командний центр ШІ | Ядро інтелекту й маршрутизація моделей | Спеціалізовані агенти | Захисний аудит і цілісність ПЗ | Ідентифікація та контроль агентів | Керування й відновлення агентів | Визначені людиною межі й перевірка результату. | Координація спеціалізованих команд. | Ідентичність, політики, погодження й аудит. | Динамічний склад команд у різних галузях.",
+    "de-CH": "Plattform | Lösungen | Ressourcen | Über uns | Kontakt | Zugang anfragen | Übersicht öffnen | Architektur im Überblick | Funktionen für Unternehmen | Autonome Ausführung | Föderierte Intelligenz | Kontrolle und Vertrauen | Skalierbare Architektur | KI-Kommandozentrale | Intelligenzkern und Modellrouting | Spezialisierte Agenten | Defensiver Audit und Softwareintegrität | Agentenidentität und Governance | Agentensteuerung und Wiederaufnahme | Menschlich definierter Umfang und geprüfte Ergebnisse. | Koordination spezialisierter Teams. | Identität, Richtlinien, Freigaben und Audit. | Dynamische Teamzusammensetzung über Fachgebiete.",
+    "fr": "Plateforme | Solutions | Ressources | À propos | Contact | Demander l’accès | Voir la présentation | Principes d’architecture | Capacités pour les entreprises | Exécution autonome | Intelligence fédérée | Gouvernance et confiance | Architecture évolutive | Centre de commandement IA | Noyau d’intelligence et routage des modèles | Agents spécialisés | Audit défensif et intégrité logicielle | Identité et gouvernance des agents | Contrôle et reprise des agents | Périmètre défini par l’humain et résultats vérifiés. | Coordination des équipes spécialisées. | Identité, politiques, approbations et audit. | Composition dynamique des équipes par domaine.",
+    "es": "Plataforma | Soluciones | Recursos | Acerca de | Contacto | Solicitar acceso | Ver panorama | Principios de arquitectura | Capacidades para empresas | Ejecución autónoma | Inteligencia federada | Gobernanza y confianza | Arquitectura escalable | Centro de mando de IA | Núcleo de inteligencia y enrutamiento de modelos | Agentes especializados | Auditoría defensiva e integridad del software | Identidad y gobernanza de agentes | Control y recuperación de agentes | Alcance definido por personas y resultados verificados. | Coordinación de equipos especializados. | Identidad, políticas, aprobaciones y auditoría. | Composición dinámica de equipos entre dominios.",
+    "pt": "Plataforma | Soluções | Recursos | Sobre nós | Contato | Solicitar acesso | Ver visão geral | Princípios de arquitetura | Recursos para empresas | Execução autônoma | Inteligência federada | Governança e confiança | Arquitetura escalável | Centro de comando de IA | Núcleo de inteligência e roteamento de modelos | Agentes especializados | Auditoria defensiva e integridade do software | Identidade e governança de agentes | Controle e recuperação de agentes | Escopo definido por pessoas e resultados verificados. | Coordenação de equipes especializadas. | Identidade, políticas, aprovações e auditoria. | Composição dinâmica de equipes entre áreas.",
+    "ar": "المنصة | الحلول | الموارد | نبذة عنا | التواصل | طلب الوصول | نظرة عامة | أبرز ملامح البنية | إمكانات للمؤسسات | التنفيذ المستقل | الذكاء الاتحادي | الحوكمة والثقة | بنية قابلة للتوسع | مركز قيادة الذكاء الاصطناعي | نواة الذكاء وتوجيه النماذج | وكلاء متخصصون | التدقيق الدفاعي وسلامة البرمجيات | هوية الوكلاء وحوكمتهم | التحكم في الوكلاء واستعادتهم | نطاق يحدده الإنسان ونتائج قابلة للمراجعة. | تنسيق الفرق المتخصصة. | الهوية والسياسات والموافقات والتدقيق. | تشكيل الفرق حسب المجال والمهمة.",
+    "ja": "プラットフォーム | ソリューション | 資料 | 概要 | お問い合わせ | アクセスを申請 | 概要を見る | アーキテクチャの特徴 | 企業向け機能 | 自律実行 | 連合型インテリジェンス | ガバナンスと信頼 | 拡張可能な設計 | AI指令センター | 推論とモデルのルーティングを担う中核 | 専門エージェント | 防御監査とソフトウェアの完全性 | エージェントの識別と統制 | エージェントの制御と復旧 | 人が定めた範囲と確認可能な結果。 | 専門チームを横断的に調整。 | 識別、ポリシー、承認と監査。 | 分野をまたいでチームを柔軟に編成。",
+    "zh": "平台 | 解决方案 | 资源 | 关于我们 | 联系 | 申请访问 | 查看概览 | 架构要点 | 企业级能力 | 自主执行 | 联邦智能 | 治理与信任 | 可扩展架构 | AI 指挥中心 | 智能核心与模型路由 | 专业智能体 | 防御审计与软件完整性 | 智能体身份与治理 | 智能体控制和恢复 | 由人定义范围并审查结果。 | 协调不同领域的专业团队。 | 身份、策略、审批与审计。 | 跨领域动态编排团队。",
 }

@@ -66,7 +66,7 @@
   playback.addEventListener("click", () => setPlaying(timer === null));
   reduceMotion.addEventListener("change", () => { if (reduceMotion.matches) setPlaying(false); });
   gallery.hidden = false;
-  setPlaying(!reduceMotion.matches);
+  setPlaying(false);
 
   if (typeof dialog.showModal === "function") {
     for (const trigger of document.querySelectorAll("a[data-scene]")) {
@@ -78,7 +78,7 @@
         previousTrigger = trigger;
         dialog.querySelector(".dialog-image").src = trigger.dataset.panorama;
         dialog.querySelector("h2").textContent = trigger.querySelector("h3").textContent;
-        dialog.querySelector("p").textContent = trigger.querySelector("p").textContent;
+        dialog.querySelector("p").textContent = trigger.dataset.description;
         dialog.querySelector(".dialog-project").href = trigger.href;
         const demo = dialog.querySelector(".dialog-demo");
         demo.hidden = !trigger.dataset.demo;
@@ -91,12 +91,21 @@
     dialog.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
   }
 
-  const language = document.querySelector(".language");
-  document.addEventListener("pointerdown", (event) => { if (!language.contains(event.target)) language.open = false; });
-  language.addEventListener("keydown", (event) => {
-    if (event.key === "Escape" && language.open) {
-      language.open = false;
-      language.querySelector("summary").focus();
+  const disclosures = [...document.querySelectorAll(".language, .mobile-menu")];
+  for (const disclosure of disclosures) {
+    disclosure.addEventListener("click", (event) => {
+      if (event.target.closest("a")) disclosure.open = false;
+    });
+    disclosure.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && disclosure.open) {
+        disclosure.open = false;
+        disclosure.querySelector("summary").focus();
+      }
+    });
+  }
+  document.addEventListener("pointerdown", (event) => {
+    for (const disclosure of disclosures) {
+      if (!disclosure.contains(event.target)) disclosure.open = false;
     }
   });
 
