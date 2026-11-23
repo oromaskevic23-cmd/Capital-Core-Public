@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-23",
   "canonical_base": "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference",
-  "brand": "crowned-globe",
+  "brand": "digital-diamond",
   "pages": [
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/",
@@ -26,7 +26,15 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "e874cca344c4d438671ca968fbb4fcc5ee0f7a213ad40dfa087748294452ef32"
+      "sha256": "e0d5c65246224a2218481140630bcbe79824bc1ac48ec2d653b2681d24c0347f"
+    },
+    {
+      "path": "assets/INSTRUMENT-SERIF-OFL.txt",
+      "sha256": "b6b2292aa580937fb63796878d65a027a27f8c3db2d97601d0c34d9031f4ca17"
+    },
+    {
+      "path": "assets/TABLER-LICENSE.txt",
+      "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db"
     },
     {
       "path": "assets/alexander-romaskevich.jpeg",
@@ -34,7 +42,71 @@
     },
     {
       "path": "assets/brand.css",
-      "sha256": "c9fd9c6399ad04da602fab843bd3fb337268ef07b031d7e6db4904390805f1e9"
+      "sha256": "65c48473855230648a0320b42a34a68484f01597b8e292c383ea5dc439ad68ad"
+    },
+    {
+      "path": "assets/dubai/aerial-800.webp",
+      "sha256": "6cf9878ca83a7ab64fee7167206486c891253a6551538612a4ba207be40b4171"
+    },
+    {
+      "path": "assets/dubai/aerial.webp",
+      "sha256": "88c6c63609f0427748042bc4e9f4fded7e449e3807eb07e3a0a8bedbd4206dde"
+    },
+    {
+      "path": "assets/dubai/agent-teams.webp",
+      "sha256": "8562406325d4c0b6c01604e130cf17eedbdd6ce08f906278887e0bae4556d51f"
+    },
+    {
+      "path": "assets/dubai/alexander-romaskevich.webp",
+      "sha256": "38224af86abe02943ffc82ba0e21b32e3fe3080533f255838360b140c94ef4a1"
+    },
+    {
+      "path": "assets/dubai/atrium-800.webp",
+      "sha256": "7fbc65dddb11216ffa44f5ba8c2314f0c702bf14d3201c3ca1d440822dd796d8"
+    },
+    {
+      "path": "assets/dubai/atrium.webp",
+      "sha256": "92fa01b9c5dd92bd9fb8b62dd1073af8202a823c8a4fa1947b43e53057fbbaf5"
+    },
+    {
+      "path": "assets/dubai/digital-diamond.webp",
+      "sha256": "19acd1115a36147e8f314bfc4959e019bf7a89aa38b006eb44668b8c48c44f06"
+    },
+    {
+      "path": "assets/dubai/intelligence-800.webp",
+      "sha256": "db8b4ab535a9fdb5ee6b4d98aa359fc710f4a980cf3ca240715ae535c1aed89a"
+    },
+    {
+      "path": "assets/dubai/intelligence.webp",
+      "sha256": "aac5f9c232da31e3b822d19fc2f6e756bc564dae7c74b865c313c71b767dd2aa"
+    },
+    {
+      "path": "assets/dubai/night-800.webp",
+      "sha256": "7ae5129f4a3e3180248beedbfd1e75e07f1e9f07afab9237605512cd27bdf248"
+    },
+    {
+      "path": "assets/dubai/night.webp",
+      "sha256": "05f9481f30f0f6a9285ba5e2db278ed680cb6d8207273569fb58e4692a9225a4"
+    },
+    {
+      "path": "assets/dubai/passport.webp",
+      "sha256": "a5fbdb9331603b67329449fc81f1932ab20d3da6e665fbc357ed643ee1264cb8"
+    },
+    {
+      "path": "assets/dubai/terrace-800.webp",
+      "sha256": "092eb822124db5e00fca21ec5a8683344c0f0329f22cac73b1f6d487d2136911"
+    },
+    {
+      "path": "assets/dubai/terrace.webp",
+      "sha256": "af4a6275326a20bd3d1564e2fcebbf1b5cb6982c2c46f4a4e0f8da7186b16d16"
+    },
+    {
+      "path": "assets/dubai/waterfront-800.webp",
+      "sha256": "55226a752f6c9cd2f136055ce4d5e5c8f0a61775ff7355935460d08ac7af0b31"
+    },
+    {
+      "path": "assets/dubai/waterfront.webp",
+      "sha256": "fcdeb1a1f49cc8b382f44aea6ceb70d3a06422f50f28947f9491b6da5504a32f"
     },
     {
       "path": "assets/favicon.svg",
@@ -87,6 +159,30 @@
     {
       "path": "assets/reference.js",
       "sha256": "9bed9e99751578a60d8e3a2acc279ffc7e8d22ef364d02b56faf18bca991b3be"
+    },
+    {
+      "path": "assets/showcase-diamond.svg",
+      "sha256": "9d643b067c609b97a3b57ebfa4b7f1da41e2b2daba01a0ff0821d21b036c5904"
+    },
+    {
+      "path": "assets/showcase-icons.svg",
+      "sha256": "14053acde388da589ce7af9c03c5991bac254fa62eb207f5403740786c9b8c3c"
+    },
+    {
+      "path": "assets/showcase-serif-ext.woff2",
+      "sha256": "290e6267dd833bf5f899eba4c29ad0a9b09dbe53f6075b18af38057159e1ff20"
+    },
+    {
+      "path": "assets/showcase-serif.woff2",
+      "sha256": "5eb09b5ac0e28b67c2f041c8ba6d244604ca0c0980d65912ab2d47fed84ddc31"
+    },
+    {
+      "path": "assets/showcase.css",
+      "sha256": "fc81bd82194761c7748a0f72b321e8e5ec062ec3d9dc0f3d424b64b55264cdcc"
+    },
+    {
+      "path": "assets/showcase.js",
+      "sha256": "24669a68316a268596873240d6d3b34391dff3a80d9f439602e1f60f0d3c55b9"
     },
     {
       "path": "brand/BRAND.md",
@@ -154,23 +250,23 @@
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "ca959966c3a9d5e7e6151c32321a3fa82c27d79ea51cbde77edeae9960e02f5e"
+      "sha256": "ad4aa40fc7fc76e8e401e86b3fad95a9b83f9c489362bbb57b0e9a51bea81ce4"
     },
     {
       "path": "es/index.html",
-      "sha256": "c50653f9eecf8a299bdae390badd0f88224095c70ea5bd29df587eb4a0314c69"
+      "sha256": "a7de289369eb148b15cb511beae770bc1c6b562f8aebdce26b57929b2cebe240"
     },
     {
       "path": "fr/index.html",
-      "sha256": "3ae4b929a8fb54fb59dd68e75be48ceff1e6154f136cf8216a6e763f3a01788a"
+      "sha256": "1fa4efac2beb28cd331a2fe77c05e04a7ad2ce7f5c9a130c63a6b8365832e701"
     },
     {
       "path": "index.html",
-      "sha256": "7e8834f801a96a7ed1525e3606d72143c3eb82cc3ec39b8631ca92a0d1eee5bb"
+      "sha256": "63bd5e58f7121b130f0d52cdceeffacea53f4847d3bd66f001d0fc0b3d305425"
     },
     {
       "path": "ja/index.html",
-      "sha256": "ef14d6dcd041931e392d62c5a6a39efc926b4dfe8ce4baa7355642e6682c9d6a"
+      "sha256": "3f85b321b4c5eae3aa932b3571dcb559bec55f2b5105ec5f15ae4a2c7c11d4cf"
     },
     {
       "path": "projects/index.html",
@@ -178,7 +274,7 @@
     },
     {
       "path": "pt/index.html",
-      "sha256": "59f875384a3c7fca2dfe8a63798c60cc123cbb19202433c630fb061f9f4d6df3"
+      "sha256": "0a132e2548deceac15620374c68a247d66eb60396a35203c774162e83d72b1d3"
     },
     {
       "path": "robots.txt",
@@ -190,11 +286,51 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "744d814d3ffbb636ce06b4a94baedb802ebbb3ccb07dfb9e0fae0fa9bb21b9fc"
+      "sha256": "c82384e8c4f2a802b15110f8fcfd5045d8ae5d2dcebc316d3edd6b90e42c557e"
     },
     {
       "path": "sitemap.xml",
       "sha256": "151ac7a69d80bef3ce57c572099ab9bf184418a3c7bc8eb491493300d16a3c9a"
+    },
+    {
+      "path": "technical/ar/index.html",
+      "sha256": "f66c8098abf0312b6d4d7862403efaa252e32f941ed3fae76a119a94c8bbbde5"
+    },
+    {
+      "path": "technical/de-CH/index.html",
+      "sha256": "36c9512c17c6aee368ac90ebc3194c7fed5971e3eb900a24180c5491ab2507f8"
+    },
+    {
+      "path": "technical/es/index.html",
+      "sha256": "416509d2b2d3fe98c300db3e0ce4badd9650bca36e5a86274877a1320f4bf9df"
+    },
+    {
+      "path": "technical/fr/index.html",
+      "sha256": "cbb0e342e6ef451d844cc564dbd29ddbe881ce96c9418b5e788fae9d46a85d13"
+    },
+    {
+      "path": "technical/index.html",
+      "sha256": "09ba3d4c074783e86e576f48c07b3c5b3e2aa02c937c0c9be5431c17ae8503d7"
+    },
+    {
+      "path": "technical/ja/index.html",
+      "sha256": "ccc7c996dd7cc4f5ef2a6d0d2315826b5ac932a2073a20ae218b7474884e0bc4"
+    },
+    {
+      "path": "technical/pt/index.html",
+      "sha256": "3dee93ffd00a1d458351c73f8fb8e12fc6ff5108adb87d1c5a4ab35827cd4661"
+    },
+    {
+      "path": "technical/ru/index.html",
+      "sha256": "2bf990fae069f4afc01b5cd671ce89b5403bd3b4c43d21a97bd688bb0aa9cd73"
+    },
+    {
+      "path": "technical/uk/index.html",
+      "sha256": "8b717e1eb9d529fc0a45283319f8d1175aedbbca08eca4267e7978297b0c67c8"
+    },
+    {
+      "path": "technical/zh/index.html",
+      "sha256": "0f00c47b6799b80d23298a208ba58707e7aeb9c313c71344860bfb322aae5a28"
     },
     {
       "path": "translations/ar.json",
@@ -222,7 +358,7 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "77be35c805ef2a7407c8e2e05622d23758a4aeede53ad9d8d8b59e66b626536b"
+      "sha256": "6b8cae2a231ac72006f062dc9d906af3e0b9d9fea62a946ca78052ecd6639c4b"
     },
     {
       "path": "velion/index.html",
@@ -230,7 +366,7 @@
     },
     {
       "path": "zh/index.html",
-      "sha256": "ef3f5956d62edb8a2ee013ce68caac8b36e294e21fcda96c603ad2dc77243fe6"
+      "sha256": "325b00e1021f3c7f36355db3121bf870c55c7e0fe63867f7f181a3868a226c39"
     }
   ]
 }

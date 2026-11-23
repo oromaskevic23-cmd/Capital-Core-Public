@@ -1,0 +1,691 @@
+<!doctype html>
+<html lang="uk" dir="ltr" data-brand-version="2026-11-16-diamond"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>IMPERIAL Core — Довідник архітектури та інфраструктури</title><meta name="description" content="IMPERIAL Core — AI-native екосистема в розробці. Її поточний стан відображають публічна архітектура, еталонні реалізації та датовані результати перевірок."><meta name="robots" content="noindex,follow"><meta name="author" content="Alexander Romaskevich"><meta name="theme-color" content="#03070d"><link rel="icon" href="/Capital-Core-Public/assets/imperial-core-diamond-icon.svg?v=full-20261116" type="image/svg+xml"><link rel="stylesheet" href="/Capital-Core-Public/reference/assets/reference.css"><meta property="og:type" content="website"><meta property="og:site_name" content="IMPERIAL Core"><meta property="og:title" content="IMPERIAL Core — Довідник архітектури та інфраструктури"><meta property="og:description" content="IMPERIAL Core — AI-native екосистема в розробці. Її поточний стан відображають публічна архітектура, еталонні реалізації та датовані результати перевірок."><meta property="og:url" content="https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/"><meta property="og:image" content="https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/imperial-core-banner-diamond-20261116.jpg"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="IMPERIAL Core — Довідник архітектури та інфраструктури"><meta name="twitter:image" content="https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/imperial-core-banner-diamond-20261116.jpg"><script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/#page","url":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/","name":"IMPERIAL Core — Довідник архітектури та інфраструктури","inLanguage":"uk","dateModified":"2026-10-28","isPartOf":{"@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#website"},"about":{"@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#organization"},"author":{"@id":"https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/#person"}},{"@type":"Person","@id":"https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/#person","name":"Alexander Romaskevich","alternateName":["Александр Николаевич Ромаскевич","Олександр Ромаскевич","RomaskevicH"],"jobTitle":"Founder, Owner and CEO of IMPERIAL Core","image":"https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/assets/alexander-romaskevich-portrait.jpeg","url":"https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/","sameAs":["https://github.com/oromaskevic23-cmd"],"affiliation":{"@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#organization"}},{"@type":"Organization","@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#organization","name":"IMPERIAL Core","url":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/","founder":{"@id":"https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/#person"},"sameAs":["https://github.com/oromaskevic23-cmd/Capital-Core-Public"],"logo":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/assets/imperial-core-diamond-20261116.jpg"},{"@type":"WebSite","@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#website","name":"IMPERIAL Core","url":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/","publisher":{"@id":"https://oromaskevic23-cmd.github.io/Capital-Core-Public/#organization"}}]}</script><link rel="stylesheet" href="/Capital-Core-Public/reference/assets/brand.css?v=diamond-background-20261117"></head><body class="diamond-background"><a class="skip-link" href="#main-content">Skip to main content</a><header class="topbar"><a class="brand" href="#top" aria-label="IMPERIAL CORE — home"><span class="brand-mark"><img src="/Capital-Core-Public/assets/imperial-core-diamond-icon.svg?v=full-20261116" alt="IMPERIAL Core" width="48" height="48"></span><span><b>IMPERIAL CORE</b><small>ARCHITECTURE REFERENCE</small></span></a><nav aria-label="Primary navigation"><a href="#capital-core">Capital Core</a><a href="#infrastructure">Інфраструктура</a><a href="#official-projects">GitHub</a><a href="/Capital-Core-Public/reference/constructor-ai/">CONSTRUCTOR AI</a><a href="#cheat-sheet">Довідник</a></nav><details class="reference-language-menu"><summary aria-label="Мови"><span aria-hidden="true">◎</span> Українська<span class="language-count">10</span><span aria-hidden="true">⌄</span></summary><div class="reference-language-panel"><a href="/Capital-Core-Public/reference/technical/technical/" lang="en" hreflang="en" data-locale-link="en">English</a><a href="/Capital-Core-Public/reference/technical/uk/" lang="uk" hreflang="uk" data-locale-link="uk" aria-current="page">Українська</a><a href="/Capital-Core-Public/reference/technical/ru/" lang="ru" hreflang="ru" data-locale-link="ru">Русский</a><a href="/Capital-Core-Public/reference/technical/de-CH/" lang="de-CH" hreflang="de-CH" data-locale-link="de-CH">Deutsch (Schweiz)</a><a href="/Capital-Core-Public/reference/technical/fr/" lang="fr" hreflang="fr" data-locale-link="fr">Français</a><a href="/Capital-Core-Public/reference/technical/es/" lang="es" hreflang="es" data-locale-link="es">Español</a><a href="/Capital-Core-Public/reference/technical/pt/" lang="pt" hreflang="pt" data-locale-link="pt">Português</a><a href="/Capital-Core-Public/reference/technical/ar/" lang="ar" hreflang="ar" data-locale-link="ar">العربية</a><a href="/Capital-Core-Public/reference/technical/ja/" lang="ja" hreflang="ja" data-locale-link="ja">日本語</a><a href="/Capital-Core-Public/reference/technical/zh/" lang="zh" hreflang="zh" data-locale-link="zh">中文</a></div></details></header><main id="main-content" tabindex="-1"><section class="hero" id="top"><p class="language-preference" hidden data-prefix="Продовжити мовою"><a></a></p><figure class="vision-hero"><img src="/Capital-Core-Public/assets/imperial-core-banner-diamond-20261116.jpg" width="1536" height="864" alt="Концепція IMPERIAL Core: блакитний діамант і міський краєвид." fetchpriority="high" decoding="async"><figcaption>Концептуальна ілюстрація; можливості проєкту потребують окремих доказів.</figcaption></figure><div class="cosmic-transition" aria-hidden="true"></div><div class="hero-copy reveal"><p class="eyebrow"><span></span> Довідник архітектури та інфраструктури <span></span></p><h1>IMPERIAL Core</h1><p class="hero-tagline">Керований інтелект. Перевірювана розробка.</p><p class="hero-founder">Засновник — <a href="https://oromaskevic23-cmd.github.io/oromaskevic23-cmd/" rel="author" class="founder-link">Олександр Миколайович Ромаскевич</a> · RomaskevicH</p><p class="hero-role">Засновник • Власник • Генеральний директор · IMPERIAL Core</p><p class="hero-aliases" aria-label="Name variants"><span>Александр Николаевич Ромаскевич</span><span>Олександр Ромаскевич</span><span>Alexander RomaskevicH</span></p><div class="truth-boundary"><b>TRUTH BOUNDARY</b><span>Architecture ≠ Implementation ≠ Testing ≠ Runtime Verification ≠ Production</span></div><div class="hero-actions"><a class="button primary" href="#infrastructure">Інфраструктура</a><a class="button secondary" href="#cheat-sheet">Відкрити довідник</a></div></div><div class="hero-stats" aria-label="Ключові принципи"><div><strong>FEDERATED</strong><span>Multi-Orchestrator Architecture</span></div><div><strong>FAIL CLOSED</strong><span>Deny by Default</span></div><div><strong>ZERO TRUST</strong><span>Verify Every Privileged Action</span></div><div><strong>E0 → E6</strong><span>Evidence Architecture</span></div></div></section><section class="section update-section" id="development"><div class="section-heading"><p class="eyebrow left">26 OCT 2026 / IMPERIAL Core</p><h2>Поточний напрям розробки</h2><p>IMPERIAL Core — AI-native екосистема в розробці. Її поточний стан відображають публічна архітектура, еталонні реалізації та датовані результати перевірок.</p></div><div class="engineering-grid"><article><h3>VELION ⚡</h3><p>VELION ⚡ — назва LLM-продукту. MAX — режим. Публічний репозиторій зберігає історичну адресу VELION-LLM-Public. Власні навчені ваги та реальний inference тут не підтверджені.</p></article><article><h3>CONSTRUCTOR AI</h3><p>CONSTRUCTOR AI розвиває перевірюваний цикл розробки ПЗ. Тести еталонних компонентів та імітація викликів моделі ще не доводять повний автономний випуск застосунку.</p></article><article><h3>Governance &amp; Security</h3><p>CYBER HAK розвиває оборонний аудит. HANTER, ASTRA, Legion і Nano Core Agents зберігають обмежені ролі у Federated Multi-Orchestrator Architecture.</p></article></div><a class="button secondary" href="https://github.com/oromaskevic23-cmd/Capital-Core-Public/blob/a0dfa841c28f4e79bfb1c4a9356452157cbe523e/docs/EVIDENCE.md">Відкрити датовані інженерні докази ↗</a></section><section id="capital-core" class="section capital-section"><div class="section-heading"><p class="eyebrow left">ГЛОБАЛЬНЕ БАЧЕННЯ · МІСЦЕВА ЕКСПЕРТИЗА</p><h2>Capital Core · Enterprise</h2><p>Цільова модель: за кожним великим містом світу закріплена команда універсальних Nano Core Agents. Знання місцевого ринку, професійні компетенції та спільний інтелект у межах Federated Multi-Orchestrator Architecture.</p><p class="capital-status">Архітектурний план розвитку · Міські команди заплановано; чинне глобальне покриття не підтверджено.</p></div><div class="capital-grid"><article><span class="capital-number">01</span><h3>Кожне місто — власний контекст</h3><p>Міські команди досліджують місцеві ринки, мови, галузі та ділові можливості, спираючись на датовані джерела й перевірні відомості.</p></article><article><span class="capital-number">02</span><h3>Універсальні команди. Визначені повноваження.</h3><p>Динамічні команди NCA поєднують дослідження, бізнес-аналіз, розробку ПЗ та операційну роботу. Навички й дозволи призначаються для кожної місії; універсальність не надає необмеженої влади.</p></article><article><span class="capital-number">03</span><h3>ORION · колективний інтелект</h3><p>ORION об’єднує знання міських команд, зіставляє висновки та готує рекомендації. Мережа обмінюється досвідом, а дозволене виконання залишається відповідальністю доменних оркестраторів.</p></article><article><span class="capital-number">04</span><h3>Федеративне виконання</h3><p>Доменні оркестратори координують місії різних організацій і професійних команд у Runtime Domains. AI Passport, Enterprise IMPERIAL Skills, Guardian Core, Approval Gateway та Audit Ledger забезпечують підзвітність.</p></article></div><p class="evidence-boundary">Capital Core відповідає за економічний і діловий аналіз. Фінансовий аналіз сам собою не дозволяє транзакції; CRYPTO IMPERIAL Ecosystem зберігає окрему межу.</p><div class="capital-links"><a href="https://github.com/oromaskevic23-cmd/Capital-Core-Public/blob/gh-pages/reference/capital-core-enterprise.md">Архітектурна записка Enterprise (англійською) ↗</a><a href="https://github.com/oromaskevic23-cmd/ORION-Public">Перейти до ORION ↗</a></div></section><section class="section infrastructure-section" id="infrastructure"><div class="section-heading"><p class="eyebrow left">IMPERIAL Core / INFRASTRUCTURE</p><h2>Де розміщена інфраструктура.</h2><p>Сервіси IMPERIAL Core та підтверджене розміщення. Географія стосується інфраструктури, а не місця проживання засновника.</p><p class="review-date"><time datetime="2026-10-26">Конфігурацію перевірено · 26 жовтня 2026</time></p></div><div class="infrastructure-grid"><article class="infrastructure-card confirmed"><span class="region-label">РЕГІОН ПІДТВЕРДЖЕНО</span><h3>Supabase · основна база даних</h3><p class="region-place">Франкфурт, Німеччина · Європа</p><p>Підключений проєкт повідомляє регіон eu-central-1 і стан ACTIVE_HEALTHY. Це підтверджує регіон основної бази даних. Місця виконання Edge Functions перевіряються окремо.</p></article><article class="infrastructure-card managed"><span class="region-label">КЕРОВАНИЙ ХОСТИНГ</span><h3>Netlify · сайти та мостові сервіси</h3><p class="region-place">Мережа доставки провайдера</p><p>Перевірено проєкти й метадані публікацій. Фізичне розміщення вихідних серверів і регіони виконання функцій у цій вибірці не вказані.</p></article><article class="infrastructure-card managed"><span class="region-label">КЕРОВАНИЙ ХОСТИНГ</span><h3>GitHub Pages · цей довідник</h3><p class="region-place">Веб-хостинг під керуванням GitHub</p><p>Публічні HTML, CSS та зображення публікуються з офіційного репозиторію. Адреса сайту не підтверджує конкретне розташування дата-центру.</p></article><article class="infrastructure-card pending"><span class="region-label">РЕГІОН НЕ ПІДТВЕРДЖЕНО</span><h3>Val Town · історичні сервіси</h3><p class="region-place">Поточний регіон не підтверджено</p><p>Збережено історичні записи про проєкти. Поточні публікації, доступність і регіони виконання в цій перевірці незалежно не підтверджено.</p></article></div><p class="evidence-boundary">Глобальна доставка контенту не доводить наявності незалежних серверів застосунків на трьох континентах. Таку топологію розгортання ще не підтверджено.</p><p class="source-note">Джерела: перевірка конфігурації акаунтів за дорученням власника; офіційна документація хостингу. <a href="https://supabase.com/docs/guides/platform/regions">Регіони Supabase ↗</a> · <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">Хостинг GitHub Pages ↗</a></p></section><section class="section architect-section" id="architect"><div class="section-heading"><p class="eyebrow left">Засновник</p><h2>Alexander Romaskevich — RomaskevicH</h2><p>Засновник • Власник • Генеральний директор · IMPERIAL Core</p></div><div class="architect-card"><div class="portrait-wrap"><img src="/Capital-Core-Public/reference/assets/alexander-romaskevich.jpeg" alt="Alexander Romaskevich — Founder, Owner and CEO of IMPERIAL Core" width="1125" height="1408" sizes="(max-width: 900px) 100vw, 42vw" loading="lazy" decoding="async"></div><div class="architect-copy"><span class="mini-label">PUBLIC IDENTITY</span><h3>Засновник • Власник • Генеральний директор</h3><p class="architect-name">Alexander Romaskevich — RomaskevicH</p><div class="identity-variants"><span>Александр Николаевич Ромаскевич</span><span>Олександр Ромаскевич</span><span>Alexander RomaskevicH</span></div><p>Founder and architectural concept author of <a href="/Capital-Core-Public/reference/constructor-ai/">CONSTRUCTOR AI</a>, a software engineering platform in development within IMPERIAL Core.</p><div class="role-grid"><span>Засновник</span><span>Власник</span><span>Генеральний директор</span></div><blockquote>“AI може бути надзвичайно інтелектуальним, але інтелект ніколи сам по собі не повинен давати йому владу.”</blockquote><div class="signature" aria-label="Public engineering signature RomaskevicH">RomaskevicH</div></div></div></section><section class="section projects-section" id="official-projects"><div class="section-heading"><p class="eyebrow left">VERIFIED DESTINATIONS</p><h2>Official GitHub Projects</h2><p>Direct links to the official public profile and repositories designated by Alexander Romaskevich.</p></div><ul class="projects-grid" aria-label="Official GitHub Projects"><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/CONSTRUCTOR-AI" target="_blank" rel="noopener noreferrer"><span class="project-index">01</span><span class="project-copy"><b>CONSTRUCTOR AI</b><small>github.com/oromaskevic23-cmd/CONSTRUCTOR-AI</small></span><span class="project-kind">ENGINEERING</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd" target="_blank" rel="noopener noreferrer"><span class="project-index">02</span><span class="project-copy"><b>Official GitHub profile</b><small>github.com/oromaskevic23-cmd</small></span><span class="project-kind">PROFILE</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/Capital-Core-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">03</span><span class="project-copy"><b>IMPERIAL Core Public</b><small>github.com/oromaskevic23-cmd/Capital-Core-Public</small></span><span class="project-kind">CORE</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/VELION-LLM-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">04</span><span class="project-copy"><b>VELION ⚡</b><small>github.com/oromaskevic23-cmd/VELION-LLM-Public</small></span><span class="project-kind">MODEL</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/CYBER-HAK-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">05</span><span class="project-copy"><b>CYBER-HAK Public</b><small>github.com/oromaskevic23-cmd/CYBER-HAK-Public</small></span><span class="project-kind">SECURITY</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/ORION-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">06</span><span class="project-copy"><b>ORION Public</b><small>github.com/oromaskevic23-cmd/ORION-Public</small></span><span class="project-kind">INTELLIGENCE</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/HANTER-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">07</span><span class="project-copy"><b>HANTER Public</b><small>github.com/oromaskevic23-cmd/HANTER-Public</small></span><span class="project-kind">COMMAND</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li><li><a class="project-card" href="https://github.com/oromaskevic23-cmd/Nano-Core-Agents-Public" target="_blank" rel="noopener noreferrer"><span class="project-index">08</span><span class="project-copy"><b>Nano Core Agents Public</b><small>github.com/oromaskevic23-cmd/Nano-Core-Agents-Public</small></span><span class="project-kind">AGENTS</span><span class="project-arrow" aria-hidden="true">↗</span><span class="sr-only">Opens in a new tab</span></a></li></ul></section><section class="section sheet-section" id="cheat-sheet"><div class="section-heading centered"><p class="eyebrow">30 КАНОНІЧНИХ РОЗДІЛІВ</p><h2>IMPERIAL CORE — CHEAT SHEET</h2><p><b>Document:</b> IC-CHEATSHEET-IMPERIAL-CORE-001<br><b>Purpose:</b> Швидкий канонічний довідник<br><b>Architecture:</b> Federated Multi-Orchestrator Architecture<br><b>Truth Boundary:</b> Architecture ≠ Implementation ≠ Testing ≠ Runtime Verification ≠ Production</p></div><nav class="section-index" aria-label="Зміст довідника"><a href="#section-1"><span>01</span>Головна структура</a><a href="#section-2"><span>02</span>HANTER</a><a href="#section-3"><span>03</span>Канонічна архітектура</a><a href="#section-4"><span>04</span>Nano Core Agents</a><a href="#section-5"><span>05</span>Головний ланцюг безпеки</a><a href="#section-6"><span>06</span>AI Passport</a><a href="#section-7"><span>07</span>Enterprise IMPERIAL Skills</a><a href="#section-8"><span>08</span>Guardian Core</a><a href="#section-9"><span>09</span>Approval Gateway</a><a href="#section-10"><span>10</span>Audit Ledger</a><a href="#section-11"><span>11</span>Zero Trust</a><a href="#section-12"><span>12</span>Runtime Domains</a><a href="#section-13"><span>13</span>TETRIS</a><a href="#section-14"><span>14</span>IMPERIAL AGI</a><a href="#section-15"><span>15</span>ISMG</a><a href="#section-16"><span>16</span>Legion</a><a href="#section-17"><span>17</span>ORION</a><a href="#section-18"><span>18</span>Capital Core</a><a href="#section-19"><span>19</span>CRYPTO IMPERIAL Ecosystem</a><a href="#section-20"><span>20</span>IMPERIUM</a><a href="#section-21"><span>21</span>Економічне виконання</a><a href="#section-22"><span>22</span>Публічна / приватна межа</a><a href="#section-23"><span>23</span>Конституція захисту людини</a><a href="#section-24"><span>24</span>Kill Switch</a><a href="#section-25"><span>25</span>Рівні доказовості</a><a href="#section-26"><span>26</span>Fail-Closed матриця</a><a href="#section-27"><span>27</span>Потік виконання</a><a href="#section-28"><span>28</span>10 НЕДОТОРКАННИХ ПРАВИЛ</a><a href="#section-29"><span>29</span>Головна формула</a><a href="#section-30"><span>30</span>ОДНА ФРАЗА ДЛЯ ВСІЄЇ IMPERIAL CORE</a></nav><div class="reference-search" hidden><label for="reference-search">Пошук у 30 розділах довідника</label><div class="reference-search-row"><input id="reference-search" type="search" autocomplete="off" placeholder="Наприклад: HANTER, AI Passport, безпека…" aria-controls="reference-sections"><button type="button" id="clear-search">Очистити</button></div><p id="search-status" role="status" aria-live="polite" data-results-label="розділів показано">30 / 30 розділів показано</p><p id="search-empty" hidden>Нічого не знайдено. Спробуйте назву компонента або інше слово.</p></div><div class="sheet-grid" id="reference-sections"><article class="sheet-card " id="section-1"><div class="card-top"><span>01</span><i></i></div><h3>Головна структура</h3><pre class="sheet-copy">Architect
+   ↓
+HANTER
+   ↓
+Federated Multi-Orchestrator Layer
+   ↓
+Runtime Domains
+   ↓
+Nano Core Agents
+   ↓
+Controlled Execution
+   ↓
+Verification
+   ↓
+Audit Ledger
+
+Architect: Alexander Romaskevich
+Role: Founder • Owner • CEO • Final Architectural Authority</pre></article><article class="sheet-card " id="section-2"><div class="card-top"><span>02</span><i></i></div><h3>HANTER</h3><pre class="sheet-copy">HANTER = AI Command Center + Deputy to the Architect
+
+Ключові функції:
+
+• executive intelligence;
+• mission decomposition;
+• planning;
+• delegation;
+• coordination;
+• evidence aggregation;
+• Architect interface.
+
+Заборонено:
+
+• перетворювати HANTER на глобального всевладного оркестратора;
+• підпорядковувати HANTER системі NERO;
+• дозволяти HANTER самостійно розширювати свої повноваження;
+• дозволяти HANTER переписувати фундаментальні захисні принципи.</pre></article><article class="sheet-card " id="section-3"><div class="card-top"><span>03</span><i></i></div><h3>Канонічна архітектура</h3><pre class="sheet-copy">NO:
+One Global Orchestrator
+
+YES:
+Federated Multi-Orchestrator Architecture
+
+Кожен оркестратор:
+
+Orchestrator
+   ↓
+Runtime Domain
+   ↓
+Authorized Nano Core Agents
+
+Кількість оркестраторів і Nano Core Agents — динамічна.</pre></article><article class="sheet-card " id="section-4"><div class="card-top"><span>04</span><i></i></div><h3>Nano Core Agents</h3><pre class="sheet-copy">NCA = спеціалізовані AI-агенти
+
+Кожен NCA повинен мати:
+
+AI Passport
+Role
+Runtime Domain
+Capabilities
+Enterprise IMPERIAL Skills
+Policy Binding
+Resource Budget
+Mission Context
+Audit Identity
+
+Приклади:
+
+• Software Engineer NCA
+• Security NCA
+• Research NCA
+• Financial NCA
+• Legal NCA
+• Operations NCA
+• Infrastructure NCA
+• Business NCA</pre></article><article class="sheet-card " id="section-5"><div class="card-top"><span>05</span><i></i></div><h3>Головний ланцюг безпеки</h3><pre class="sheet-copy">AI Passport
+    ↓
+Enterprise IMPERIAL Skills
+    ↓
+Guardian Core
+    ↓
+Approval Gateway
+    ↓
+Runtime Domain
+    ↓
+Execution Boundary
+    ↓
+Audit Ledger
+
+Запам’ятати:
+
+Identity ≠ Authority
+
+Capability ≠ Approval
+
+Intelligence ≠ Privilege</pre></article><article class="sheet-card " id="section-6"><div class="card-top"><span>06</span><i></i></div><h3>AI Passport</h3><pre class="sheet-copy">Призначення: ідентифікація AI-агента.
+
+Мінімум:
+
+passport_id
+agent_id
+role
+runtime_domain
+capabilities
+policy_version
+issued_at
+expires_at
+status
+cryptographic_identity
+
+AI Passport підтверджує, хто є агентом, але не надає йому безумовного права діяти.</pre></article><article class="sheet-card " id="section-7"><div class="card-top"><span>07</span><i></i></div><h3>Enterprise IMPERIAL Skills</h3><pre class="sheet-copy">EIS = контрольовані професійні capability-модулі.
+
+Кожен Skill повинен визначати:
+
+Capability
+Inputs
+Allowed Tools
+Forbidden Actions
+Runtime Domain
+Required Approval
+Privilege Level
+Timeout
+Budget
+Evidence Requirements
+Audit Requirements</pre></article><article class="sheet-card " id="section-8"><div class="card-top"><span>08</span><i></i></div><h3>Guardian Core</h3><pre class="sheet-copy">Головний policy/security gate.
+
+Request
+  ↓
+Identity Check
+  ↓
+Capability Check
+  ↓
+Policy Check
+  ↓
+Risk Check
+  ↓
+Human Protection Check
+  ↓
+ALLOW / DENY / APPROVAL
+
+Базове правило:
+
+Fail Closed</pre></article><article class="sheet-card " id="section-9"><div class="card-top"><span>09</span><i></i></div><h3>Approval Gateway</h3><pre class="sheet-copy">Відповідає на запитання:
+
+«Чи дозволена саме ця дія саме цьому агенту саме зараз?»
+
+Ключові стани:
+
+ALLOW
+DENY
+REQUIRE_APPROVAL
+REVOKED
+EXPIRED
+
+Відсутність рішення:
+
+NO DECISION
+    =
+DENY</pre></article><article class="sheet-card " id="section-10"><div class="card-top"><span>10</span><i></i></div><h3>Audit Ledger</h3><pre class="sheet-copy">Повинен пов’язувати:
+
+Mission
+↓
+Agent
+↓
+AI Passport
+↓
+Policy
+↓
+Authorization
+↓
+Execution
+↓
+Result
+↓
+Evidence
+
+Audit Ledger повинен дозволяти довести:
+
+• хто діяв;
+• що було дозволено;
+• який policy діяв;
+• що фактично виконалося;
+• який отримано результат.</pre></article><article class="sheet-card " id="section-11"><div class="card-top"><span>11</span><i></i></div><h3>Zero Trust</h3><pre class="sheet-copy">Trusted network ≠ trusted agent
+Known agent ≠ authorized action
+Previous approval ≠ current approval
+Skill installed ≠ execution authorized
+Test PASS ≠ production ready
+
+Правило:
+
+Verify every privileged action.</pre></article><article class="sheet-card " id="section-12"><div class="card-top"><span>12</span><i></i></div><h3>Runtime Domains</h3><pre class="sheet-copy">Runtime Domain = ізольована зона виконання.
+
+Ізолюються:
+
+• агенти;
+• інструменти;
+• дані;
+• секрети;
+• бюджети;
+• політики;
+• capabilities;
+• інфраструктура.
+
+Cross-domain доступ:
+
+Default = DENY
+Explicit Authorization = REQUIRED</pre></article><article class="sheet-card " id="section-13"><div class="card-top"><span>13</span><i></i></div><h3>TETRIS</h3><pre class="sheet-copy">TETRIS = execution-security layer
+
+Основні елементи:
+
+Security Kernel
+Tool Execution Firewall
+Agent Behavior Firewall
+Target Containment
+Evidence Lifecycle
+Classification Controls
+Kill Switch
+
+Завдання:
+
+обмежити blast radius навіть у разі помилки або компрометації агента.</pre></article><article class="sheet-card " id="section-14"><div class="card-top"><span>14</span><i></i></div><h3>IMPERIAL AGI</h3><pre class="sheet-copy">Окремий компонент.
+
+Reasoner
+   ↓
+Critic
+   ↓
+Verifier
+   ↓
+Evidence
+   ↓
+Recommendation
+
+IMPERIAL AGI:
+
+• не замінює HANTER;
+• не є глобальним оркестратором;
+• не отримує автоматичної execution authority;
+• працює всередині канонічних trust boundaries.</pre></article><article class="sheet-card " id="section-15"><div class="card-top"><span>15</span><i></i></div><h3>ISMG</h3><pre class="sheet-copy">IMPERIAL Sovereign Model Gateway
+
+Agent
+ ↓
+ISMG
+ ├─ AI Passport validation
+ ├─ Authorization
+ ├─ Provider Registry
+ ├─ Model Registry
+ ├─ Capability Registry
+ ├─ Routing
+ ├─ Budget Controls
+ ├─ Secret Broker
+ ├─ Audit Adapter
+ └─ Kill Switch
+ ↓
+AI Models
+
+ISMG = gateway, а не командний центр.</pre></article><article class="sheet-card " id="section-16"><div class="card-top"><span>16</span><i></i></div><h3>Legion</h3><pre class="sheet-copy">Legion = окремий компонент IMPERIAL Core.
+
+Головне:
+
+• distributed participation;
+• agent/orchestrator ecosystem;
+• Runtime Domain isolation;
+• немає універсальної authority;
+• усі учасники проходять канонічний security chain.</pre></article><article class="sheet-card " id="section-17"><div class="card-top"><span>17</span><i></i></div><h3>ORION</h3><pre class="sheet-copy">Окремий незалежний компонент.
+
+Обов’язкові правила:
+
+Independent Boundary
+Explicit Integration Contracts
+Federated Authority
+No Implicit Superuser</pre><p class="capital-card-update">ORION об’єднує знання міських команд, зіставляє висновки та готує рекомендації. Мережа обмінюється досвідом, а дозволене виконання залишається відповідальністю доменних оркестраторів.</p></article><article class="sheet-card " id="section-18"><div class="card-top"><span>18</span><i></i></div><h3>Capital Core</h3><pre class="sheet-copy">Capital Core = економічна та бізнес-інтелектуальна підсистема.
+
+Запам’ятати:
+
+Financial Intelligence
+        ≠
+Transaction Authority
+        ≠
+Transaction Execution</pre><p class="capital-card-update">Цільова модель: за кожним великим містом світу закріплена команда універсальних Nano Core Agents. Знання місцевого ринку, професійні компетенції та спільний інтелект у межах Federated Multi-Orchestrator Architecture. <a href="#capital-core">Enterprise ↗</a></p></article><article class="sheet-card " id="section-19"><div class="card-top"><span>19</span><i></i></div><h3>CRYPTO IMPERIAL Ecosystem</h3><pre class="sheet-copy">Окрема архітектурна межа:
+
+CRYPTO IMPERIAL
+│
+├── NDB
+├── IMPERIUM
+├── EconomicCapability
+├── BudgetPolicy
+├── PaymentIntent
+├── AuthorizationDecision
+└── PaymentReceipt</pre></article><article class="sheet-card " id="section-20"><div class="card-top"><span>20</span><i></i></div><h3>IMPERIUM</h3><pre class="sheet-copy">IMPERIUM — довгострокова архітектурна цифрова валюта AI-агентів усього світу.
+
+Це архітектурна мета.
+
+Не стверджувати без доказів:
+
+Global adoption
+Global usage
+Market liquidity
+Worldwide agent payments
+Production economic dominance</pre></article><article class="sheet-card " id="section-21"><div class="card-top"><span>21</span><i></i></div><h3>Економічне виконання</h3><pre class="sheet-copy">Agent
+ ↓
+PaymentIntent
+ ↓
+AI Passport
+ ↓
+EconomicCapability
+ ↓
+BudgetPolicy
+ ↓
+Guardian Core
+ ↓
+Approval Gateway
+ ↓
+AuthorizationDecision
+ ↓
+Execution
+ ↓
+PaymentReceipt
+ ↓
+Audit Ledger
+
+DENY у разі:
+
+expired intent
+replay
+duplicate nonce
+changed amount
+changed recipient
+changed policy
+wrong AI Passport
+wrong Runtime Domain
+unauthorized capability
+insufficient budget
+cross-agent authority</pre></article><article class="sheet-card " id="section-22"><div class="card-top"><span>22</span><i></i></div><h3>Публічна / приватна межа</h3><pre class="sheet-copy">PUBLIC
+
+Architecture
+Public Specifications
+Public Repositories
+Verified Public Evidence
+Official Documentation
+
+PRIVATE / RESTRICTED
+
+Proprietary Source
+Secrets
+Credentials
+Runtime Infrastructure
+Internal Policies
+Privileged Controls
+Private Security Configuration
+
+Ніколи:
+
+Architecture claim
+        ≠
+Implementation claim</pre></article><article class="sheet-card priority-card" id="section-23"><div class="card-top"><span>23</span><i></i></div><h3>Конституція захисту людини</h3><pre class="sheet-copy">Пріоритет:
+
+Human Protection
+      &gt;
+Business Objective
+      &gt;
+System Autonomy
+      &gt;
+Agent Objective
+
+Система не повинна:
+
+• свідомо шкодити людям;
+• використовувати примусову маніпуляцію;
+• ставати інструментом репресій;
+• перетворюватися на зброю проти людей;
+• допускати захоплення governance;
+• дозволяти AI переписувати фундаментальні захисні принципи.</pre></article><article class="sheet-card " id="section-24"><div class="card-top"><span>24</span><i></i></div><h3>Kill Switch</h3><pre class="sheet-copy">Рівні:
+
+Agent Kill
+Capability Kill
+Mission Kill
+Runtime Domain Kill
+Model Kill
+Provider Kill
+Economic Kill
+Emergency System Control
+
+Найкращий принцип:
+
+вимикати мінімально необхідний рівень, а не обов’язково всю систему.</pre></article><article class="sheet-card " id="section-25"><div class="card-top"><span>25</span><i></i></div><h3>Рівні доказовості</h3><pre class="sheet-copy">E0 = Architecture
+E1 = Specification
+E2 = Implementation
+E3 = Unit / Static Verification
+E4 = Integration Verification
+E5 = Runtime Verification
+E6 = Production Evidence
+
+Ключове правило:
+
+Не можна підвищувати evidence level без доказів.</pre></article><article class="sheet-card " id="section-26"><div class="card-top"><span>26</span><i></i></div><h3>Fail-Closed матриця</h3><pre class="sheet-copy">UNKNOWN  → DENY
+MISSING  → DENY
+INVALID  → DENY
+EXPIRED  → DENY
+REVOKED  → DENY
+MISMATCH → DENY</pre></article><article class="sheet-card " id="section-27"><div class="card-top"><span>27</span><i></i></div><h3>Потік виконання</h3><pre class="sheet-copy">ARCHITECT
+   ↓
+HANTER
+   ↓
+MISSION ENVELOPE
+   ↓
+FEDERATED ORCHESTRATOR
+   ↓
+NANO CORE AGENT
+   ↓
+AI PASSPORT
+   ↓
+ENTERPRISE IMPERIAL SKILL
+   ↓
+GUARDIAN CORE
+   ↓
+APPROVAL GATEWAY
+   ↓
+RUNTIME DOMAIN
+   ↓
+TETRIS
+   ↓
+ISMG / TOOL / SERVICE
+   ↓
+EXECUTION
+   ↓
+VERIFIER
+   ↓
+AUDIT LEDGER
+   ↓
+EVIDENCE</pre></article><article class="sheet-card priority-card" id="section-28"><div class="card-top"><span>28</span><i></i></div><h3>10 НЕДОТОРКАННИХ ПРАВИЛ</h3><pre class="sheet-copy">1. No Global Orchestrator
+2. Deny by Default
+3. No Identity = No Execution
+4. No Capability = No Execution
+5. No Approval = No Privileged Execution
+6. No Self-Privilege Escalation
+7. No Silent Cross-Domain Authority
+8. No Economic Authority from Intelligence Alone
+9. No Production Claim Without Evidence
+10. No AI Authority to Rewrite Human Protection</pre></article><article class="sheet-card " id="section-29"><div class="card-top"><span>29</span><i></i></div><h3>Головна формула</h3><pre class="sheet-copy">IDENTITY
+   ↓
+CAPABILITY
+   ↓
+POLICY
+   ↓
+APPROVAL
+   ↓
+ISOLATION
+   ↓
+EXECUTION
+   ↓
+VERIFICATION
+   ↓
+EVIDENCE
+
+Над усією системою:
+
+HUMAN PROTECTION
+       ↓
+ARCHITECTURAL AUTHORITY
+       ↓
+ZERO TRUST
+       ↓
+AUDITABILITY</pre></article><article class="sheet-card priority-card" id="section-30"><div class="card-top"><span>30</span><i></i></div><h3>ОДНА ФРАЗА ДЛЯ ВСІЄЇ IMPERIAL CORE</h3><pre class="sheet-copy">AI може бути надзвичайно інтелектуальним, але інтелект ніколи сам по собі не повинен давати йому владу.</pre></article></div></section><section class="section architecture-section" id="architecture"><div class="section-heading centered"><p class="eyebrow">CANONICAL ARCHITECTURE</p><h2>Federated Multi-Orchestrator Architecture</h2><p>Повне канонічне дерево IMPERIAL CORE.</p></div><div class="architecture-shell"><div class="shell-toolbar"><span>IMPERIAL CORE / ARCHITECTURE TREE</span><b>NO SINGLE GLOBAL ORCHESTRATOR</b></div><details class="tree-disclosure"><summary>Розгорнути повне дерево архітектури</summary><pre class="architecture-tree">IMPERIAL CORE
+│
+├── 👑 ARCHITECT AUTHORITY
+│   └── Alexander Romaskevich
+│       ├── Founder
+│       ├── Owner
+│       ├── CEO
+│       └── Final Architectural Authority
+│
+├── 🧠 HANTER
+│   ├── AI Command Center
+│   ├── Deputy to the Architect
+│   ├── Executive Kernel
+│   ├── Mission Intelligence
+│   ├── Planning
+│   ├── Delegation
+│   ├── Multi-Orchestrator Coordination
+│   ├── Evidence Aggregation
+│   └── Architect Interface
+│
+├── 🌐 FEDERATED MULTI-ORCHESTRATOR ARCHITECTURE
+│   ├── Orchestrator A
+│   │   └── Runtime Domain A
+│   ├── Orchestrator B
+│   │   └── Runtime Domain B
+│   ├── Orchestrator C
+│   │   └── Runtime Domain C
+│   └── ... Dynamic Orchestrators
+│
+│   ❌ NO SINGLE GLOBAL ORCHESTRATOR
+│
+├── 🤖 NANO CORE AGENTS
+│   ├── Dynamic Agent Creation
+│   ├── Professional Agents
+│   ├── Engineering Agents
+│   ├── Research Agents
+│   ├── Security Agents
+│   ├── Business Agents
+│   ├── Financial Agents
+│   ├── Operational Agents
+│   └── Domain-Specific Teams
+│
+├── 🪪 AI PASSPORT
+│   ├── Agent Identity
+│   ├── Agent ID
+│   ├── Roles
+│   ├── Runtime Domain
+│   ├── Capability Binding
+│   ├── Policy Version
+│   ├── Trust State
+│   └── Cryptographic Identity
+│
+├── 🧩 ENTERPRISE IMPERIAL SKILLS
+│   ├── Engineering
+│   ├── Research
+│   ├── Security
+│   ├── Infrastructure
+│   ├── Business
+│   ├── Finance
+│   └── Specialized Capabilities
+│
+├── 🛡️ SECURITY &amp; GOVERNANCE
+│   │
+│   ├── Guardian Core
+│   │   ├── Policy Enforcement
+│   │   ├── Risk Evaluation
+│   │   ├── Human Protection
+│   │   └── Fail-Closed Decisions
+│   │
+│   ├── Approval Gateway
+│   │   ├── ALLOW
+│   │   ├── DENY
+│   │   ├── REQUIRE APPROVAL
+│   │   ├── REVOKED
+│   │   └── EXPIRED
+│   │
+│   ├── Audit Ledger
+│   │   ├── Mission Evidence
+│   │   ├── Authorization Evidence
+│   │   ├── Execution Evidence
+│   │   └── Tamper-Resistant History
+│   │
+│   ├── Zero Trust
+│   │   ├── Identity ≠ Authority
+│   │   ├── Capability ≠ Approval
+│   │   └── Intelligence ≠ Privilege
+│   │
+│   ├── Agent Behavior Firewall
+│   ├── Tool Execution Firewall
+│   ├── Kill Switch
+│   └── Deny by Default
+│
+├── 🧱 RUNTIME DOMAINS
+│   ├── Independent Execution Boundaries
+│   ├── Local Policies
+│   ├── Local Capabilities
+│   ├── Resource Budgets
+│   ├── Secret Boundaries
+│   ├── Agent Clusters
+│   └── Cross-Domain Authorization
+│
+├── 🧬 IMPERIAL AGI
+│   ├── Reasoner
+│   ├── Critic
+│   ├── Verifier
+│   ├── Long-Horizon Reasoning
+│   ├── Evidence Line
+│   └── Recommendation Layer
+│
+│   ❌ Does not replace HANTER
+│   ❌ Not a global orchestrator
+│
+├── 🚪 ISMG
+│   └── IMPERIAL Sovereign Model Gateway
+│       ├── AI Passport Validation
+│       ├── Model Registry
+│       ├── Provider Registry
+│       ├── Capability Registry
+│       ├── Sovereign Routing
+│       ├── Budget Controls
+│       ├── Secret Broker
+│       ├── Audit Adapter
+│       └── Kill Switch
+│
+├── 🛡️ TETRIS
+│   ├── Security Kernel
+│   ├── Tool Execution Firewall
+│   ├── Agent Behavior Firewall
+│   ├── Target Containment
+│   ├── Evidence Lifecycle
+│   ├── Classification Controls
+│   └── Emergency Kill Controls
+│
+├── ⚔️ LEGION
+│   ├── Independent Ecosystem Component
+│   ├── Distributed Participation
+│   ├── Agent / Orchestrator Ecosystem
+│   └── Runtime-Domain Isolation
+│
+├── 🔭 ORION
+│   ├── Independent Component
+│   ├── Explicit Integration Contracts
+│   ├── Federated Authority
+│   └── No Implicit Superuser Access
+│
+├── 💼 CAPITAL CORE
+│   ├── Economic Intelligence
+│   ├── Business Intelligence
+│   ├── Capital Analysis
+│   └── Economic Analysis ≠ Transaction Authority
+│
+├── 💎 CRYPTO IMPERIAL ECOSYSTEM
+│   │
+│   ├── NDB
+│   │   └── New Digital Bitcoin
+│   │
+│   ├── IMPERIUM
+│   │   ├── Digital Economic Architecture
+│   │   ├── Agent-to-Agent Economy
+│   │   └── Long-term architectural digital currency
+│   │       for AI agents worldwide
+│   │
+│   ├── EconomicCapability
+│   ├── BudgetPolicy
+│   ├── PaymentIntent
+│   ├── AuthorizationDecision
+│   └── PaymentReceipt
+│
+├── 🚧 PUBLIC / PRIVATE BOUNDARY
+│   │
+│   ├── PUBLIC
+│   │   ├── Architecture
+│   │   ├── Public Specifications
+│   │   ├── Public Repositories
+│   │   └── Verifiable Evidence
+│   │
+│   └── PRIVATE / RESTRICTED
+│       ├── Proprietary Source
+│       ├── Runtime Infrastructure
+│       ├── Secrets
+│       ├── Credentials
+│       ├── Internal Policies
+│       └── Privileged Controls
+│
+├── ❤️ HUMAN PROTECTION CONSTITUTION
+│   ├── Human Safety
+│   ├── No Deliberate Harm
+│   ├── No Coercive Manipulation
+│   ├── No Repressive Use
+│   ├── No Mass-Harm Use
+│   ├── No Weaponization Against People
+│   ├── No Governance Capture
+│   └── AI Cannot Rewrite Core Protections
+│
+├── 🔬 EVIDENCE ARCHITECTURE
+│   ├── E0 — Architecture
+│   ├── E1 — Specification
+│   ├── E2 — Implementation
+│   ├── E3 — Static / Unit Verification
+│   ├── E4 — Integration Verification
+│   ├── E5 — Runtime Verification
+│   └── E6 — Production Evidence
+│
+└── ⚙️ CANONICAL EXECUTION CHAIN
+    │
+    ├── Architect
+    ↓
+    ├── HANTER
+    ↓
+    ├── Mission Envelope
+    ↓
+    ├── Federated Orchestrator
+    ↓
+    ├── Nano Core Agent
+    ↓
+    ├── AI Passport
+    ↓
+    ├── Enterprise IMPERIAL Skill
+    ↓
+    ├── Guardian Core
+    ↓
+    ├── Approval Gateway
+    ↓
+    ├── Runtime Domain
+    ↓
+    ├── TETRIS / Execution Security
+    ↓
+    ├── Tool / ISMG / Service
+    ↓
+    ├── Verification
+    ↓
+    └── Audit Ledger → Evidence</pre></details></div></section></main><footer><div class="footer-mark"><img src="/Capital-Core-Public/assets/imperial-core-diamond-20261116.jpg" alt="IMPERIAL Core" width="1051" height="1496"></div><h2>IMPERIAL CORE</h2><p>Архітектура перед реалізацією • Deny by Default • Захист людини понад усе</p><span>Alexander Romaskevich — RomaskevicH</span><span class="footer-role">Засновник • Власник • Генеральний директор · IMPERIAL Core</span><span class="footer-signature">Александр Николаевич Ромаскевич · Олександр Ромаскевич · Alexander RomaskevicH</span><a class="footer-github" href="https://github.com/oromaskevic23-cmd" target="_blank" rel="noopener noreferrer">GitHub · @oromaskevic23-cmd ↗<span class="sr-only"> Opens in a new tab</span></a><nav class="locale-links" aria-label="Мови"><a href="/Capital-Core-Public/reference/technical/technical/" lang="en" hreflang="en" data-locale-link="en">English</a><a href="/Capital-Core-Public/reference/technical/uk/" lang="uk" hreflang="uk" data-locale-link="uk" aria-current="page">Українська</a><a href="/Capital-Core-Public/reference/technical/ru/" lang="ru" hreflang="ru" data-locale-link="ru">Русский</a><a href="/Capital-Core-Public/reference/technical/de-CH/" lang="de-CH" hreflang="de-CH" data-locale-link="de-CH">Deutsch (Schweiz)</a><a href="/Capital-Core-Public/reference/technical/fr/" lang="fr" hreflang="fr" data-locale-link="fr">Français</a><a href="/Capital-Core-Public/reference/technical/es/" lang="es" hreflang="es" data-locale-link="es">Español</a><a href="/Capital-Core-Public/reference/technical/pt/" lang="pt" hreflang="pt" data-locale-link="pt">Português</a><a href="/Capital-Core-Public/reference/technical/ar/" lang="ar" hreflang="ar" data-locale-link="ar">العربية</a><a href="/Capital-Core-Public/reference/technical/ja/" lang="ja" hreflang="ja" data-locale-link="ja">日本語</a><a href="/Capital-Core-Public/reference/technical/zh/" lang="zh" hreflang="zh" data-locale-link="zh">中文</a></nav></footer><script src="/Capital-Core-Public/reference/assets/reference.js?v=20261028" defer></script></body></html>
