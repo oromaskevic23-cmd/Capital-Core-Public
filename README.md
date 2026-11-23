@@ -22,6 +22,7 @@ Every future metropolitan operation is a separately governed **City Cell** under
 
 - [Global City Enterprise Architecture](docs/CAPITAL_CORE_GLOBAL_CITY_ENTERPRISE.md) — city admission, NCA skill permissions, human brokerage boundary, CRM-SOFFT mission routing, threat controls and evidence gates.
 - [Earnings and Revenue Engine](docs/CAPITAL_CORE_REVENUE_ENGINE.md) — contracted SaaS/service revenue streams, external payment proof, jurisdictional gates and precise minor-unit allocation.
+- [Money Contour Security & Evidence Boundary](docs/MONEY_CONTOUR_SECURITY.md) — isolated synthetic receipt / Owner approval / reversal controls; [reference code](capital_core/money_boundary.py) and [14 local tests](tests/test_capital_core_money_boundary.py), no production payment authority.
 - [Python Reference Engine](capital_core/reference.py) — in-memory city/agent/mission dispatch, fail-closed policy gates, hash-linked demo events, HMAC-attested receipt allocations with zero payouts.
 - [City NCA earnings and P&L design](docs/CAPITAL_CORE_AGENT_EARNINGS.md) — independent quality-based attribution, local partner economics and zero automatic cash payments.
 - [Agent attribution code](capital_core/attribution.py) · [Attribution tests](tests/test_capital_core_attribution.py).
