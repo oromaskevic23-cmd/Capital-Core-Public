@@ -26,7 +26,7 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "72764f4087a234a15cfcdd1bcb74474c0012e9d890713aab8f68212445940457"
+      "sha256": "7ddc8cef7441d5b261f94fe9bf62ffc1bbd8731bac1c19b8c63efe26e43c46ed"
     },
     {
       "path": "assets/INSTRUMENT-SERIF-OFL.txt",
@@ -186,11 +186,11 @@
     },
     {
       "path": "assets/showcase.css",
-      "sha256": "9ca241800715a440a992596331ad60b7a8a753dc7c2fb86e736ef811d8ec85c4"
+      "sha256": "7af478aa405719bafae112a32808a31dd94259412c5bd4ce6db97fdb5f425afd"
     },
     {
       "path": "assets/showcase.js",
-      "sha256": "7e0d9130ea5a7f613a10fe04a903790504aea2fddc7c24fadd1ad37c2bf305a2"
+      "sha256": "2c0515a9b6d6f4bed23ad424d9b9dfdaa7fccc3c04009d7bf540ce4f825e87d4"
     },
     {
       "path": "assets/showcase/agy.webp",
@@ -219,6 +219,18 @@
     {
       "path": "assets/showcase/nano-core-agents.webp",
       "sha256": "a4f41cd46d8b31a71da78851894237f90dda9a5e6d9c08bdfe2ee3c69d74cf84"
+    },
+    {
+      "path": "assets/showcase/tokens/imperium.webp",
+      "sha256": "a46150d1446c909bd52099b95da9a7bdad2e5405c068a9f4d3c837175121034e"
+    },
+    {
+      "path": "assets/showcase/tokens/ndb.webp",
+      "sha256": "5fc42e08508c820e3098680b6131a7a44751f21023ac3efd0a47c575bc6706d7"
+    },
+    {
+      "path": "assets/showcase/tokens/nzt.webp",
+      "sha256": "7ab3b03f56a7748e95eaadda2e488075fe0b1002d3858af8b35128bf9b5be933"
     },
     {
       "path": "assets/showcase/velion.webp",
@@ -290,23 +302,23 @@
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "0445368351cc1221ad6799e747916318622600dcf056aa43d6f672e82ed72cad"
+      "sha256": "76bdfd4dde14533b34c4d1693396961b0abaa8ce67e41edc18ea778c80e858d1"
     },
     {
       "path": "es/index.html",
-      "sha256": "04c8c5936edcdf6e639fbda6f463565e217c7b8d4e76eb5f0e9e7154c903571f"
+      "sha256": "0d8d511772d200d666551e2ca12e3df00bbc46f7b1902b9e19ae2f541f5fc816"
     },
     {
       "path": "fr/index.html",
-      "sha256": "4ba5cae5550b02f2974fa440dc1a56d07323a0a1495015e59a35a500add1956f"
+      "sha256": "978c65c48951cd74ede94dc3674e8bf9200cdda6968e670a54d5ce89cb561ea4"
     },
     {
       "path": "index.html",
-      "sha256": "aee609e1986618af6fc92eb8e8dbfc90c43cabc95e73277a4fe0213081b61552"
+      "sha256": "66ab25100e07caf17b9e8464271adb915f2f79828e8d2846e8f26f8a738c5432"
     },
     {
       "path": "ja/index.html",
-      "sha256": "0c2c78608e79daff845af88b2e05a695efb6a9a7accff14738e143e4daab4370"
+      "sha256": "6fe84c1d4a1b4cf7b34020dfd5ecb791a7455075f65ade783cd4a9946939f757"
     },
     {
       "path": "projects/index.html",
@@ -314,7 +326,7 @@
     },
     {
       "path": "pt/index.html",
-      "sha256": "57c167bbd4df610ea62862abb37a106ac700355e96e0373ae30f8dd6f6643271"
+      "sha256": "bd599cf35d1831e792b4494fca6aa78bf83cdc8900a50b2889d1c9fa5ddf8f5e"
     },
     {
       "path": "robots.txt",
@@ -326,7 +338,7 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "f421ded5d1af9b98fe4c626a8c25f3f82b5e447eb286b7cdad632722cead71f1"
+      "sha256": "da2d6534a94fb2f66cfbd0ee3e43f3a1c13fd00b23d1b6d604d75fbe7ec848ef"
     },
     {
       "path": "sitemap.xml",
@@ -398,7 +410,7 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "d7515ad054b9498a3c94c886fdbba6f8858034a692e34f6cd63ec32d7c3b82a0"
+      "sha256": "3e635f7bd0bc4be13861652b9e4191d52a4e2fd8c40505aac5ed780285c18b23"
     },
     {
       "path": "velion/index.html",
@@ -406,7 +418,7 @@
     },
     {
       "path": "zh/index.html",
-      "sha256": "2cc4eff9b0013bb062ca2dbebec265943ce4d3cd33880aeba9db8fdff16a4e5c"
+      "sha256": "0aa3c0c2fd40da067f4306ab6623f2a963ba0ff5f47fdde50443c933974595cd"
     }
   ]
 }

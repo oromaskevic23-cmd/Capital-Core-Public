@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 import re
 
-from content import COPY, FEATURED, FEATURE_TEXT, GALLERY_LABELS, LANGUAGES, MORE, MORE_TEXT, REFERENCE_LABELS
+from content import COPY, FEATURED, FEATURE_TEXT, LANGUAGES, MORE, MORE_TEXT, PORTFOLIO_LABELS, REFERENCE_LABELS
 
 ROOT = Path(__file__).resolve().parents[2]
 REFERENCE = ROOT / "reference"
@@ -21,7 +21,12 @@ FOUNDER = HOST + "/oromaskevic23-cmd/"
 GIT = "https://github.com/oromaskevic23-cmd"
 CONTEST = GIT + "/IMPERIAL-DUBAI-2027-Public"
 STUDIO = SHOWCASE + "constructor-ai/studio/studio.html"
-GALLERY = ("aerial", "waterfront", "atrium", "intelligence", "night")
+LANDSCAPES = ("aerial", "waterfront", "atrium", "intelligence", "night")
+TOKENS = (
+    ("NDB", "N.D.B", 760, 1060),
+    ("IMPERIUM", "IMPERIUM", 720, 1280),
+    ("NZT", "NZT-", 760, 760),
+)
 CARD_ICONS = ("gem", "stack-2", "topology-star-3", "shield-check", "id", "topology-star-3")
 ALT_NAMES = ("Alexander Nikolaevich Romaskevich", "Александр Николаевич Ромаскевич", "Олександр Ромаскевич", "RomaskevicH")
 
@@ -71,7 +76,7 @@ def render(lang):
     capabilities_labels = labels[2:6]
     feature_labels = labels[6:12]
     capabilities_details = labels[12:]
-    repo_heading, supabase_detail, *gallery_labels = GALLERY_LABELS[lang].split(" | ")
+    repo_heading, supabase_detail, listing_status = PORTFOLIO_LABELS[lang]
     current = suffix(lang)
     url = HOST + SHOWCASE + current
     title = f"IMPERIAL Core | {t['hero1']} {t['hero2']}"
@@ -129,14 +134,11 @@ def render(lang):
         f'<span>{escape(description)}</span></a></li>'
         for name, href, description in projects
     )
-    city_images = "\n".join(
-        f'<figure><img src="{DUBAI}{scene}-800.webp" srcset="{DUBAI}{scene}-800.webp 800w, {DUBAI}{scene}.webp 1536w" '
-        f'sizes="{size}" width="1536" height="864" loading="lazy" decoding="async" alt="{escape(alt)}"></figure>'
-        for scene, alt, size in zip(
-            GALLERY, gallery_labels,
-            ("(max-width: 760px) 100vw, 47vw",) + ("(max-width: 760px) 50vw, 25vw",) * 4,
-            strict=True,
-        )
+    landscapes = "\n".join(
+        f'<img class="landscape-frame" src="{DUBAI}{scene}-800.webp" '
+        f'srcset="{DUBAI}{scene}-800.webp 800w, {DUBAI}{scene}.webp 1536w" '
+        'sizes="100vw" width="1536" height="864" loading="lazy" decoding="async" alt="">'
+        for scene in LANDSCAPES
     )
     points = "".join(
         f'<li>{icon(symbol)}<span><strong>{escape(t[key])}</strong><small>{escape(detail)}</small></span></li>'
@@ -162,9 +164,14 @@ def render(lang):
     entries = "\n".join(f"""<article class="entry"><span class="track">{escape(t[track])}</span>
 <h3>{escape(t[track + "Title"])}</h3><p>{escape(t[track + "Body"])}</p>
 {link(t["evidence"], href)}</article>""" for track, href in candidate_links.items())
-    crypto = " ".join(link(name, f"{GIT}/{repo}") for name, repo in (
-        ("CRYPTO IMPERIAL", "CRYPTO-IMPERIAL-Ecosystem-Public"), ("IMPERIUM", "IMPERIUM"), ("NDB", "N.D.B"),
-        ("NZT", "NZT-"), ("LISA", "Lisa-"),
+    token_cards = "\n".join(
+        f'<li><a href="{GIT}/{repo}"><img src="{ART}tokens/{symbol.lower()}.webp" '
+        f'width="{width}" height="{height}" loading="lazy" decoding="async" alt="">'
+        f'<span><strong>{symbol}</strong>{icon("arrow-up-right")}</span></a></li>'
+        for symbol, repo, width, height in TOKENS
+    )
+    crypto_links = " ".join(link(name, f"{GIT}/{repo}") for name, repo in (
+        ("CRYPTO IMPERIAL", "CRYPTO-IMPERIAL-Ecosystem-Public"), ("LISA", "Lisa-"),
     ))
     founder_locale = lang.split("-")[0]
     founder_link = FOUNDER + suffix(founder_locale)
@@ -184,7 +191,7 @@ def render(lang):
 {alternates}
 <link rel="alternate" hreflang="x-default" href="{HOST}{SHOWCASE}">
 <link rel="icon" href="{ASSETS}showcase-gem.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{ASSETS}showcase.css?v=4">
+<link rel="stylesheet" href="{ASSETS}showcase.css?v=5">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="IMPERIAL Core">
 <meta property="og:title" content="{escape(title)}">
@@ -195,7 +202,7 @@ def render(lang):
 <meta property="og:image:height" content="864">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{graph}</script>
-<script defer src="{ASSETS}showcase.js?v=4"></script>
+<script defer src="{ASSETS}showcase.js?v=5"></script>
 </head>
 <body>
 <a href="#main-content" class="skip">{t["skip"]}</a>
@@ -234,20 +241,21 @@ def render(lang):
   <div class="section-head"><h2>{escape(capabilities)}</h2></div>
   <ul class="capability-grid">{capability_cards}</ul>
 </section>
-<section class="closing" id="contact"><div class="wrap"><h2>{t["ctaTitle"].replace("IMPERIAL Core", "<em>IMPERIAL Core</em>")}</h2>
-{link(COPY[lang]["contact"], "mailto:oromaskevic23@gmail.com", "btn btn-gold")}</div></section>
-<section class="wrap section" id="dubai-gallery" aria-labelledby="city-heading">
-  <div class="section-head"><h2 id="city-heading">{t["views"]}</h2></div>
-  <div class="city-gallery">{city_images}</div>
+<section class="landscape-catalogue" id="dubai-gallery" aria-labelledby="repository-heading">
+  <div class="landscape-window" aria-hidden="true">{landscapes}</div>
+  <div class="wrap section catalogue-content" id="all-projects">
+    <div class="section-head"><h2 id="repository-heading">{escape(repo_heading)}</h2>{link("Template Studio", STUDIO)}</div>
+    <p class="section-lead">{t["moreIntro"]}</p>
+    <ul class="repository-grid">{repository_items}</ul>
+    <p class="governance-boundaries"><bdi>AI Passport · Enterprise Skills · Guardian Core · Approval Gateway · Audit Ledger · Zero Trust · Owner Kill Switch · Public/Private Boundary · CRYPTO IMPERIAL Ecosystem Boundary</bdi></p>
+  </div>
 </section>
-<section class="wrap section" id="all-projects">
-  <div class="section-head"><h2>{escape(repo_heading)}</h2>{link("Template Studio", STUDIO)}</div>
-  <p class="section-lead">{t["moreIntro"]}</p>
-  <ul class="repository-grid">{repository_items}</ul>
-  <aside class="crypto"><h3>{t["cryptoTitle"]}</h3><p>{t["cryptoBody"]}</p><nav aria-label="{t["cryptoTitle"]}">{crypto}</nav></aside>
-  <div class="statement"><img src="{DUBAI}digital-diamond.webp" width="150" height="150" alt="" loading="lazy" decoding="async">
-  <div><blockquote>{t["digitalQuote"]}</blockquote><p>{t["digitalBody"]}</p></div></div>
-  <p class="governance-boundaries"><bdi>AI Passport · Enterprise Skills · Guardian Core · Approval Gateway · Audit Ledger · Zero Trust · Owner Kill Switch · Public/Private Boundary · CRYPTO IMPERIAL Ecosystem Boundary</bdi></p>
+<section class="wrap section crypto" id="crypto-imperial" aria-labelledby="token-heading">
+  <h2 id="token-heading">{t["cryptoTitle"]}</h2>
+  <p class="section-lead">{t["cryptoBody"]}</p>
+  <p class="listing-status">{escape(listing_status)}</p>
+  <ul class="token-grid">{token_cards}</ul>
+  <nav aria-label="{t["cryptoTitle"]}">{crypto_links}</nav>
 </section>
 <section class="dubai" id="dubai-2027"><div class="wrap section">
   <h2>{t["dubaiTitle"]}</h2><p class="section-lead">{t["dubaiIntro"]}</p>
@@ -263,6 +271,14 @@ def render(lang):
   <p><bdi>Александр Николаевич Ромаскевич · RomaskevicH</bdi></p>
   <div class="actions">{link(COPY[lang]["founderProfile"], founder_link, "btn btn-outline", True, ' rel="author"')}
   {link(COPY[lang]["engineering"], FOUNDER + "engineering/", "btn btn-outline")}</div></div>
+</section>
+<section class="diamond-finale" id="contact" aria-labelledby="finale-heading">
+  <div class="diamond-backdrop" aria-hidden="true"></div>
+  <div class="wrap finale-copy">
+    <h2 id="finale-heading">{t["digitalQuote"]}</h2>
+    <p>{t["digitalBody"]}</p>
+    {link(COPY[lang]["contact"], "mailto:oromaskevic23@gmail.com", "btn btn-gold")}
+  </div>
 </section>
 </main>
 <footer class="site-footer"><div class="wrap">
@@ -297,7 +313,7 @@ def update_manifest():
     old = json.loads(path.read_text())
     assets = [p for p in (REFERENCE / "assets").glob("showcase*") if p.is_file()]
     assets += list((REFERENCE / "assets/dubai").glob("*.webp"))
-    assets += list((REFERENCE / "assets/showcase").glob("*.webp"))
+    assets += list((REFERENCE / "assets/showcase").rglob("*.webp"))
     assets += list((REFERENCE / "assets").glob("*LICENSE.txt")) + list((REFERENCE / "assets").glob("*OFL.txt"))
     tracked = {entry["path"] for entry in old["files"]}
     tracked.update(p.relative_to(REFERENCE).as_posix() for p in assets)

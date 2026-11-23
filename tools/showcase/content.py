@@ -34,14 +34,14 @@ MORE = [
 FIELDS = (
     "skip nav portfolio architecture dubai founder languages github "
     "hero1 hero2 intro explore "
-    "views evidence all "
+    "evidence all "
     "portfolioTitle architectureTitle architectureBody digitalQuote digitalBody "
     "federation scope identity audit "
     "moreIntro cryptoTitle cryptoBody "
     "dubaiTitle dubaiIntro business personal societal businessTitle personalTitle societalTitle "
     "businessBody personalBody societalBody walkthrough candidateEvidence "
     "founderTitle role founderBody founderProfile engineering reference "
-    "ctaTitle contact footerArchitecture"
+    "contact footerArchitecture"
 ).split()
 
 def locale(text):
@@ -64,7 +64,6 @@ The Sovereign
 AI Ecosystem
 Enterprise orchestration, verified execution and intelligent systems in one unified ecosystem.
 Explore the ecosystem
-Dubai panoramas
 Engineering evidence
 All projects
 Explore the IMPERIAL Core Ecosystem
@@ -98,7 +97,6 @@ Alexander Romaskevich designs the IMPERIAL Core architecture and directs its eng
 Official founder profile
 Engineering dossier
 Technical reference
-Build Your AI Sovereignty with IMPERIAL Core
 Request a private demo
 Architecture → Implementation → Evidence
 """)
@@ -116,7 +114,6 @@ GitHub
 ИИ-экосистема
 Федеративная оркестрация, управляемое исполнение и проверяемая инженерия под контролем человека.
 Смотреть экосистему
-Панорамы Дубая
 Инженерные доказательства
 Все проекты
 Экосистема IMPERIAL Core
@@ -150,7 +147,6 @@ IMPERIAL ONE
 Официальный профиль основателя
 Инженерное досье
 Технический справочник
-Создавайте системы с ответственным ИИ
 Связаться с основателем
 Архитектура → Реализация → Доказательства
 """)
@@ -168,7 +164,6 @@ GitHub
 екосистема ШІ
 Федеративна оркестрація, кероване виконання та перевірна інженерія під контролем людини.
 Оглянути екосистему
-Панорами Дубая
 Інженерні докази
 Усі проєкти
 Екосистема IMPERIAL Core
@@ -202,7 +197,6 @@ IMPERIAL ONE
 Офіційний профіль засновника
 Інженерне досьє
 Технічний довідник
-Створюйте системи з відповідальним ШІ
 Зв’язатися із засновником
 Архітектура → Реалізація → Докази
 """)
@@ -220,7 +214,6 @@ Das souveräne
 KI-Ökosystem
 Föderierte Orchestrierung, kontrollierte Ausführung und überprüfbare Entwicklung unter menschlicher Leitung.
 Ökosystem entdecken
-Dubai-Panoramen
 Technische Nachweise
 Alle Projekte
 Das Ökosystem von IMPERIAL Core
@@ -254,7 +247,6 @@ Alexander Romaskevich entwirft IMPERIAL Core und leitet die Entwicklung. Agenten
 Offizielles Gründerprofil
 Technisches Dossier
 Technische Referenz
-Systeme mit verantwortungsvoller KI entwickeln
 Gründer kontaktieren
 Architektur → Umsetzung → Nachweise
 """)
@@ -272,7 +264,6 @@ L’écosystème
 d’IA souverain
 Orchestration fédérée, exécution gouvernée et ingénierie vérifiable sous autorité humaine.
 Explorer l’écosystème
-Panoramas de Dubaï
 Preuves techniques
 Tous les projets
 L’écosystème IMPERIAL Core
@@ -306,7 +297,6 @@ Alexander Romaskevich conçoit IMPERIAL Core et dirige l’ingénierie. Ses proj
 Profil officiel du fondateur
 Dossier technique
 Référence technique
-Concevoir des systèmes d’IA responsables
 Contacter le fondateur
 Architecture → Mise en œuvre → Preuves
 """)
@@ -324,7 +314,6 @@ El ecosistema
 soberano de IA
 Orquestación federada, ejecución gobernada e ingeniería verificable bajo autoridad humana.
 Explorar el ecosistema
-Panorámicas de Dubái
 Evidencia técnica
 Todos los proyectos
 El ecosistema IMPERIAL Core
@@ -358,7 +347,6 @@ Alexander Romaskevich diseña IMPERIAL Core y dirige la ingeniería. Sus proyect
 Perfil oficial del fundador
 Expediente técnico
 Referencia técnica
-Diseñar sistemas de IA responsables
 Contactar con el fundador
 Arquitectura → Implementación → Evidencia
 """)
@@ -376,7 +364,6 @@ O ecossistema
 soberano de IA
 Orquestração federada, execução governada e engenharia verificável sob autoridade humana.
 Explorar o ecossistema
-Panoramas de Dubai
 Evidências técnicas
 Todos os projetos
 O ecossistema IMPERIAL Core
@@ -410,7 +397,6 @@ Alexander Romaskevich projeta a IMPERIAL Core e dirige a engenharia. Seus projet
 Perfil oficial do fundador
 Dossiê técnico
 Referência técnica
-Desenvolva sistemas de IA responsáveis
 Fale com o fundador
 Arquitetura → Implementação → Evidências
 """)
@@ -428,7 +414,6 @@ GitHub
 للذكاء الاصطناعي
 تنسيق اتحادي وتنفيذ خاضع للحوكمة وهندسة قابلة للتحقق تحت سلطة الإنسان.
 استكشف المنظومة
-إطلالات دبي
 الأدلة الهندسية
 جميع المشاريع
 استكشف منظومة IMPERIAL Core
@@ -462,7 +447,6 @@ IMPERIAL ONE
 الملف الرسمي للمؤسس
 الملف الهندسي
 المرجع التقني
-ابنِ أنظمة ذكاء اصطناعي خاضعة للمساءلة
 تواصل مع المؤسس
 البنية ← التنفيذ ← الأدلة
 """)
@@ -480,7 +464,6 @@ GitHub
 AIエコシステム
 人間の管理下で実現する連合型オーケストレーション、統制された実行、検証可能なエンジニアリング。
 エコシステムを見る
-ドバイのパノラマ
 技術的な検証記録
 すべてのプロジェクト
 IMPERIAL Coreのエコシステム
@@ -514,7 +497,6 @@ Alexander RomaskevichはIMPERIAL Coreを設計し、エンジニアリングを�
 創設者の公式プロフィール
 技術資料
 技術リファレンス
-説明責任を備えたAIを構築する
 創設者に連絡する
 設計 → 実装 → 検証記録
 """)
@@ -532,7 +514,6 @@ GitHub
 人工智能生态系统
 联邦式编排、受治理的执行和可验证的工程，始终由人掌控。
 探索生态系统
-迪拜全景
 工程证据
 全部项目
 探索 IMPERIAL Core 生态系统
@@ -566,7 +547,6 @@ Alexander Romaskevich 设计 IMPERIAL Core 并领导工程开发。他的各个�
 创始人官方简介
 工程档案
 技术参考
-构建可问责的人工智能
 联系创始人
 架构 → 实现 → 证据
 """)
@@ -714,16 +694,15 @@ REFERENCE_LABELS = {
     "zh": "架构要点 | 企业级能力 | 自主执行 | 联邦智能 | 治理与信任 | 可扩展架构 | AI 指挥中心 | 智能核心与模型路由 | 专业智能体 | 防御审计与软件完整性 | 智能体身份与治理 | 智能体控制和恢复 | 由人定义范围并审查结果。 | 协调不同领域的专业团队。 | 身份、策略、审批与审计。 | 跨领域动态编排团队。",
 }
 
-# Order matches GALLERY in the build. Panoramas are artistic renderings.
-GALLERY_LABELS = {
-    "en": "GitHub Projects | Supabase infrastructure documentation | Aerial panorama of Dubai at sunset | Waterfront terrace at dusk | Gold-lit atrium overlooking Dubai | Holographic installation above the skyline | Night view from a rooftop terrace",
-    "ru": "Проекты на GitHub | Документация инфраструктуры Supabase | Панорама Дубая с высоты на закате | Терраса у воды в сумерках | Золотой атриум с видом на Дубай | Голографическая инсталляция на фоне города | Ночной вид с террасы на крыше",
-    "uk": "Проєкти на GitHub | Документація інфраструктури Supabase | Панорама Дубая з висоти на заході сонця | Тераса біля води в сутінках | Золотий атріум із краєвидом Дубая | Голографічна інсталяція на тлі міста | Нічний краєвид із тераси на даху",
-    "de-CH": "GitHub-Projekte | Dokumentation der Supabase-Infrastruktur | Dubai aus der Luft bei Sonnenuntergang | Uferterrasse in der Dämmerung | Goldfarbenes Atrium mit Blick auf Dubai | Holografische Installation vor der Skyline | Nächtlicher Blick von einer Dachterrasse",
-    "fr": "Projets GitHub | Documentation de l’infrastructure Supabase | Vue aérienne de Dubaï au coucher du soleil | Terrasse au bord de l’eau au crépuscule | Atrium doré donnant sur Dubaï | Installation holographique devant les gratte-ciel | Vue nocturne depuis un toit-terrasse",
-    "es": "Proyectos en GitHub | Documentación de la infraestructura de Supabase | Vista aérea de Dubái al atardecer | Terraza junto al agua al anochecer | Atrio dorado con vistas a Dubái | Instalación holográfica sobre el perfil urbano | Vista nocturna desde una azotea",
-    "pt": "Projetos no GitHub | Documentação da infraestrutura Supabase | Vista aérea de Dubai ao pôr do sol | Terraço à beira d’água no crepúsculo | Átrio dourado com vista para Dubai | Instalação holográfica sobre a cidade | Vista noturna de um terraço na cobertura",
-    "ar": "مشاريع GitHub | وثائق البنية التحتية لـ Supabase | إطلالة جوية على دبي عند الغروب | شرفة على الواجهة المائية عند الغسق | ردهة ذهبية تطل على دبي | تركيب مجسم ضوئي أمام أفق المدينة | إطلالة ليلية من شرفة على السطح",
-    "ja": "GitHubプロジェクト | Supabaseインフラの文書 | 夕暮れのドバイを上空から眺めたパノラマ | 水辺のテラス | ドバイを望む金色のアトリウム | 街並みの前のホログラム装置 | 屋上テラスからの夜景",
-    "zh": "GitHub 项目 | Supabase 基础设施文档 | 日落时分的迪拜航拍全景 | 暮色中的滨水露台 | 俯瞰迪拜的金色中庭 | 城市天际线前的全息装置 | 屋顶露台俯瞰夜景",
+PORTFOLIO_LABELS = {
+    "en": ("GitHub Projects", "Supabase infrastructure documentation", "Targeting exchange listings in 2027, subject to confirmation."),
+    "ru": ("Проекты на GitHub", "Документация инфраструктуры Supabase", "Целевой срок листинга — 2027 год, при подтверждении со стороны бирж."),
+    "uk": ("Проєкти на GitHub", "Документація інфраструктури Supabase", "Цільовий строк лістингу — 2027 рік, за умови підтвердження з боку бірж."),
+    "de-CH": ("GitHub-Projekte", "Dokumentation der Supabase-Infrastruktur", "Börsennotierung für 2027 angestrebt, vorbehaltlich Bestätigung."),
+    "fr": ("Projets GitHub", "Documentation de l’infrastructure Supabase", "Cotation en bourse visée en 2027, sous réserve de confirmation."),
+    "es": ("Proyectos en GitHub", "Documentación de la infraestructura de Supabase", "Objetivo de cotización en 2027, sujeto a confirmación."),
+    "pt": ("Projetos no GitHub", "Documentação da infraestrutura Supabase", "Meta de listagem em 2027, sujeita a confirmação."),
+    "ar": ("مشاريع GitHub", "وثائق البنية التحتية لـ Supabase", "إدراج مستهدف في منصات التداول في 2027، رهن التأكيد."),
+    "ja": ("GitHubプロジェクト", "Supabaseインフラの文書", "取引所への上場目標は2027年です。上場には確認が必要です。"),
+    "zh": ("GitHub 项目", "Supabase 基础设施文档", "目标于 2027 年上线交易所，具体以确认为准。"),
 }
