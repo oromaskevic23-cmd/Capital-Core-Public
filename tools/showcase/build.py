@@ -30,11 +30,11 @@ def suffix(lang):
 
 
 def icon(name):
-    return f'<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="{ASSETS}showcase-icons.svg#{name}"/></svg>'
+    return f'<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="{ASSETS}showcase-icons.svg?v=2#{name}"/></svg>'
 
 
 def link(label, href, style="text-link", arrow=True, extra=""):
-    mark = '<span class="arrow" aria-hidden="true">↗</span>' if arrow else ""
+    mark = f'<span class="arrow">{icon("arrow-up-right")}</span>' if arrow else ""
     classes = f' class="{style}"' if style else ""
     return f'<a{classes} href="{escape(href, quote=True)}"{extra}>{escape(label)}{mark}</a>'
 
@@ -98,7 +98,7 @@ def render(lang):
         cards.append(f"""<a class="product" id="{cid}" href="{href}" data-scene="{panorama}" data-panorama="{DUBAI}{panorama}-800.webp"{demo}>
 <img src="{image}" width="800" height="450" alt="" loading="lazy" decoding="async">
 <div class="product-copy">{icon(CARD_ICONS[i])}<h3>{escape(name)}</h3><p>{escape(description)}</p></div>
-<span class="arrow" aria-hidden="true">→</span></a>""")
+<span class="arrow">{icon("arrow-right")}</span></a>""")
     more_cards = "\n".join(
         f'<a href="{GIT}/{repo}"><strong>{escape(name)}</strong><span>{escape(trail)}</span></a>'
         for (name, repo), trail in zip(MORE, MORE_TEXT[lang].split(" | "), strict=True)
@@ -141,7 +141,7 @@ def render(lang):
 {alternates}
 <link rel="alternate" hreflang="x-default" href="{HOST}{SHOWCASE}">
 <link rel="icon" href="{ASSETS}showcase-diamond.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{ASSETS}showcase.css">
+<link rel="stylesheet" href="{ASSETS}showcase.css?v=2">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="IMPERIAL Core">
 <meta property="og:title" content="{escape(title)}">
@@ -152,7 +152,7 @@ def render(lang):
 <meta property="og:image:height" content="864">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{graph}</script>
-<script defer src="{ASSETS}showcase.js"></script>
+<script defer src="{ASSETS}showcase.js?v=2"></script>
 </head>
 <body>
 <a href="#main-content" class="skip">{t["skip"]}</a>
@@ -175,10 +175,10 @@ def render(lang):
     {link(COPY[lang]["overview"], "#architecture", "btn btn-outline", False)}</div>
   </div>
   <div class="wrap carousel" role="group" aria-label="{t["views"]}" hidden>
-    <button type="button" data-previous aria-label="{t["previous"]}">←</button>
+    <button type="button" data-previous aria-label="{t["previous"]}">{icon("arrow-left")}</button>
     <output aria-live="off">1 / 6</output>
-    <button type="button" data-next aria-label="{t["next"]}">→</button>
-    <button type="button" data-playback data-play="{t["play"]}" data-pause="{t["pause"]}" aria-label="{t["play"]}">▷</button>
+    <button type="button" data-next aria-label="{t["next"]}">{icon("arrow-right")}</button>
+    <button type="button" data-playback data-play="{t["play"]}" data-pause="{t["pause"]}" aria-label="{t["play"]}">{icon("player-play")}</button>
   </div>
 </section>
 <nav class="wrap principles" aria-label="{t["architecture"]}">{principle_links}</nav>
@@ -221,8 +221,8 @@ def render(lang):
   <img class="dialog-image" alt="" width="800" height="450">
   <button class="dialog-close" type="button" aria-label="{t["close"]}" autofocus>×</button>
   <div class="dialog-copy"><h2 id="project-title"></h2><p></p><div class="actions">
-  <a class="btn btn-gold dialog-project">{t["project"]} <span class="arrow" aria-hidden="true">↗</span></a>
-  <a class="btn btn-outline dialog-demo" hidden>Template Studio <span class="arrow" aria-hidden="true">↗</span></a>
+  <a class="btn btn-gold dialog-project">{t["project"]} <span class="arrow">{icon("arrow-up-right")}</span></a>
+  <a class="btn btn-outline dialog-demo" hidden>Template Studio <span class="arrow">{icon("arrow-up-right")}</span></a>
   </div></div>
 </dialog>
 </body>

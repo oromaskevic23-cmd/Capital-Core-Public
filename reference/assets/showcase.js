@@ -7,9 +7,12 @@
   const scenes = JSON.parse(hero.dataset.scenes);
   const output = gallery.querySelector("output");
   const playback = gallery.querySelector("[data-playback]");
+  const playbackIcon = playback.querySelector("use");
+  const iconSheet = playbackIcon.getAttribute("href").split("#")[0];
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
   const dialog = document.querySelector("#project-dialog");
   let current = 0;
+  let requested = 0;
   let timer = null;
   let pending = 0;
   let transition = Promise.resolve();
@@ -17,7 +20,8 @@
 
   function showScene(index) {
     const request = ++pending;
-    const scene = scenes[(index + scenes.length) % scenes.length];
+    requested = (index + scenes.length) % scenes.length;
+    const scene = scenes[requested];
     transition = transition.catch(() => {}).then(async () => {
       if (request !== pending || scenes[current] === scene) return;
       const shown = pictures.find((picture) => picture.classList.contains("is-visible"));
@@ -44,20 +48,20 @@
   function setPlaying(playing) {
     if (timer !== null) window.clearInterval(timer);
     timer = playing
-      ? window.setInterval(() => { if (!document.hidden && !dialog.open) showScene(current + 1); }, 10500)
+      ? window.setInterval(() => { if (!document.hidden && !dialog.open) showScene(requested + 1); }, 10500)
       : null;
     playback.setAttribute("aria-label", playback.dataset[playing ? "pause" : "play"]);
-    playback.textContent = playing ? "Ⅱ" : "▷";
+    playbackIcon.setAttribute("href", iconSheet + (playing ? "#player-pause" : "#player-play"));
     output.setAttribute("aria-live", playing ? "off" : "polite");
   }
 
   gallery.querySelector("[data-previous]").addEventListener("click", () => {
     setPlaying(false);
-    showScene(current - 1);
+    showScene(requested - 1);
   });
   gallery.querySelector("[data-next]").addEventListener("click", () => {
     setPlaying(false);
-    showScene(current + 1);
+    showScene(requested + 1);
   });
   playback.addEventListener("click", () => setPlaying(timer === null));
   reduceMotion.addEventListener("change", () => { if (reduceMotion.matches) setPlaying(false); });

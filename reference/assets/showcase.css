@@ -86,6 +86,7 @@ p { color: var(--muted); }
 .btn-outline { background: #10101679; color: #fff5e5; }
 .btn-outline:hover { background: #291e19; }
 .arrow { color: inherit; display: inline-block; }
+.arrow .icon, .carousel .icon { width: 1.15em; height: 1.15em; color: inherit; stroke-width: 1.7; }
 [dir="rtl"] .arrow { transform: scaleX(-1); }
 .carousel { display: flex; justify-content: flex-end; align-items: center; gap: 7px; position: absolute; inset-inline: 0; bottom: 27px; margin-inline: auto; direction: ltr; }
 .carousel button, .dialog-close { display: inline-grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; border: 1px solid #f5ca8d80; background: #101117c9; color: var(--paper); }

@@ -26,7 +26,7 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "e0d5c65246224a2218481140630bcbe79824bc1ac48ec2d653b2681d24c0347f"
+      "sha256": "a2f8606351447a113ad71f70f74ee88ace959cd21875a767974b3719db195503"
     },
     {
       "path": "assets/INSTRUMENT-SERIF-OFL.txt",
@@ -166,7 +166,7 @@
     },
     {
       "path": "assets/showcase-icons.svg",
-      "sha256": "14053acde388da589ce7af9c03c5991bac254fa62eb207f5403740786c9b8c3c"
+      "sha256": "2ebb61c5a39c031b9be8d5ea8493be85969b49a9206b3693a0c17145e2bab49e"
     },
     {
       "path": "assets/showcase-serif-ext.woff2",
@@ -178,11 +178,11 @@
     },
     {
       "path": "assets/showcase.css",
-      "sha256": "fc81bd82194761c7748a0f72b321e8e5ec062ec3d9dc0f3d424b64b55264cdcc"
+      "sha256": "925bb6f876bf1fa072eddefc6fa2b79d856b8c7867e0a293e6ac1512f52b3ba1"
     },
     {
       "path": "assets/showcase.js",
-      "sha256": "24669a68316a268596873240d6d3b34391dff3a80d9f439602e1f60f0d3c55b9"
+      "sha256": "8ad92237a2b8ac13a5ec2cd1897743cd88617d7a9bfe2c0ce2ba5a3b1430a3f0"
     },
     {
       "path": "brand/BRAND.md",
@@ -250,23 +250,23 @@
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "ad4aa40fc7fc76e8e401e86b3fad95a9b83f9c489362bbb57b0e9a51bea81ce4"
+      "sha256": "b62557f94331bcf88bb3dc6387294f594223c8c85086b990913a8abdbb0c3127"
     },
     {
       "path": "es/index.html",
-      "sha256": "a7de289369eb148b15cb511beae770bc1c6b562f8aebdce26b57929b2cebe240"
+      "sha256": "127b8649b9f688f82212025ab2e13efe788750951605123f11c0f5f87bc70482"
     },
     {
       "path": "fr/index.html",
-      "sha256": "1fa4efac2beb28cd331a2fe77c05e04a7ad2ce7f5c9a130c63a6b8365832e701"
+      "sha256": "02becfa808d3cd9ae903e72b11ef8b0bc46ed72a191148af67e4461520804e08"
     },
     {
       "path": "index.html",
-      "sha256": "63bd5e58f7121b130f0d52cdceeffacea53f4847d3bd66f001d0fc0b3d305425"
+      "sha256": "572ba0a82dbc22ea872cf8541015e8fb1ef61ab77152671de145b17e4057f222"
     },
     {
       "path": "ja/index.html",
-      "sha256": "3f85b321b4c5eae3aa932b3571dcb559bec55f2b5105ec5f15ae4a2c7c11d4cf"
+      "sha256": "77472ffddb66335c3b9d17454648a70156397a6dc31aa83095cc10cce7cfd273"
     },
     {
       "path": "projects/index.html",
@@ -274,7 +274,7 @@
     },
     {
       "path": "pt/index.html",
-      "sha256": "0a132e2548deceac15620374c68a247d66eb60396a35203c774162e83d72b1d3"
+      "sha256": "95a19360072857bb556b41eb860afe816db27e2f63e188c41eda6bfe6d370cbe"
     },
     {
       "path": "robots.txt",
@@ -286,7 +286,7 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "c82384e8c4f2a802b15110f8fcfd5045d8ae5d2dcebc316d3edd6b90e42c557e"
+      "sha256": "7797e259a689a4bf6fc630af30ff1339704a717f18581a677f06260f57f44bcc"
     },
     {
       "path": "sitemap.xml",
@@ -358,7 +358,7 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "6b8cae2a231ac72006f062dc9d906af3e0b9d9fea62a946ca78052ecd6639c4b"
+      "sha256": "8ea57dd8886d0af8c5e2eddf48b9b000d3cc7f694367ad23035f026407f6bda6"
     },
     {
       "path": "velion/index.html",
@@ -366,7 +366,7 @@
     },
     {
       "path": "zh/index.html",
-      "sha256": "325b00e1021f3c7f36355db3121bf870c55c7e0fe63867f7f181a3868a226c39"
+      "sha256": "1cdb84fb24c803604f6ede2dd7098eda6182d16b1de6684069a6a809c2ce8e4b"
     }
   ]
 }
