@@ -26,7 +26,7 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "d0d468869312e2dada9c94fcce8c8b11a78abdf47ff7bd49d6c1e300d4117809"
+      "sha256": "72764f4087a234a15cfcdd1bcb74474c0012e9d890713aab8f68212445940457"
     },
     {
       "path": "assets/INSTRUMENT-SERIF-OFL.txt",
@@ -186,11 +186,11 @@
     },
     {
       "path": "assets/showcase.css",
-      "sha256": "1cd45106a58abb2b3f99bee0348add889e8811d33b10544ac421405b6230f21d"
+      "sha256": "9ca241800715a440a992596331ad60b7a8a753dc7c2fb86e736ef811d8ec85c4"
     },
     {
       "path": "assets/showcase.js",
-      "sha256": "f3cad894bd0bbb0fb5cf1ad04c31033ae6cb70967f364aabe620cc425216fe99"
+      "sha256": "7e0d9130ea5a7f613a10fe04a903790504aea2fddc7c24fadd1ad37c2bf305a2"
     },
     {
       "path": "assets/showcase/agy.webp",
@@ -290,23 +290,23 @@
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "46873209c2849783c63aef26c276d787b0abc02b0d34e1eb88bf369dfe077431"
+      "sha256": "0445368351cc1221ad6799e747916318622600dcf056aa43d6f672e82ed72cad"
     },
     {
       "path": "es/index.html",
-      "sha256": "a4cfa331e0532fcfde7dca7642dcc563c30cbbcba43ec6379dbf6be5eecfe831"
+      "sha256": "04c8c5936edcdf6e639fbda6f463565e217c7b8d4e76eb5f0e9e7154c903571f"
     },
     {
       "path": "fr/index.html",
-      "sha256": "088fa0367fdce63096ca1b7af50f830c4a65c033f5551632342631e617e9bb60"
+      "sha256": "4ba5cae5550b02f2974fa440dc1a56d07323a0a1495015e59a35a500add1956f"
     },
     {
       "path": "index.html",
-      "sha256": "65ba6f546998ef5bf645bb9337037c32ad9337f95ebd4a7be630694576cdf68a"
+      "sha256": "aee609e1986618af6fc92eb8e8dbfc90c43cabc95e73277a4fe0213081b61552"
     },
     {
       "path": "ja/index.html",
-      "sha256": "b4fd2247bdbbd0f88cb26b9b82760224d620ee7aa12a5f8abb3badc3a346a489"
+      "sha256": "0c2c78608e79daff845af88b2e05a695efb6a9a7accff14738e143e4daab4370"
     },
     {
       "path": "projects/index.html",
@@ -314,7 +314,7 @@
     },
     {
       "path": "pt/index.html",
-      "sha256": "a587199bbcca83d20bcbb38b898d105347bc9e0478aea9fb750d6ef9087a133d"
+      "sha256": "57c167bbd4df610ea62862abb37a106ac700355e96e0373ae30f8dd6f6643271"
     },
     {
       "path": "robots.txt",
@@ -326,7 +326,7 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "73d8ea8fa2912a9a829dba6e8c2b3205ffafbff723d818b1a17d39bd821646bd"
+      "sha256": "f421ded5d1af9b98fe4c626a8c25f3f82b5e447eb286b7cdad632722cead71f1"
     },
     {
       "path": "sitemap.xml",
@@ -398,7 +398,7 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "fd363ff9f8d324301bf1dbf383f501c96954466b74453d3246607da6d2345f41"
+      "sha256": "d7515ad054b9498a3c94c886fdbba6f8858034a692e34f6cd63ec32d7c3b82a0"
     },
     {
       "path": "velion/index.html",
@@ -406,7 +406,7 @@
     },
     {
       "path": "zh/index.html",
-      "sha256": "c177d540e1fd42ccd5b6e569af2b2164184605a426072d1ec97cc2564cc166de"
+      "sha256": "2cc4eff9b0013bb062ca2dbebec265943ce4d3cd33880aeba9db8fdff16a4e5c"
     }
   ]
 }

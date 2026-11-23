@@ -9,15 +9,15 @@ LANGUAGES = {
 # Cards are ordered to match the public site. Repository URLs are generated
 # from the authenticated account's public repository inventory.
 FEATURED = [
-    ("HANTER", "HANTER-Public", "waterfront", "waterfront", "/tree/main/hanter_pilot"),
-    ("VELION", "VELION-LLM-Public", "intelligence", "intelligence", ""),
-    ("Nano Core Agents", "Nano-Core-Agents-Public", "agent-teams", "aerial", ""),
-    ("CYBER HAK", "CYBER-HAK-Public", "night", "night", ""),
-    ("AI Passport", "oromaskevic23-cmd", "passport", "atrium", "/blob/main/docs/AI_PASSPORT_CONCEPT.md"),
-    ("AGY", "AGY", "aerial", "aerial", ""),
-    ("CONSTRUCTOR AI", "CONSTRUCTOR-AI", "atrium", "atrium", ""),
-    ("ORION", "ORION-Public", "intelligence", "intelligence", ""),
-    ("LEGION", "Legion-Public", "agent-teams", "night", ""),
+    ("HANTER", "HANTER-Public", ""),
+    ("VELION", "VELION-LLM-Public", ""),
+    ("Nano Core Agents", "Nano-Core-Agents-Public", ""),
+    ("CYBER HAK", "CYBER-HAK-Public", ""),
+    ("AI Passport", "oromaskevic23-cmd", "/blob/main/docs/AI_PASSPORT_CONCEPT.md"),
+    ("AGY", "AGY", ""),
+    ("CONSTRUCTOR AI", "CONSTRUCTOR-AI", ""),
+    ("ORION", "ORION-Public", ""),
+    ("LEGION", "Legion-Public", ""),
 ]
 
 MORE = [
@@ -33,11 +33,11 @@ MORE = [
 
 FIELDS = (
     "skip nav portfolio architecture dubai founder languages github "
-    "hero1 hero2 intro explore overview "
-    "views previous next play pause close project evidence all "
+    "hero1 hero2 intro explore "
+    "views evidence all "
     "portfolioTitle architectureTitle architectureBody digitalQuote digitalBody "
     "federation scope identity audit "
-    "moreTitle moreIntro cryptoTitle cryptoBody "
+    "moreIntro cryptoTitle cryptoBody "
     "dubaiTitle dubaiIntro business personal societal businessTitle personalTitle societalTitle "
     "businessBody personalBody societalBody walkthrough candidateEvidence "
     "founderTitle role founderBody founderProfile engineering reference "
@@ -64,14 +64,7 @@ The Sovereign
 AI Ecosystem
 Enterprise orchestration, verified execution and intelligent systems in one unified ecosystem.
 Explore the ecosystem
-View architecture
 Dubai panoramas
-Previous view
-Next view
-Play panoramas
-Pause panoramas
-Close
-Open project
 Engineering evidence
 All projects
 Explore the IMPERIAL Core Ecosystem
@@ -83,7 +76,6 @@ Federated orchestration
 Scoped execution
 Identity and approvals
 Verifiable audit
-More engineering projects
 Explore the public design, code and reference implementations behind the ecosystem.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM is envisioned as a long-term architectural digital currency for AI agents worldwide. This research has its own boundary, separate from software execution and the championship candidates.
@@ -124,14 +116,7 @@ GitHub
 ИИ-экосистема
 Федеративная оркестрация, управляемое исполнение и проверяемая инженерия под контролем человека.
 Смотреть экосистему
-Изучить архитектуру
 Панорамы Дубая
-Предыдущий вид
-Следующий вид
-Запустить смену видов
-Приостановить смену видов
-Закрыть
-Открыть проект
 Инженерные доказательства
 Все проекты
 Экосистема IMPERIAL Core
@@ -143,7 +128,6 @@ GitHub
 Ограниченное исполнение
 Идентификация и согласование
 Проверяемый аудит
-Другие инженерные проекты
 Публичная архитектура, исходный код и эталонные реализации экосистемы.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM задуман как долгосрочная архитектурная цифровая валюта для ИИ-агентов всего мира. У этого исследования собственная граница, отдельная от исполнения ПО и конкурсных разработок.
@@ -184,14 +168,7 @@ GitHub
 екосистема ШІ
 Федеративна оркестрація, кероване виконання та перевірна інженерія під контролем людини.
 Оглянути екосистему
-Переглянути архітектуру
 Панорами Дубая
-Попередній краєвид
-Наступний краєвид
-Увімкнути зміну краєвидів
-Призупинити зміну краєвидів
-Закрити
-Відкрити проєкт
 Інженерні докази
 Усі проєкти
 Екосистема IMPERIAL Core
@@ -203,7 +180,6 @@ GitHub
 Обмежене виконання
 Ідентичність і погодження
 Перевірний аудит
-Інші інженерні проєкти
 Публічна архітектура, код та еталонні реалізації екосистеми.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM задумано як довгострокову архітектурну цифрову валюту для ШІ-агентів усього світу. Це дослідження має окрему межу від виконання ПЗ та конкурсних розробок.
@@ -244,14 +220,7 @@ Das souveräne
 KI-Ökosystem
 Föderierte Orchestrierung, kontrollierte Ausführung und überprüfbare Entwicklung unter menschlicher Leitung.
 Ökosystem entdecken
-Architektur ansehen
 Dubai-Panoramen
-Vorherige Ansicht
-Nächste Ansicht
-Panoramen abspielen
-Panoramen anhalten
-Schliessen
-Projekt öffnen
 Technische Nachweise
 Alle Projekte
 Das Ökosystem von IMPERIAL Core
@@ -263,7 +232,6 @@ Föderierte Orchestrierung
 Begrenzte Ausführung
 Identität und Freigaben
 Überprüfbarer Audit
-Weitere Entwicklungsprojekte
 Öffentliche Architektur, Quellcode und Referenzimplementierungen des Ökosystems.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM ist langfristig als digitale Währung für KI-Agenten weltweit konzipiert. Diese Forschung ist von der Softwareausführung und den Wettbewerbsprojekten getrennt.
@@ -304,14 +272,7 @@ L’écosystème
 d’IA souverain
 Orchestration fédérée, exécution gouvernée et ingénierie vérifiable sous autorité humaine.
 Explorer l’écosystème
-Voir l’architecture
 Panoramas de Dubaï
-Vue précédente
-Vue suivante
-Lancer les panoramas
-Mettre les panoramas en pause
-Fermer
-Ouvrir le projet
 Preuves techniques
 Tous les projets
 L’écosystème IMPERIAL Core
@@ -323,7 +284,6 @@ Orchestration fédérée
 Exécution délimitée
 Identité et approbations
 Audit vérifiable
-Autres projets d’ingénierie
 Découvrez l’architecture publique, le code et les implémentations de référence.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM est conçu à long terme comme une monnaie numérique pour les agents IA du monde entier. Ce domaine de recherche est distinct de l’exécution logicielle et des candidatures au championnat.
@@ -364,14 +324,7 @@ El ecosistema
 soberano de IA
 Orquestación federada, ejecución gobernada e ingeniería verificable bajo autoridad humana.
 Explorar el ecosistema
-Ver la arquitectura
 Panorámicas de Dubái
-Vista anterior
-Vista siguiente
-Reproducir panorámicas
-Pausar panorámicas
-Cerrar
-Abrir proyecto
 Evidencia técnica
 Todos los proyectos
 El ecosistema IMPERIAL Core
@@ -383,7 +336,6 @@ Orquestación federada
 Ejecución acotada
 Identidad y aprobaciones
 Auditoría verificable
-Más proyectos de ingeniería
 Consulta la arquitectura pública, el código y las implementaciones de referencia del ecosistema.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM se concibe a largo plazo como una moneda digital para agentes de IA de todo el mundo. Esta investigación se mantiene separada de la ejecución de software y de las candidaturas.
@@ -424,14 +376,7 @@ O ecossistema
 soberano de IA
 Orquestração federada, execução governada e engenharia verificável sob autoridade humana.
 Explorar o ecossistema
-Ver a arquitetura
 Panoramas de Dubai
-Vista anterior
-Próxima vista
-Reproduzir panoramas
-Pausar panoramas
-Fechar
-Abrir projeto
 Evidências técnicas
 Todos os projetos
 O ecossistema IMPERIAL Core
@@ -443,7 +388,6 @@ Orquestração federada
 Execução delimitada
 Identidade e aprovações
 Auditoria verificável
-Mais projetos de engenharia
 Explore a arquitetura pública, o código e as implementações de referência.
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM é concebido como uma moeda digital de longo prazo para agentes de IA de todo o mundo. Essa pesquisa permanece separada da execução de software e das candidaturas.
@@ -484,14 +428,7 @@ GitHub
 للذكاء الاصطناعي
 تنسيق اتحادي وتنفيذ خاضع للحوكمة وهندسة قابلة للتحقق تحت سلطة الإنسان.
 استكشف المنظومة
-اطّلع على البنية
 إطلالات دبي
-الإطلالة السابقة
-الإطلالة التالية
-تشغيل الإطلالات
-إيقاف الإطلالات مؤقتًا
-إغلاق
-افتح المشروع
 الأدلة الهندسية
 جميع المشاريع
 استكشف منظومة IMPERIAL Core
@@ -503,7 +440,6 @@ GitHub
 التنفيذ ضمن نطاق محدد
 الهوية والموافقات
 تدقيق قابل للتحقق
-مشاريع هندسية أخرى
 استكشف البنية المنشورة والشيفرة والتنفيذات المرجعية للمنظومة.
 CRYPTO IMPERIAL Ecosystem
 تُصمَّم IMPERIUM على المدى الطويل عملةً رقمية لوكلاء الذكاء الاصطناعي حول العالم. يبقى هذا البحث منفصلًا عن تنفيذ البرمجيات ومشاريع البطولة.
@@ -544,14 +480,7 @@ GitHub
 AIエコシステム
 人間の管理下で実現する連合型オーケストレーション、統制された実行、検証可能なエンジニアリング。
 エコシステムを見る
-アーキテクチャを見る
 ドバイのパノラマ
-前の景色
-次の景色
-パノラマを再生
-パノラマを一時停止
-閉じる
-プロジェクトを開く
 技術的な検証記録
 すべてのプロジェクト
 IMPERIAL Coreのエコシステム
@@ -563,7 +492,6 @@ IMPERIAL Coreのエコシステム
 範囲を限定した実行
 識別と承認
 検証可能な監査
-その他の開発プロジェクト
 公開アーキテクチャ、ソースコード、参照実装をご覧ください。
 CRYPTO IMPERIAL Ecosystem
 IMPERIUMは世界中のAIエージェント向けの長期的なデジタル通貨構想です。この研究はソフトウェアの実行や大会向けの開発と分離されています。
@@ -604,14 +532,7 @@ GitHub
 人工智能生态系统
 联邦式编排、受治理的执行和可验证的工程，始终由人掌控。
 探索生态系统
-查看架构
 迪拜全景
-上一幅全景
-下一幅全景
-播放全景
-暂停全景
-关闭
-打开项目
 工程证据
 全部项目
 探索 IMPERIAL Core 生态系统
@@ -623,7 +544,6 @@ GitHub
 限定范围的执行
 身份与审批
 可验证的审计
-更多工程项目
 查看生态系统的公开架构、源代码和参考实现。
 CRYPTO IMPERIAL Ecosystem
 IMPERIUM 的长期架构愿景是为全球人工智能体提供数字货币。这项研究与软件执行和参赛项目分开。
@@ -652,7 +572,7 @@ Alexander Romaskevich 设计 IMPERIAL Core 并领导工程开发。他的各个�
 """)
 
 # Each line describes a public project in FEATURED order. These descriptions
-# are used in the project cards and their expanded views.
+# are used in the public GitHub catalogue.
 FEATURE_TEXT = {
 "en": (
 "AI Command Center for mission intake, coordination and review. The public local pilot demonstrates a bounded handoff.",
@@ -780,16 +700,30 @@ MORE_TEXT = {
 }
 
 # Compact labels for the reference layout. Longer engineering descriptions
-# remain in the product dialogs.
+# remain in the open project catalogue.
 REFERENCE_LABELS = {
-    "en": "Platform | Solutions | Resources | About Us | Contact | Request Access | View Overview | Architecture highlights | Trusted Capabilities for the Enterprise | Autonomous Execution | Federated Intelligence | Governance and Trust | Scalable by Design | AI Command Center | Intelligence core for reasoning and execution | Specialized agents for scoped work | Defensive auditing and software integrity | Agent identity and governance | Agent control and recovery research | Human-defined scope, reviewed outcomes. | Specialized teams with shared coordination. | Identity, policy, approvals and audit. | Dynamic team composition across domains.",
-    "ru": "Платформа | Решения | Материалы | Об основателе | Контакты | Запросить доступ | К обзору платформы | Ключевые принципы | Возможности для бизнеса | Автономное исполнение | Федеративный интеллект | Контроль и доверие | Масштабируемая архитектура | Командный центр ИИ | Ядро интеллекта и маршрутизация моделей | Специализированные агенты | Защитный аудит и целостность ПО | Идентификация и контроль агентов | Управление и восстановление агентов | Заданные человеком границы и проверка результата. | Координация специализированных команд. | Идентификация, политики, согласование и аудит. | Динамический состав команд в разных областях.",
-    "uk": "Платформа | Рішення | Матеріали | Про засновника | Контакти | Запросити доступ | До огляду платформи | Ключові принципи | Можливості для бізнесу | Автономне виконання | Федеративний інтелект | Контроль і довіра | Масштабована архітектура | Командний центр ШІ | Ядро інтелекту й маршрутизація моделей | Спеціалізовані агенти | Захисний аудит і цілісність ПЗ | Ідентифікація та контроль агентів | Керування й відновлення агентів | Визначені людиною межі й перевірка результату. | Координація спеціалізованих команд. | Ідентичність, політики, погодження й аудит. | Динамічний склад команд у різних галузях.",
-    "de-CH": "Plattform | Lösungen | Ressourcen | Über uns | Kontakt | Zugang anfragen | Übersicht öffnen | Architektur im Überblick | Funktionen für Unternehmen | Autonome Ausführung | Föderierte Intelligenz | Kontrolle und Vertrauen | Skalierbare Architektur | KI-Kommandozentrale | Intelligenzkern und Modellrouting | Spezialisierte Agenten | Defensiver Audit und Softwareintegrität | Agentenidentität und Governance | Agentensteuerung und Wiederaufnahme | Menschlich definierter Umfang und geprüfte Ergebnisse. | Koordination spezialisierter Teams. | Identität, Richtlinien, Freigaben und Audit. | Dynamische Teamzusammensetzung über Fachgebiete.",
-    "fr": "Plateforme | Solutions | Ressources | À propos | Contact | Demander l’accès | Voir la présentation | Principes d’architecture | Capacités pour les entreprises | Exécution autonome | Intelligence fédérée | Gouvernance et confiance | Architecture évolutive | Centre de commandement IA | Noyau d’intelligence et routage des modèles | Agents spécialisés | Audit défensif et intégrité logicielle | Identité et gouvernance des agents | Contrôle et reprise des agents | Périmètre défini par l’humain et résultats vérifiés. | Coordination des équipes spécialisées. | Identité, politiques, approbations et audit. | Composition dynamique des équipes par domaine.",
-    "es": "Plataforma | Soluciones | Recursos | Acerca de | Contacto | Solicitar acceso | Ver panorama | Principios de arquitectura | Capacidades para empresas | Ejecución autónoma | Inteligencia federada | Gobernanza y confianza | Arquitectura escalable | Centro de mando de IA | Núcleo de inteligencia y enrutamiento de modelos | Agentes especializados | Auditoría defensiva e integridad del software | Identidad y gobernanza de agentes | Control y recuperación de agentes | Alcance definido por personas y resultados verificados. | Coordinación de equipos especializados. | Identidad, políticas, aprobaciones y auditoría. | Composición dinámica de equipos entre dominios.",
-    "pt": "Plataforma | Soluções | Recursos | Sobre nós | Contato | Solicitar acesso | Ver visão geral | Princípios de arquitetura | Recursos para empresas | Execução autônoma | Inteligência federada | Governança e confiança | Arquitetura escalável | Centro de comando de IA | Núcleo de inteligência e roteamento de modelos | Agentes especializados | Auditoria defensiva e integridade do software | Identidade e governança de agentes | Controle e recuperação de agentes | Escopo definido por pessoas e resultados verificados. | Coordenação de equipes especializadas. | Identidade, políticas, aprovações e auditoria. | Composição dinâmica de equipes entre áreas.",
-    "ar": "المنصة | الحلول | الموارد | نبذة عنا | التواصل | طلب الوصول | نظرة عامة | أبرز ملامح البنية | إمكانات للمؤسسات | التنفيذ المستقل | الذكاء الاتحادي | الحوكمة والثقة | بنية قابلة للتوسع | مركز قيادة الذكاء الاصطناعي | نواة الذكاء وتوجيه النماذج | وكلاء متخصصون | التدقيق الدفاعي وسلامة البرمجيات | هوية الوكلاء وحوكمتهم | التحكم في الوكلاء واستعادتهم | نطاق يحدده الإنسان ونتائج قابلة للمراجعة. | تنسيق الفرق المتخصصة. | الهوية والسياسات والموافقات والتدقيق. | تشكيل الفرق حسب المجال والمهمة.",
-    "ja": "プラットフォーム | ソリューション | 資料 | 概要 | お問い合わせ | アクセスを申請 | 概要を見る | アーキテクチャの特徴 | 企業向け機能 | 自律実行 | 連合型インテリジェンス | ガバナンスと信頼 | 拡張可能な設計 | AI指令センター | 推論とモデルのルーティングを担う中核 | 専門エージェント | 防御監査とソフトウェアの完全性 | エージェントの識別と統制 | エージェントの制御と復旧 | 人が定めた範囲と確認可能な結果。 | 専門チームを横断的に調整。 | 識別、ポリシー、承認と監査。 | 分野をまたいでチームを柔軟に編成。",
-    "zh": "平台 | 解决方案 | 资源 | 关于我们 | 联系 | 申请访问 | 查看概览 | 架构要点 | 企业级能力 | 自主执行 | 联邦智能 | 治理与信任 | 可扩展架构 | AI 指挥中心 | 智能核心与模型路由 | 专业智能体 | 防御审计与软件完整性 | 智能体身份与治理 | 智能体控制和恢复 | 由人定义范围并审查结果。 | 协调不同领域的专业团队。 | 身份、策略、审批与审计。 | 跨领域动态编排团队。",
+    "en": "Architecture highlights | Trusted Capabilities for the Enterprise | Autonomous Execution | Federated Intelligence | Governance and Trust | Scalable by Design | AI Command Center | Intelligence core for reasoning and execution | Specialized agents for scoped work | Defensive auditing and software integrity | Agent identity and governance | Agent control and recovery research | Human-defined scope, reviewed outcomes. | Specialized teams with shared coordination. | Identity, policy, approvals and audit. | Dynamic team composition across domains.",
+    "ru": "Ключевые принципы | Возможности для бизнеса | Автономное исполнение | Федеративный интеллект | Контроль и доверие | Масштабируемая архитектура | Командный центр ИИ | Ядро интеллекта и маршрутизация моделей | Специализированные агенты | Защитный аудит и целостность ПО | Идентификация и контроль агентов | Управление и восстановление агентов | Заданные человеком границы и проверка результата. | Координация специализированных команд. | Идентификация, политики, согласование и аудит. | Динамический состав команд в разных областях.",
+    "uk": "Ключові принципи | Можливості для бізнесу | Автономне виконання | Федеративний інтелект | Контроль і довіра | Масштабована архітектура | Командний центр ШІ | Ядро інтелекту й маршрутизація моделей | Спеціалізовані агенти | Захисний аудит і цілісність ПЗ | Ідентифікація та контроль агентів | Керування й відновлення агентів | Визначені людиною межі й перевірка результату. | Координація спеціалізованих команд. | Ідентичність, політики, погодження й аудит. | Динамічний склад команд у різних галузях.",
+    "de-CH": "Architektur im Überblick | Funktionen für Unternehmen | Autonome Ausführung | Föderierte Intelligenz | Kontrolle und Vertrauen | Skalierbare Architektur | KI-Kommandozentrale | Intelligenzkern und Modellrouting | Spezialisierte Agenten | Defensiver Audit und Softwareintegrität | Agentenidentität und Governance | Agentensteuerung und Wiederaufnahme | Menschlich definierter Umfang und geprüfte Ergebnisse. | Koordination spezialisierter Teams. | Identität, Richtlinien, Freigaben und Audit. | Dynamische Teamzusammensetzung über Fachgebiete.",
+    "fr": "Principes d’architecture | Capacités pour les entreprises | Exécution autonome | Intelligence fédérée | Gouvernance et confiance | Architecture évolutive | Centre de commandement IA | Noyau d’intelligence et routage des modèles | Agents spécialisés | Audit défensif et intégrité logicielle | Identité et gouvernance des agents | Contrôle et reprise des agents | Périmètre défini par l’humain et résultats vérifiés. | Coordination des équipes spécialisées. | Identité, politiques, approbations et audit. | Composition dynamique des équipes par domaine.",
+    "es": "Principios de arquitectura | Capacidades para empresas | Ejecución autónoma | Inteligencia federada | Gobernanza y confianza | Arquitectura escalable | Centro de mando de IA | Núcleo de inteligencia y enrutamiento de modelos | Agentes especializados | Auditoría defensiva e integridad del software | Identidad y gobernanza de agentes | Control y recuperación de agentes | Alcance definido por personas y resultados verificados. | Coordinación de equipos especializados. | Identidad, políticas, aprobaciones y auditoría. | Composición dinámica de equipos entre dominios.",
+    "pt": "Princípios de arquitetura | Recursos para empresas | Execução autônoma | Inteligência federada | Governança e confiança | Arquitetura escalável | Centro de comando de IA | Núcleo de inteligência e roteamento de modelos | Agentes especializados | Auditoria defensiva e integridade do software | Identidade e governança de agentes | Controle e recuperação de agentes | Escopo definido por pessoas e resultados verificados. | Coordenação de equipes especializadas. | Identidade, políticas, aprovações e auditoria. | Composição dinâmica de equipes entre áreas.",
+    "ar": "أبرز ملامح البنية | إمكانات للمؤسسات | التنفيذ المستقل | الذكاء الاتحادي | الحوكمة والثقة | بنية قابلة للتوسع | مركز قيادة الذكاء الاصطناعي | نواة الذكاء وتوجيه النماذج | وكلاء متخصصون | التدقيق الدفاعي وسلامة البرمجيات | هوية الوكلاء وحوكمتهم | التحكم في الوكلاء واستعادتهم | نطاق يحدده الإنسان ونتائج قابلة للمراجعة. | تنسيق الفرق المتخصصة. | الهوية والسياسات والموافقات والتدقيق. | تشكيل الفرق حسب المجال والمهمة.",
+    "ja": "アーキテクチャの特徴 | 企業向け機能 | 自律実行 | 連合型インテリジェンス | ガバナンスと信頼 | 拡張可能な設計 | AI指令センター | 推論とモデルのルーティングを担う中核 | 専門エージェント | 防御監査とソフトウェアの完全性 | エージェントの識別と統制 | エージェントの制御と復旧 | 人が定めた範囲と確認可能な結果。 | 専門チームを横断的に調整。 | 識別、ポリシー、承認と監査。 | 分野をまたいでチームを柔軟に編成。",
+    "zh": "架构要点 | 企业级能力 | 自主执行 | 联邦智能 | 治理与信任 | 可扩展架构 | AI 指挥中心 | 智能核心与模型路由 | 专业智能体 | 防御审计与软件完整性 | 智能体身份与治理 | 智能体控制和恢复 | 由人定义范围并审查结果。 | 协调不同领域的专业团队。 | 身份、策略、审批与审计。 | 跨领域动态编排团队。",
+}
+
+# Order matches GALLERY in the build. Panoramas are artistic renderings.
+GALLERY_LABELS = {
+    "en": "GitHub Projects | Supabase infrastructure documentation | Aerial panorama of Dubai at sunset | Waterfront terrace at dusk | Gold-lit atrium overlooking Dubai | Holographic installation above the skyline | Night view from a rooftop terrace",
+    "ru": "Проекты на GitHub | Документация инфраструктуры Supabase | Панорама Дубая с высоты на закате | Терраса у воды в сумерках | Золотой атриум с видом на Дубай | Голографическая инсталляция на фоне города | Ночной вид с террасы на крыше",
+    "uk": "Проєкти на GitHub | Документація інфраструктури Supabase | Панорама Дубая з висоти на заході сонця | Тераса біля води в сутінках | Золотий атріум із краєвидом Дубая | Голографічна інсталяція на тлі міста | Нічний краєвид із тераси на даху",
+    "de-CH": "GitHub-Projekte | Dokumentation der Supabase-Infrastruktur | Dubai aus der Luft bei Sonnenuntergang | Uferterrasse in der Dämmerung | Goldfarbenes Atrium mit Blick auf Dubai | Holografische Installation vor der Skyline | Nächtlicher Blick von einer Dachterrasse",
+    "fr": "Projets GitHub | Documentation de l’infrastructure Supabase | Vue aérienne de Dubaï au coucher du soleil | Terrasse au bord de l’eau au crépuscule | Atrium doré donnant sur Dubaï | Installation holographique devant les gratte-ciel | Vue nocturne depuis un toit-terrasse",
+    "es": "Proyectos en GitHub | Documentación de la infraestructura de Supabase | Vista aérea de Dubái al atardecer | Terraza junto al agua al anochecer | Atrio dorado con vistas a Dubái | Instalación holográfica sobre el perfil urbano | Vista nocturna desde una azotea",
+    "pt": "Projetos no GitHub | Documentação da infraestrutura Supabase | Vista aérea de Dubai ao pôr do sol | Terraço à beira d’água no crepúsculo | Átrio dourado com vista para Dubai | Instalação holográfica sobre a cidade | Vista noturna de um terraço na cobertura",
+    "ar": "مشاريع GitHub | وثائق البنية التحتية لـ Supabase | إطلالة جوية على دبي عند الغروب | شرفة على الواجهة المائية عند الغسق | ردهة ذهبية تطل على دبي | تركيب مجسم ضوئي أمام أفق المدينة | إطلالة ليلية من شرفة على السطح",
+    "ja": "GitHubプロジェクト | Supabaseインフラの文書 | 夕暮れのドバイを上空から眺めたパノラマ | 水辺のテラス | ドバイを望む金色のアトリウム | 街並みの前のホログラム装置 | 屋上テラスからの夜景",
+    "zh": "GitHub 项目 | Supabase 基础设施文档 | 日落时分的迪拜航拍全景 | 暮色中的滨水露台 | 俯瞰迪拜的金色中庭 | 城市天际线前的全息装置 | 屋顶露台俯瞰夜景",
 }

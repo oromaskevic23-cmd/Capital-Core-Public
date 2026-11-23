@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 import re
 
-from content import COPY, FEATURED, FEATURE_TEXT, LANGUAGES, MORE, MORE_TEXT, REFERENCE_LABELS
+from content import COPY, FEATURED, FEATURE_TEXT, GALLERY_LABELS, LANGUAGES, MORE, MORE_TEXT, REFERENCE_LABELS
 
 ROOT = Path(__file__).resolve().parents[2]
 REFERENCE = ROOT / "reference"
@@ -21,8 +21,8 @@ FOUNDER = HOST + "/oromaskevic23-cmd/"
 GIT = "https://github.com/oromaskevic23-cmd"
 CONTEST = GIT + "/IMPERIAL-DUBAI-2027-Public"
 STUDIO = SHOWCASE + "constructor-ai/studio/studio.html"
-SCENES = ("terrace", "waterfront", "atrium", "aerial", "intelligence", "night")
-CARD_ICONS = ("gem", "stack-2", "topology-star-3", "shield-check", "id", "topology-star-3", "code", "cpu", "users")
+GALLERY = ("aerial", "waterfront", "atrium", "intelligence", "night")
+CARD_ICONS = ("gem", "stack-2", "topology-star-3", "shield-check", "id", "topology-star-3")
 ALT_NAMES = ("Alexander Nikolaevich Romaskevich", "Александр Николаевич Ромаскевич", "Олександр Ромаскевич", "RomaskevicH")
 
 
@@ -67,10 +67,11 @@ def identity(lang, url, title, description):
 def render(lang):
     t = COPY[lang]
     labels = REFERENCE_LABELS[lang].split(" | ")
-    platform, solutions, resources, about, contact, access, overview, highlights, capabilities = labels[:9]
-    capabilities_labels = labels[9:13]
-    feature_labels = labels[13:19]
-    capabilities_details = labels[19:]
+    highlights, capabilities = labels[:2]
+    capabilities_labels = labels[2:6]
+    feature_labels = labels[6:12]
+    capabilities_details = labels[12:]
+    repo_heading, supabase_detail, *gallery_labels = GALLERY_LABELS[lang].split(" | ")
     current = suffix(lang)
     url = HOST + SHOWCASE + current
     title = f"IMPERIAL Core | {t['hero1']} {t['hero2']}"
@@ -87,54 +88,69 @@ def render(lang):
         for code, name in LANGUAGES.items()
     )
     navigation = (
-        (platform, "architecture"), (solutions, "capabilities"), (t["portfolio"], "official-projects"),
-        (resources, "dubai-2027"), (about, "architect"), (contact, "contact"),
+        (t["portfolio"], "official-projects"), (t["architecture"], "architecture"),
+        (t["dubai"], "dubai-2027"), (t["founder"], "architect"),
     )
     nav = "".join(link(label, "#" + target, "", False) for label, target in navigation)
     principles = [
-        ("HANTER", feature_labels[0], "#hanter", "gem"),
-        (t["federation"], "", "#architecture", "stack-2"),
-        (t["scope"], "", "#nano-core-agents", "cpu"),
-        ("Zero Trust", "", GIT + "/ZERO-TRUST", "shield-check"),
-        ("Audit Ledger", "", GIT + "/AUDIT-LEDGER", "database"),
-        (capabilities_labels[1], "", "#velion", "topology-star-3"),
+        ("HANTER", feature_labels[0], "gem"),
+        (t["federation"], "", "stack-2"),
+        (t["scope"], "", "cpu"),
+        ("Zero Trust", "", "shield-check"),
+        ("Audit Ledger", "", "database"),
+        (capabilities_labels[1], "", "topology-star-3"),
     ]
-    principle_links = "".join(
-        f'<a href="{href}">{icon(symbol)}<span>{escape(label)}'
-        f'{f"<small>{escape(subtitle)}</small>" if subtitle else ""}</span></a>'
-        for label, subtitle, href, symbol in principles
+    principle_items = "".join(
+        f'<li>{icon(symbol)}<span>{escape(label)}'
+        f'{f"<small>{escape(subtitle)}</small>" if subtitle else ""}</span></li>'
+        for label, subtitle, symbol in principles
     )
+    projects = [
+        (name, f"{GIT}/{repo}{dest}", description)
+        for (name, repo, dest), description in zip(FEATURED, FEATURE_TEXT[lang], strict=True)
+    ]
     cards = []
-    for i, ((name, repo, art, panorama, dest), description) in enumerate(zip(FEATURED, FEATURE_TEXT[lang], strict=True)):
+    for (name, href, _), caption, symbol in zip(projects[:len(CARD_ICONS)], feature_labels, CARD_ICONS, strict=True):
         cid = name.lower().replace(" ", "-")
-        featured = i < len(feature_labels)
-        image = f"{ART}{cid}.webp" if featured else f"{DUBAI}{art}{'-800' if art in SCENES else ''}.webp"
-        caption = feature_labels[i] if featured else description
-        width, height = (590, 442) if featured else (800, 450)
-        demo = f' data-demo="{STUDIO}"' if repo == "CONSTRUCTOR-AI" else ""
-        href = f"{GIT}/{repo}{dest}"
-        cards.append(f"""<a class="product" id="{cid}" href="{href}" data-scene="{panorama}" data-panorama="{DUBAI}{panorama}-800.webp" data-description="{escape(description)}"{demo}>
-<img src="{image}" width="{width}" height="{height}" alt="" loading="lazy" decoding="async">
-<div class="product-copy">{icon(CARD_ICONS[i])}<h3>{escape(name)}</h3><p>{escape(caption)}</p></div>
-<span class="arrow">{icon("arrow-right")}</span></a>""")
-    more_cards = "\n".join(
-        f'<a href="{GIT}/{repo}"><strong>{escape(name)}</strong><span>{escape(trail)}</span></a>'
-        for (name, repo), trail in zip(MORE, MORE_TEXT[lang].split(" | "), strict=True)
+        cards.append(f"""<a class="product" id="{cid}" href="{href}">
+<img src="{ART}{cid}.webp" width="590" height="442" alt="" loading="lazy" decoding="async">
+<div class="product-copy">{icon(symbol)}<h3>{escape(name)}</h3><p>{escape(caption)}</p></div>
+<span class="arrow">{icon("arrow-up-right")}</span></a>""")
+    projects.extend(
+        (name, f"{GIT}/{repo}", description)
+        for (name, repo), description in zip(MORE, MORE_TEXT[lang].split(" | "), strict=True)
+    )
+    projects.extend((
+        ("Supabase", GIT + "/Supabase", supabase_detail),
+        (t["dubai"], CONTEST, t["dubaiIntro"]),
+    ))
+    repository_items = "\n".join(
+        f'<li><a href="{href}"><strong>{escape(name)}{icon("arrow-up-right")}</strong>'
+        f'<span>{escape(description)}</span></a></li>'
+        for name, href, description in projects
+    )
+    city_images = "\n".join(
+        f'<figure><img src="{DUBAI}{scene}-800.webp" srcset="{DUBAI}{scene}-800.webp 800w, {DUBAI}{scene}.webp 1536w" '
+        f'sizes="{size}" width="1536" height="864" loading="lazy" decoding="async" alt="{escape(alt)}"></figure>'
+        for scene, alt, size in zip(
+            GALLERY, gallery_labels,
+            ("(max-width: 760px) 100vw, 47vw",) + ("(max-width: 760px) 50vw, 25vw",) * 4,
+            strict=True,
+        )
     )
     points = "".join(
-        f'<a href="{href}">{icon(symbol)}<span><strong>{escape(t[key])}</strong><small>{escape(detail)}</small></span></a>'
-        for key, href, symbol, detail in (
-            ("federation", archived + "#architecture", "stack-2", capabilities_details[1]),
-            ("scope", "#nano-core-agents", "gem", capabilities_details[0]),
-            ("identity", GIT + "/APPROVAL-GATEWAY", "shield-check", capabilities_details[2]),
-            ("audit", GIT + "/AUDIT-LEDGER", "database", "Audit Ledger"),
+        f'<li>{icon(symbol)}<span><strong>{escape(t[key])}</strong><small>{escape(detail)}</small></span></li>'
+        for key, symbol, detail in (
+            ("federation", "stack-2", capabilities_details[1]),
+            ("scope", "gem", capabilities_details[0]),
+            ("identity", "shield-check", capabilities_details[2]),
+            ("audit", "database", "Audit Ledger"),
         )
     )
     capability_cards = "".join(
-        f'<a href="{href}">{icon(symbol)}<span><strong>{escape(label)}</strong><small>{escape(detail)}</small></span></a>'
-        for label, detail, href, symbol in zip(
+        f'<li>{icon(symbol)}<span><strong>{escape(label)}</strong><small>{escape(detail)}</small></span></li>'
+        for label, detail, symbol in zip(
             capabilities_labels, capabilities_details,
-            ("#nano-core-agents", "#architecture", GIT + "/GUARDIAN-CORE", "#all-projects"),
             ("rocket", "topology-star-3", "shield-check", "gem"), strict=True
         )
     )
@@ -147,13 +163,12 @@ def render(lang):
 <h3>{escape(t[track + "Title"])}</h3><p>{escape(t[track + "Body"])}</p>
 {link(t["evidence"], href)}</article>""" for track, href in candidate_links.items())
     crypto = " ".join(link(name, f"{GIT}/{repo}") for name, repo in (
-        ("GitHub", "CRYPTO-IMPERIAL-Ecosystem-Public"), ("IMPERIUM", "IMPERIUM"), ("NDB", "N.D.B"),
+        ("CRYPTO IMPERIAL", "CRYPTO-IMPERIAL-Ecosystem-Public"), ("IMPERIUM", "IMPERIUM"), ("NDB", "N.D.B"),
         ("NZT", "NZT-"), ("LISA", "Lisa-"),
     ))
     founder_locale = lang.split("-")[0]
     founder_link = FOUNDER + suffix(founder_locale)
     graph = json.dumps(identity(lang, url, title, desc), ensure_ascii=False, separators=(",", ":"))
-    scenes = escape(json.dumps(SCENES, separators=(",", ":")), quote=True)
     t = {k: escape(v) for k, v in t.items()}
     return f"""<!doctype html>
 <html lang="{lang}" dir="{direction}">
@@ -169,7 +184,7 @@ def render(lang):
 {alternates}
 <link rel="alternate" hreflang="x-default" href="{HOST}{SHOWCASE}">
 <link rel="icon" href="{ASSETS}showcase-gem.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{ASSETS}showcase.css?v=3">
+<link rel="stylesheet" href="{ASSETS}showcase.css?v=4">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="IMPERIAL Core">
 <meta property="og:title" content="{escape(title)}">
@@ -180,7 +195,7 @@ def render(lang):
 <meta property="og:image:height" content="864">
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{graph}</script>
-<script defer src="{ASSETS}showcase.js?v=3"></script>
+<script defer src="{ASSETS}showcase.js?v=4"></script>
 </head>
 <body>
 <a href="#main-content" class="skip">{t["skip"]}</a>
@@ -190,51 +205,46 @@ def render(lang):
 <div class="bar-actions">
 <details class="language"><summary aria-label="{t["languages"]} · {LANGUAGES[lang]}"><bdi>{lang.split("-")[0].upper()}</bdi></summary>
 <div class="language-panel">{language_links}</div></details>
-<details class="mobile-menu"><summary aria-label="{t["nav"]}">{icon("menu-2")}</summary><nav>{nav}</nav></details>
-{link(access, "#contact", "btn btn-gold masthead-cta")}
+<details class="mobile-menu"><summary aria-label="{t["nav"]}">{icon("menu-2")}</summary><nav>{nav}{link(COPY[lang]["github"], GIT, "", False)}</nav></details>
+{link(COPY[lang]["github"], GIT, "profile-link")}
 </div>
 </div></header>
 <main id="main-content" tabindex="-1">
-<section class="hero" data-scenes="{scenes}" aria-labelledby="hero-title">
+<section class="hero" aria-labelledby="hero-title">
   <div class="hero-media" aria-hidden="true">
-    <img class="is-visible" src="{DUBAI}terrace.webp" srcset="{DUBAI}terrace-800.webp 800w, {DUBAI}terrace.webp 1536w" sizes="100vw" width="1536" height="864" alt="" fetchpriority="high" data-scene-root="{DUBAI}">
-    <img sizes="100vw" width="1536" height="864" alt="" data-scene-root="{DUBAI}">
+    <img src="{DUBAI}terrace.webp" srcset="{DUBAI}terrace-800.webp 800w, {DUBAI}terrace.webp 1536w" sizes="100vw" width="1536" height="864" alt="" fetchpriority="high">
   </div>
   <div class="wrap hero-inner"><h1 id="hero-title">{t["hero1"]} <span>{t["hero2"]}</span></h1>
     <p>{t["intro"]}</p>
-    <div class="actions">{link(COPY[lang]["explore"], "#official-projects", "btn btn-gold")}
-    {link(overview, "#architecture", "btn btn-outline", False)}</div>
-  </div>
-  <div class="wrap carousel" role="group" aria-label="{t["views"]}" hidden>
-    <button type="button" data-previous aria-label="{t["previous"]}">{icon("arrow-left")}</button>
-    <output aria-live="off">1 / 6</output>
-    <button type="button" data-next aria-label="{t["next"]}">{icon("arrow-right")}</button>
-    <button type="button" data-playback data-play="{t["play"]}" data-pause="{t["pause"]}" aria-label="{t["play"]}">{icon("player-play")}</button>
+    {link(COPY[lang]["explore"], "#official-projects", "btn btn-gold")}
   </div>
 </section>
-<nav class="wrap principles" aria-label="{t["architecture"]}">{principle_links}</nav>
+<ul class="wrap principles" aria-label="{t["architecture"]}">{principle_items}</ul>
 <section class="wrap section" id="official-projects">
   <div class="section-head"><h2>{t["portfolioTitle"].replace("IMPERIAL Core", "<em>IMPERIAL Core</em>")}</h2>{link(COPY[lang]["all"], "#all-projects")}</div>
-  <div class="cards">{"".join(cards[:len(feature_labels)])}</div>
+  <div class="cards">{"".join(cards)}</div>
 </section>
 <section class="wrap section" id="architecture">
   <div class="architecture">
   <figure class="architecture-art"><img src="{ART}architecture.webp" width="1160" height="580" alt="" loading="lazy" decoding="async"></figure>
   <div><p class="eyebrow">{escape(highlights)}</p><h2>{t["architectureTitle"]}</h2><p>{t["architectureBody"]}</p>
-  <div class="architecture-points">{points}</div></div></div>
+  <ul class="architecture-points">{points}</ul></div></div>
 </section>
 <section class="wrap section capabilities" id="capabilities">
-  <div class="section-head"><h2>{escape(capabilities)}</h2>{link(COPY[lang]["reference"], archived, extra=" data-legacy")}</div>
-  <div class="capability-grid">{capability_cards}</div>
+  <div class="section-head"><h2>{escape(capabilities)}</h2></div>
+  <ul class="capability-grid">{capability_cards}</ul>
 </section>
 <section class="closing" id="contact"><div class="wrap"><h2>{t["ctaTitle"].replace("IMPERIAL Core", "<em>IMPERIAL Core</em>")}</h2>
 {link(COPY[lang]["contact"], "mailto:oromaskevic23@gmail.com", "btn btn-gold")}</div></section>
+<section class="wrap section" id="dubai-gallery" aria-labelledby="city-heading">
+  <div class="section-head"><h2 id="city-heading">{t["views"]}</h2></div>
+  <div class="city-gallery">{city_images}</div>
+</section>
 <section class="wrap section" id="all-projects">
-  <div class="section-head"><h2>{t["moreTitle"]}</h2>{link(COPY[lang]["all"], SHOWCASE + "projects/")}</div>
+  <div class="section-head"><h2>{escape(repo_heading)}</h2>{link("Template Studio", STUDIO)}</div>
   <p class="section-lead">{t["moreIntro"]}</p>
-  <div class="cards extra-cards">{"".join(cards[len(feature_labels):])}</div>
-  <details class="more"><summary>{t["all"]}</summary><div class="more-grid">{more_cards}</div>
-  <aside class="crypto"><h3>{t["cryptoTitle"]}</h3><p>{t["cryptoBody"]}</p><nav aria-label="{t["cryptoTitle"]}">{crypto}</nav></aside></details>
+  <ul class="repository-grid">{repository_items}</ul>
+  <aside class="crypto"><h3>{t["cryptoTitle"]}</h3><p>{t["cryptoBody"]}</p><nav aria-label="{t["cryptoTitle"]}">{crypto}</nav></aside>
   <div class="statement"><img src="{DUBAI}digital-diamond.webp" width="150" height="150" alt="" loading="lazy" decoding="async">
   <div><blockquote>{t["digitalQuote"]}</blockquote><p>{t["digitalBody"]}</p></div></div>
   <p class="governance-boundaries"><bdi>AI Passport · Enterprise Skills · Guardian Core · Approval Gateway · Audit Ledger · Zero Trust · Owner Kill Switch · Public/Private Boundary · CRYPTO IMPERIAL Ecosystem Boundary</bdi></p>
@@ -257,17 +267,9 @@ def render(lang):
 </main>
 <footer class="site-footer"><div class="wrap">
 <p><bdi>IMPERIAL Core</bdi> · {t["footerArchitecture"]}</p>
-<nav aria-label="{t["reference"]}">{link(COPY[lang]["reference"], archived)}
-{link("GitHub", GIT)} {link(COPY[lang]["evidence"], GIT + "/oromaskevic23-cmd/blob/main/docs/UNIFIED_ECOSYSTEM_EVIDENCE.md")}</nav>
+<nav aria-label="{t["reference"]}">{link(COPY[lang]["reference"], archived, extra=" data-legacy")}
+{link(COPY[lang]["github"], GIT)} {link(COPY[lang]["evidence"], GIT + "/oromaskevic23-cmd/blob/main/docs/UNIFIED_ECOSYSTEM_EVIDENCE.md")}</nav>
 </div></footer>
-<dialog id="project-dialog" aria-labelledby="project-title">
-  <img class="dialog-image" alt="" width="800" height="450">
-  <button class="dialog-close" type="button" aria-label="{t["close"]}" autofocus>×</button>
-  <div class="dialog-copy"><h2 id="project-title"></h2><p></p><div class="actions">
-  <a class="btn btn-gold dialog-project">{t["project"]} <span class="arrow">{icon("arrow-up-right")}</span></a>
-  <a class="btn btn-outline dialog-demo" hidden>Template Studio <span class="arrow">{icon("arrow-up-right")}</span></a>
-  </div></div>
-</dialog>
 </body>
 </html>
 """
