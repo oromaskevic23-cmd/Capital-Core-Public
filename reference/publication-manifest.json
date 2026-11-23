@@ -3,21 +3,11 @@
   "canonical_base": "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference",
   "brand": "digital-diamond",
   "pages": [
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ar/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/constructor-ai/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/de-CH/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/es/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/fr/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ja/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/projects/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/pt/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/ru/constructor-ai/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/",
     "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/uk/constructor-ai/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/velion/",
-    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/zh/"
+    "https://oromaskevic23-cmd.github.io/Capital-Core-Public/reference/velion/"
   ],
   "files": [
     {
@@ -26,7 +16,7 @@
     },
     {
       "path": "ar/index.html",
-      "sha256": "7ddc8cef7441d5b261f94fe9bf62ffc1bbd8731bac1c19b8c63efe26e43c46ed"
+      "sha256": "ab774c0e2a1f4f2b4e4bcbc76b02121e91d634fbb783d80cf8bdda35bb0ce3fe"
     },
     {
       "path": "assets/INSTRUMENT-SERIF-OFL.txt",
@@ -302,23 +292,23 @@
     },
     {
       "path": "de-CH/index.html",
-      "sha256": "76bdfd4dde14533b34c4d1693396961b0abaa8ce67e41edc18ea778c80e858d1"
+      "sha256": "307254430ebc2e47c2c1627635079d3e1d5653d5d066e6697983ba3268eb6f35"
     },
     {
       "path": "es/index.html",
-      "sha256": "0d8d511772d200d666551e2ca12e3df00bbc46f7b1902b9e19ae2f541f5fc816"
+      "sha256": "f868c50f3a76afa51451d76b4f8cf1de9586aa0b2ba34a885ca3c7b652ab9a61"
     },
     {
       "path": "fr/index.html",
-      "sha256": "978c65c48951cd74ede94dc3674e8bf9200cdda6968e670a54d5ce89cb561ea4"
+      "sha256": "ff40d5fb3dfd61fe7574d7d9a4065d3067e8de3fa296aae84b95e4824da9cb0e"
     },
     {
       "path": "index.html",
-      "sha256": "66ab25100e07caf17b9e8464271adb915f2f79828e8d2846e8f26f8a738c5432"
+      "sha256": "2e1dd2eabfd4848a2d59a973fb2c14247115949c82c1d8f0411aceb60e9a3403"
     },
     {
       "path": "ja/index.html",
-      "sha256": "6fe84c1d4a1b4cf7b34020dfd5ecb791a7455075f65ade783cd4a9946939f757"
+      "sha256": "45766284276fdd7b3930939624845be8a0957a441d920081c15f00994136efc3"
     },
     {
       "path": "projects/index.html",
@@ -326,7 +316,7 @@
     },
     {
       "path": "pt/index.html",
-      "sha256": "bd599cf35d1831e792b4494fca6aa78bf83cdc8900a50b2889d1c9fa5ddf8f5e"
+      "sha256": "b9da18f46396a21966d4450dd7572a4f61a3201feaabae9cd20f1067199bb9a5"
     },
     {
       "path": "robots.txt",
@@ -338,11 +328,11 @@
     },
     {
       "path": "ru/index.html",
-      "sha256": "da2d6534a94fb2f66cfbd0ee3e43f3a1c13fd00b23d1b6d604d75fbe7ec848ef"
+      "sha256": "0b7352bce495468bd2c18e7e2185b60eeae22d0dbb61681199a0d8116ba68341"
     },
     {
       "path": "sitemap.xml",
-      "sha256": "151ac7a69d80bef3ce57c572099ab9bf184418a3c7bc8eb491493300d16a3c9a"
+      "sha256": "3340e954eed5b1bd63c87addcd6abf8d1fd734382649e84ec03f6af5ae930c31"
     },
     {
       "path": "technical/ar/index.html",
@@ -410,15 +400,15 @@
     },
     {
       "path": "uk/index.html",
-      "sha256": "3e635f7bd0bc4be13861652b9e4191d52a4e2fd8c40505aac5ed780285c18b23"
+      "sha256": "fbbb679e24e76389da9c1c8b0cfa0fb8e18f7122dcc498347be7a0e59087d1f8"
     },
     {
       "path": "velion/index.html",
-      "sha256": "9c90354b49079acb9fb908e69f2b2da76f42e3d3f6eb94605eb34e9f960183bf"
+      "sha256": "9cf2d58caeb89c25b4ec9c24a9ad20df53404f225368160fd9f74bee9dfb240d"
     },
     {
       "path": "zh/index.html",
-      "sha256": "0aa3c0c2fd40da067f4306ab6623f2a963ba0ff5f47fdde50443c933974595cd"
+      "sha256": "eb4de56b5105eccdcd71fc9effced31dbd1ddee820402a454d9762fe736d87b3"
     }
   ]
 }
